@@ -29,7 +29,7 @@ file to change what it looks for.
 
 1. **Push this folder to a GitHub repo** and connect it to Vercel (or any static host).
 2. **Check that your Claude account includes Claude Code.** Install it
-   (`npm install -g @anthropic-ai/claude-code`) and run `claude` once to sign in.
+   (`curl -fsSL https://claude.ai/install.sh | bash`) and run `claude` once to sign in.
    School and work accounts sometimes need an admin to turn Claude Code on.
 3. **Make a subscription token:** run `claude setup-token` and copy the token it
    prints. It's shown once and lasts a year.
@@ -64,6 +64,11 @@ Set under Settings → Secrets and variables → Actions → Variables:
 `.github/workflows/update-api.yml` and `scripts/update.mjs` do the same job with an
 Anthropic API key (secret `ANTHROPIC_API_KEY`), billed per use instead of drawing
 on a plan. It only runs when started manually. Use it if you ever get API credits.
+
+## Working as a team
+
+See `CONTRIBUTING.md` for Mac setup and the workflow for design changes and
+entries. `CLAUDE.md` gives every teammate's Claude Code the project's context.
 
 ## Editing entries
 
