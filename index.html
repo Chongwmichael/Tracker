@@ -24,8 +24,8 @@
   --body:'Barlow',system-ui,-apple-system,sans-serif;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark){
-  :root{
+:root[data-theme="dark"]{
+  
     --paper:#0E1820; --surface:#15222C; --surface-2:#1A2935;
     --ink:#E4ECF1; --ink-2:#A7B6C2; --ink-3:#7F909D;
     --rule:#2D3E4B; --rule-soft:#22323E;
@@ -37,7 +37,6 @@
     --none:#25343F; --none-ink:#7F909D;
     --focus:#6FA8EB;
     color-scheme: dark;
-  }
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
@@ -53,6 +52,9 @@ a:hover{text-decoration-thickness:2px}
 .mast .dek{margin-top:12px;max-width:58ch;color:var(--ink-2);font-size:18px}
 .reading{font-family:var(--display);text-align:right;color:var(--ink-2);font-size:15px;line-height:1.35}
 .reading strong{display:block;color:var(--ink);font-size:22px;font-weight:600}
+.theme-btn{display:block;margin:8px 0 0 auto;background:none;border:1px solid var(--rule);color:var(--ink-2);font:inherit;font-family:var(--body);font-size:14px;padding:4px 10px;border-radius:3px;cursor:pointer}
+.theme-btn:hover{border-color:var(--ink-2);color:var(--ink)}
+@media (max-width:900px){.theme-btn{margin-left:0}}
 
 /* ── Hero: tile map + panel ─────────────────────── */
 .hero{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,1fr);gap:28px;padding:28px 0 32px;align-items:start}
@@ -66,7 +68,7 @@ a:hover{text-decoration-thickness:2px}
 .tile[data-s="rules"]{background:var(--rules);color:#fff}
 .tile[data-s="proposed"]{background:var(--proposed-bg);color:var(--proposed);box-shadow:inset 0 0 0 2px var(--proposed)}
 .tile[data-s="local"]{background:var(--local-bg);color:var(--local);box-shadow:inset 0 0 0 2px var(--local)}
-@media (prefers-color-scheme: dark){ .tile[data-s="pause"],.tile[data-s="rules"]{color:#0E1820} }
+:root[data-theme="dark"] .tile[data-s="pause"],:root[data-theme="dark"] .tile[data-s="rules"]{color:#0E1820}
 .tile[aria-pressed="true"]{outline:3px solid var(--volt);outline-offset:2px;z-index:2}
 .tile .n{position:absolute;top:4px;right:5px;font-size:.72em;font-weight:500;opacity:.85}
 .map.boot .tile{opacity:0;transform:scale(.9)}
@@ -104,7 +106,8 @@ a:hover{text-decoration-thickness:2px}
 .view[hidden]{display:none}
 
 /* ── Filters ───────────────────────────────────── */
-.filters{display:grid;grid-template-columns:minmax(200px,1.3fr) repeat(5,minmax(0,1fr));gap:12px;align-items:end;margin-bottom:18px}
+.filters{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;align-items:end;margin-bottom:18px}
+.filters .q{grid-column:span 2}
 .filters label{display:block;font-size:14px;color:var(--ink-2);margin-bottom:4px}
 .filters input,.filters select{width:100%;font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(--rule);border-radius:3px;background:var(--surface-2);color:var(--ink)}
 .result-line{font-size:15px;color:var(--ink-2);margin-bottom:10px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
@@ -124,6 +127,7 @@ a:hover{text-decoration-thickness:2px}
 .chip.pause{background:var(--pause-bg);color:var(--pause)}
 .chip.pending{background:var(--proposed-bg);color:var(--proposed)}
 .chip.failed{background:var(--none);color:var(--ink-2)}
+.chip.denied{background:transparent;color:var(--pause);box-shadow:inset 0 0 0 1.5px var(--pause)}
 .chip.ballot{background:var(--local-bg);color:var(--local)}
 .e-body{padding:2px 4px 18px calc(112px + 150px + 32px + 4px);color:var(--ink-2);max-width:calc(112px + 150px + 32px + 72ch)}
 .e-body p{margin-bottom:8px}
@@ -132,6 +136,18 @@ a:hover{text-decoration-thickness:2px}
 .srcs{font-size:14px}
 .srcs a{margin-right:14px;display:inline-block}
 .empty{padding:28px 4px;color:var(--ink-2)}
+.group-h{list-style:none;font-family:var(--display);font-size:20px;font-weight:600;padding:16px 4px 6px;border-bottom:2px solid var(--ink);color:var(--ink)}
+.group-h small{font-family:var(--body);font-size:14px;font-weight:400;color:var(--ink-2);margin-left:8px}
+.entry.up{background:var(--surface)}
+.e-date .up-k{display:block;font-family:var(--body);font-size:12px;font-weight:600;color:var(--volt-ink);letter-spacing:.02em}
+.e-place{display:block;font-weight:500;font-size:13px;color:var(--ink-3)}
+.places{margin-top:16px;border-top:1px solid var(--rule);padding-top:10px}
+.places h3{font-size:15px;font-weight:600;margin-bottom:6px}
+.places ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.places button{background:var(--surface-2);border:1px solid var(--rule);color:var(--ink);font:inherit;font-size:14px;padding:3px 9px;border-radius:999px;cursor:pointer}
+.places button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.places button small{color:var(--ink-3);margin-left:4px}
+.places button[aria-pressed="true"] small{color:var(--paper)}
 .chip.campaign{background:transparent;color:var(--volt-ink);box-shadow:inset 0 0 0 1.5px var(--volt)}
 .chip.poll{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink-3)}
 .chip.statement{background:transparent;color:var(--ink-2);box-shadow:inset 0 0 0 1.5px var(--rule)}
@@ -142,7 +158,7 @@ a:hover{text-decoration-thickness:2px}
 .rl-actions{display:flex;gap:8px;flex-wrap:wrap}
 /* impact meter: five cells, center = mixed; left fills red (headwind), right fills green (tailwind) */
 :root{--head:#B3261E;--tail:#2E7D4F}
-@media (prefers-color-scheme: dark){:root{--head:#F07167;--tail:#6CCB93}}
+:root[data-theme="dark"]{--head:#F07167;--tail:#6CCB93}
 .im{display:inline-grid;grid-template-columns:repeat(5,12px);gap:2px;align-items:center;justify-self:end}
 .im i{height:10px;border-radius:1px;background:var(--rule-soft);box-shadow:inset 0 0 0 1px var(--rule)}
 .im i.c{height:14px;width:4px;justify-self:center;background:var(--ink-3);box-shadow:none}
@@ -211,7 +227,8 @@ footer p{max-width:90ch;margin-bottom:6px}
   .cols,.gaps{grid-template-columns:1fr}
   .filters{grid-template-columns:1fr 1fr}
   .filters .q{grid-column:1/-1}
-  .entry > details > summary{grid-template-columns:78px minmax(0,1fr);gap:4px 12px}
+  .entry > details > summary{grid-template-columns:96px minmax(0,1fr);gap:4px 12px}
+  .e-date{font-size:15px;white-space:normal}
   .e-where{grid-column:2}
   .e-title{grid-column:1/-1}
   .chip{grid-column:1;justify-self:start}
@@ -229,6 +246,10 @@ footer p{max-width:90ch;margin-bottom:6px}
   .filters{grid-template-columns:1fr}
 }
 </style>
+<script>
+// Light by default; remember a reader's choice where the browser allows it.
+(function(){try{if(localStorage.getItem("lw-theme")==="dark")document.documentElement.dataset.theme="dark";}catch(e){}})();
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -239,8 +260,9 @@ footer p{max-width:90ch;margin-bottom:6px}
     <p class="dek">Data center laws, pauses, executive orders, ballot fights and campaign politics across the United States. Pick a state to filter everything below.</p>
   </div>
   <div class="reading" aria-label="Last updated">
-    <strong>Verified Oct 15, 2026</strong>
-    <span id="reading-sub">Federal, state, local and tribal</span>
+    <strong>Verified Oct 16, 2026</strong>
+    <span id="reading-sub">Federal, state, county, city and tribal</span>
+    <button type="button" class="theme-btn" id="themeBtn" aria-pressed="false">Dark mode</button>
   </div>
 </header>
 
@@ -272,13 +294,15 @@ footer p{max-width:90ch;margin-bottom:6px}
     <div><label for="f-kind">Kind</label>
       <select id="f-kind"><option value="">Everything</option><option value="action">Official actions</option><option value="politics">Political noise</option></select></div>
     <div><label for="f-level">Level</label>
-      <select id="f-level"><option value="">All levels</option><option value="federal">Federal and national</option><option value="state">State</option><option value="local">Local</option><option value="tribal">Tribal</option></select></div>
+      <select id="f-level"><option value="">All levels</option><option value="federal">Federal and national</option><option value="state">State</option><option value="local">All local</option><option value="county">&nbsp;&nbsp;Counties</option><option value="city">&nbsp;&nbsp;Cities and towns</option><option value="township">&nbsp;&nbsp;Townships</option><option value="tribal">Tribal nations</option></select></div>
+    <div><label for="f-place">County or city</label>
+      <select id="f-place"><option value="">All places</option></select></div>
     <div><label for="f-type">Topic</label>
       <select id="f-type"><option value="">All topics</option><option value="moratorium">Moratorium or pause</option><option value="cost">Who pays for power</option><option value="tax">Tax incentives</option><option value="water">Water</option><option value="siting">Siting and local control</option><option value="permitting">Federal and state permitting</option><option value="disclosure">Disclosure and transparency</option></select></div>
     <div><label for="f-impact">Industry impact</label>
       <select id="f-impact"><option value="">Any impact</option><option value="neg">Headwinds (any)</option><option value="-2">Strong headwind</option><option value="-1">Headwind</option><option value="0">Mixed or neutral</option><option value="1">Tailwind</option><option value="2">Strong tailwind</option><option value="pos">Tailwinds (any)</option></select></div>
     <div><label for="f-status">Status</label>
-      <select id="f-status"><option value="">Any status</option><optgroup label="Official actions"><option value="pause">Pause in force</option><option value="in-force">In force</option><option value="pending">Pending</option><option value="ballot">On the ballot</option><option value="failed">Failed or vetoed</option></optgroup><optgroup label="Political noise"><option value="campaign">Campaign</option><option value="poll">Poll</option><option value="statement">Statement</option><option value="protest">Protest</option></optgroup></select></div>
+      <select id="f-status"><option value="">Any status</option><optgroup label="Official actions"><option value="pause">Pause in force</option><option value="in-force">In force</option><option value="pending">Pending</option><option value="ballot">On the ballot</option><option value="failed">Failed or vetoed</option><option value="denied">Project denied</option><option value="upcoming">Scheduled, not yet happened</option></optgroup><optgroup label="Political noise"><option value="campaign">Campaign</option><option value="poll">Poll</option><option value="statement">Statement</option><option value="protest">Protest</option></optgroup></select></div>
   </div>
   <div class="im-key" aria-hidden="true"><span>Industry impact for data center developers:</span><span>__K-2__ Strong headwind</span><span>__K-1__ Headwind</span><span>__K0__ Mixed</span><span>__K1__ Tailwind</span><span>__K2__ Strong tailwind</span></div>
   <div class="result-line"><span id="rc"></span><span class="rl-actions"><button class="btn-quiet" id="reset" type="button">Clear filters</button><button class="btn-live" id="live" type="button">Check for new developments</button></span></div>
@@ -320,10 +344,10 @@ CA:{s:"rules",t:"Seven laws signed Sept 21 covering grid cost tariffs, water sup
 PA:{s:"rules",t:"Gov. Shapiro turned his voluntary GRID standards into binding permit conditions by executive order in August: projects of 25 MW and up must sign a consent order, pay their full grid costs and win local approval before state permits issue. House committees are advancing cost and interconnection bills."},
 SD:{s:"rules",t:"Statewide moratorium talk ended in a local-control law. Two companion bills signed in March let counties and towns regulate or ban data centers."},
 IN:{s:"rules",t:"HB 1210 makes data centers that take the state sales tax exemption share part of the savings with local governments. Indianapolis paused new permits through the end of 2027."},
-FL:{s:"rules",t:"DeSantis signed a law in May meant to stop utilities from passing data center costs to homes and small businesses. Edgewater voters decide a charter ban in November."},
+FL:{s:"rules",t:"DeSantis signed a law in May meant to stop utilities from passing data center costs to homes and small businesses, and a July state law preserved county power over large facilities. A wave of county pauses followed this fall: Palm Beach, Manatee and Leon, with Martin close behind. Edgewater voters decide a charter ban in November."},
 LA:{s:"rules",t:"Gov. Landry's June executive order conditions the data center sales tax exemption on a ratepayer and community protection framework."},
-MD:{s:"rules",t:"A 2025 rate negotiation law is on the books, an emergency statewide moratorium stalled, and the governor created a task force in September to review every project of 25 MW or more. Counties are the real action: Anne Arundel, Baltimore County and Baltimore City have all paused."},
-OR:{s:"rules",t:"The 2025 POWER Act puts large loads in their own rate class. In September Gov. Kotek paused state land transactions for data center projects through July 1, 2027."},
+MD:{s:"rules",t:"A 2025 rate negotiation law is on the books, an emergency statewide moratorium stalled, and the governor created a task force in September to review every project of 25 MW or more. Counties are the real action: Harford banned data centers outright, and Anne Arundel, Baltimore County and Baltimore City have paused."},
+OR:{s:"pause",t:"Effectively a statewide pause. On Oct. 9 Gov. Kotek told regulators to stop issuing air and water permits for new or expanded data centers until July 1, 2027, after pausing state land deals in September. The 2025 POWER Act already puts large loads in their own rate class. Both governor candidates now back a statewide moratorium."},
 MA:{s:"rules",t:"Gov. Healey's September executive order requires local community benefits agreements before state permitting."},
 OH:{s:"rules",t:"Regulators and a 2025 law put data centers on their own tariff, but 2026 bills on tax breaks and NDAs stalled. Ohio now leads the country in local ballot measures, and a volunteer-run statewide ban amendment is aiming for 2027."},
 UT:{s:"rules",t:"One of the first states to enact a large-load cost law alongside Ohio and California, per MultiState's comparison."},
@@ -336,20 +360,21 @@ MI:{s:"proposed",t:"Lawmakers floated a statewide pause into 2027 while towns ac
 NH:{s:"proposed",t:"Gov. Ayotte, one of three Republican governors who did not sign Trump's ratepayer pledge, says she will propose a multi-year statewide moratorium in her next budget."},
 OK:{s:"proposed",t:"Bills to pause construction and end incentives were introduced. The Cherokee Nation and the Cheyenne and Arapaho Tribes have both barred large data centers on tribal lands."},
 VT:{s:"proposed",t:"S.205 proposed a moratorium on AI data center construction until July 2030."},
-WI:{s:"proposed",t:"A statewide moratorium bill failed. Port Washington voters required a public vote before big incentive deals, and Janesville votes on a similar rule in November."},
+WI:{s:"proposed",t:"A statewide moratorium bill failed, and four Republicans now propose repealing the sales tax break. Milwaukee voted for a one-year pause in October, joining Madison and Dane and Manitowoc counties. Port Washington voters required a public vote before big incentive deals, and Janesville votes on a similar rule in November."},
 NJ:{s:"proposed",t:"Moratorium bills are pending and county-level opposition is spreading in the New York suburbs."},
 RI:{s:"proposed",t:"Listed among states where a statewide moratorium bill was introduced in 2026."},
 IL:{s:"local",t:"Gov. Pritzker announced a two-year suspension of incentives for new projects in February but rejected a statewide moratorium, preferring legislation in 2027. Seven communities hold advisory votes in November."},
 KS:{s:"local",t:"Emporia and El Dorado voters face some of the strictest local measures in the country, including a 10 MW threshold and a ten-year ban."},
 NV:{s:"local",t:"Boulder City votes on whether to allow data centers in a land transfer area, one of the few measures that would open the door rather than close it. A federal land approval there came without local input."},
-AZ:{s:"local",t:"Pima County adopted a 120-day pause on Sept 22, exempting the Project Blue campus that drew the original backlash."},
-TN:{s:"local",t:"Memphis postponed its 12-month moratorium vote to Oct 20 after protests. xAI faces litigation over gas turbines powering its facilities near the Mississippi line."},
+AZ:{s:"rules",t:"The state budget stopped new data center sales tax exemption applications from July 2026 to mid-2029. Pima County adopted a 120-day pause on Sept. 22, exempting the Project Blue campus that drew the original backlash."},
+TN:{s:"local",t:"Nashville paused permits until Dec. 1. Memphis votes on a 12-month moratorium Oct. 20 and Shelby County is weighing its own. xAI faces litigation over gas turbines powering its facilities near the Mississippi line."},
 CO:{s:"local",t:"Denver paused new applications until May 2027 and Mesa County adopted a 12-month pause."},
 AL:{s:"local",t:"A summer wave of town-level moratoriums, including Anniston, Chelsea, Pinson and Prichard."},
 MS:{s:"local",t:"Olive Branch passed and quickly overturned a moratorium after a developer sued. Southaven residents are fighting unpermitted turbines."},
 AR:{s:"local",t:"Little Rock is weighing an 18-month hyperscale pause."},
-NC:{s:"local",t:"Orange County is drafting rules for when its one-year moratorium lifts."},
-KY:{s:"local",t:"Oldham County extended its moratorium indefinitely in late 2025."}
+NC:{s:"local",t:"Orange County paused large data centers for a year in April. Guilford County is weighing a 180-day pause."},
+KY:{s:"local",t:"Lexington paused data center permits in June while it writes zoning rules. Oldham County extended its moratorium indefinitely in late 2025."},
+WA:{s:"local",t:"Snohomish County paused projects as small as 2 MW in June, and Skamania County adopted a moratorium in August."}
 };
 
 // level: federal | state | local | tribal
@@ -432,7 +457,7 @@ s:[["Governor's release","https://www.pa.gov/governor/newsroom/2026-press-releas
 b:"Bills on grid interconnection and fees before local zoning, making data centers bear generation and upgrade costs, and barring data centers from claiming public utility status.",
 s:[["Data Center Moratoriums weekly","https://www.datacenterbans.com/"]]},
 {d:"2026-03-24",j:"SD",w:"Gov. Rhoden",lv:"state",st:"in-force",ty:["siting"],t:"SB 135 and HB 1038, a \"Data Center Bill of Rights\"",
-b:"Instead of a statewide ban, the state lets local governments regulate or prohibit data centers.",
+b:"Instead of a statewide ban, the state requires data centers of 10 MW and up to pay for rate increases they cause, adds water-use rules, and bars the state from preempting local ordinances, so counties and towns can regulate or prohibit data centers.",
 s:[["AI Laws by State","https://www.ailawsbystate.com/blog/data-center-regulation-by-state-2026"],["MultiState","https://www.multistate.us/insider/2026/5/7/voters-target-data-centers-with-local-and-statewide-ballot-measures"]]},
 {d:"2026-03-12",j:"IN",w:"Gov. Braun",lv:"state",st:"in-force",ty:["tax"],t:"HB 1210 shares data center tax savings with local governments",
 b:"Data centers receiving the state sales tax exemption must pass 1% of those savings to local governments.",
@@ -481,11 +506,11 @@ s:[["Ohio Capital Journal","https://ohiocapitaljournal.com/2026/04/30/ohio-data-
 {d:"2026-10-05",j:"MD",w:"Anne Arundel County",lv:"local",st:"pause",ty:["moratorium"],t:"7–0 vote halts new data centers through Jan 31, 2028",
 b:"Softened from an outright ban into a long moratorium tied to adopting comprehensive rules.",
 s:[["Data Center Moratoriums weekly","https://www.datacenterbans.com/"]]},
-{d:"2026-05-12",j:"MD",w:"Baltimore City",lv:"local",st:"pause",ty:["moratorium"],t:"One-year moratorium on large data centers",
-b:"Council President Zeke Cohen's proposal targeted facilities of 10 MW and up. Baltimore County had paused permitting in February and ordered a study due Oct 1.",
-s:[["S&P Global","https://www.spglobal.com/energy/en/technology-ai-research-insights/blogs/new-data-center-legislation-roundup-april-2026"],["AI Laws by State","https://www.ailawsbystate.com/blog/data-center-regulation-by-state-2026"]]},
-{d:"2026-10-20",j:"TN",w:"Memphis",lv:"local",st:"pending",ty:["moratorium"],t:"Council delays its 12-month moratorium vote to Oct 20",
-b:"Postponed 7–5 after protests disrupted the meeting.",
+{d:"2026-06-16",j:"MD",w:"Baltimore City",lv:"local",st:"pause",ty:["moratorium"],t:"One-year moratorium on large data centers",
+b:"Mayor Brandon Scott signed a one-year pause on data centers projected to use 10 MW or more, proposed by Council President Zeke Cohen. It also orders a city study of energy, infrastructure and job effects.",
+s:[["dcmap.us","https://dcmap.us/insights/policy/"],["S&P Global","https://www.spglobal.com/energy/en/technology-ai-research-insights/blogs/new-data-center-legislation-roundup-april-2026"]]},
+{d:"2026-10-20",j:"TN",w:"Memphis",lv:"local",st:"pending",ty:["moratorium"],t:"Memphis council votes on its 12-month moratorium",
+b:"Scheduled after the council postponed an earlier vote 7–5 when protests disrupted the meeting. Shelby County is separately weighing a pause for areas outside the city.",
 s:[["Data Center Moratoriums weekly","https://www.datacenterbans.com/"]]},
 {d:"2026-06-16",j:"TX",w:"San Marcos",lv:"local",st:"in-force",ty:["moratorium","siting"],t:"First Texas city to exclude data centers from every zoning district",
 b:"Passed 4–3. Earlier, Hill County adopted a county moratorium and rescinded it after a developer sued for $100 million. State lawmakers have since moved to limit city bans.",
@@ -502,7 +527,7 @@ s:[["AI Laws by State","https://www.ailawsbystate.com/blog/data-center-regulatio
 {d:"2026-03-09",j:"MI",w:"Gibraltar",lv:"local",st:"pause",ty:["moratorium"],t:"One-year moratorium at a former steel plant site",
 b:"The city hosts a proposed 100 MW project. Nearby, Mason repealed a permissive ordinance to write stricter rules.",
 s:[["S&P Global","https://www.spglobal.com/energy/en/technology-ai-research-insights/blogs/new-data-center-legislation-roundup-april-2026"]]},
-{d:"2026-08",j:"MI",w:"Augusta Township",lv:"local",st:"failed",ty:["siting"],t:"Voters reject a data center rezoning, about 90% no",
+{d:"2026-08",j:"MI",w:"Augusta Township",lv:"local",st:"denied",ty:["siting"],t:"Voters reject a data center rezoning, about 90% no",
 b:"The township had changed farm and residential land to industrial for a proposed data center; voters overturned it.",
 s:[["Newsweek","https://www.newsweek.com/map-shows-states-where-data-centers-are-on-the-ballot-12528253"]]},
 {d:"2026-04",j:"WI",w:"Port Washington",lv:"local",st:"in-force",ty:["tax","siting"],t:"Voters require a public vote on big incentive deals",
@@ -813,6 +838,246 @@ const IMPACT=[
 ];
 if(IMPACT.length!==E.length) console.warn("IMPACT/E length mismatch",IMPACT.length,E.length);
 E.forEach((e,i)=>{if(IMPACT[i]){e.im=IMPACT[i][0];e.iw=IMPACT[i][1];}});
+// ── LOCAL & NEW ENTRIES (Oct 16, 2026 update) ─────────────────
+// Each carries its own impact score (im/iw), so order doesn't matter here.
+// pl = places: [["Name","county|city|township|tribal"], ...]
+const L=[
+// ── State-level additions ──
+{d:"2026-10-09",j:"OR",w:"Gov. Kotek",lv:"state",st:"pause",ty:["moratorium","permitting","water"],t:"Kotek pauses all state air and water permits for new data centers",
+b:"A letter to the Department of Environmental Quality halts air and water discharge permits for new or expanded data centers until July 1, 2027, including pending applications and city wastewater permit changes. Reporters widely describe it as a de facto statewide moratorium. Projects already permitted can keep building.",
+s:[["Oregon Capital Chronicle","https://oregoncapitalchronicle.com/2026/10/13/oregon-governor-orders-pause-on-environmental-permits-to-build-or-expand-data-centers/"],["KPTV","https://www.kptv.com/2026/10/13/oregon-pauses-data-center-permits-until-2027/"]],
+im:-2,iw:"Without air or water permits, most large projects can't build until mid-2027"},
+{d:"2026-09-18",j:"VA",w:"Gov. Spanberger",lv:"state",st:"in-force",ty:["disclosure","water"],t:"Executive Order 22 launches Virginia's Data Center Accountability Framework",
+b:"Bans state agencies from signing nondisclosure agreements on data center projects, fast-tracks state noise rules, orders a review of diesel backup generator emissions, and designates Eastern Virginia a cooling-water-scarcity area. Most of the framework still needs legislation.",
+s:[["McGuireWoods","https://www.mcguirewoods.com/client-resources/alerts/2026/9/virginia-data-centers-fast-changing-landscape-what-developers-need-to-know/"]],
+im:-1,iw:"More disclosure, noise and water scrutiny in the largest market"},
+{d:"2026-07-01",j:"AZ",w:"Arizona budget",lv:"state",st:"in-force",ty:["tax"],t:"Arizona stops accepting new data center sales tax exemption applications until 2029",
+b:"A provision in the budget Gov. Hobbs signed bars the Commerce Authority from taking new exemption applications from July 1, 2026 through June 30, 2029. Existing recipients keep their breaks. Hobbs had vetoed an earlier budget that kept the exemption open.",
+s:[["Brockovich AI Data Center Reporting","https://www.brockovichdatacenter.com/community-and-legislation.html"]],
+im:-1,iw:"Three-year pause on a key incentive for new projects"},
+{d:"2026-06-04",j:"PA",w:"Sen. Katie Muth (D)",lv:"state",st:"pending",ty:["moratorium"],t:"SB 1359 would pause hyperscale data centers in Pennsylvania for three years",
+b:"Would halt hyperscale projects that lack full approval, giving towns time to update their ordinances.",
+s:[["Inside Climate News","https://insideclimatenews.org/news/02072026/pennsylvania-coal-town-data-center-moratorium/"]],
+im:-1,iw:"Statewide pause proposal, unlikely to pass soon"},
+{d:"2026-10-13",j:"OR",w:"Oregon governor race",lv:"state",k:"politics",st:"campaign",ty:["moratorium"],t:"Kotek and Drazan both now say they back a statewide moratorium",
+b:"Each accuses the other of coming late to the position. An OPB-commissioned poll found nearly two-thirds of likely voters favor a temporary statewide ban, with the race within the margin of error.",
+s:[["Inside the Datacenter","https://insidethedatacenter.com/articles/oregon-data-center-permit-pause/"]],
+im:-2,iw:"Both major candidates favor a statewide pause"},
+
+// ── Maryland ──
+{d:"2026-06-10",j:"MD",w:"Harford County",lv:"local",st:"in-force",ty:["moratorium","siting"],t:"Harford becomes the first Maryland county to ban data centers",
+b:"The council passed Bill 26-011 7–0 as emergency legislation and County Executive Cassilly signed it the next day, prohibiting data centers in every zoning district. The Maryland Tech Council called the ban legally vulnerable.",
+s:[["CBS Baltimore","https://www.cbsnews.com/baltimore/news/harford-county-maryland-data-center-ban/"],["Harford County","https://www.harfordcountymd.gov/m/newsflash/Home/Detail/1700"]],
+im:-2,iw:"Permanent countywide ban",pl:[["Harford County","county"]]},
+{d:"2026-02-02",j:"MD",w:"Baltimore County",lv:"local",st:"pause",ty:["moratorium"],t:"Baltimore County pauses data center permitting and orders a study",
+b:"The study was due Oct. 1.",
+s:[["AI Laws by State","https://www.ailawsbystate.com/blog/data-center-regulation-by-state-2026"]],
+im:-1,iw:"County permitting pause",pl:[["Baltimore County","county"]]},
+
+// ── Virginia ──
+{d:"2026-09-22",j:"VA",w:"Prince William County",lv:"local",st:"in-force",ty:["siting"],t:"Prince William ends by-right data center development countywide",
+b:"Supervisors voted 8–0 to shrink the data center overlay district, so new projects outside it need a special use permit and a board vote. The same day they rejected Dominion's Vint Hill substation expansion.",
+s:[["WTOP","https://wtop.com/virginia/2026/09/prince-william-co-supervisors-vote-to-end-by-right-data-center-development-countywide/"],["Colocation Scout","https://colocationscout.com/news-prince-william-ends-by-right-data-centers.html"]],
+im:-1,iw:"Slower, less certain path in a core Northern Virginia market",pl:[["Prince William County","county"]]},
+{d:"2026-07-07",j:"VA",w:"Prince William County",lv:"local",st:"denied",ty:["siting"],t:"Supervisors reject the 2,000-acre Dulles Cloud South campus",
+b:"An 8–0 vote denied the plan amendment for what would have been the county's largest project, about 43 million square feet near the Loudoun line. It came days after developers dropped their fight over the Digital Gateway complex.",
+s:[["WTOP","https://wtop.com/prince-william-county/2026/07/prince-william-co-supervisors-deny-2000-acre-dulles-south-data-center-plans/"],["Virginia Mercury","https://virginiamercury.com/2026/07/09/after-digital-gateway-project-fails-prince-william-supervisors-reject-dulles-cloud-south-data-center-proposal/"]],
+im:-2,iw:"Largest proposed project in the county killed",pl:[["Prince William County","county"]]},
+{d:"2026-09-15",j:"VA",w:"Loudoun County",lv:"local",st:"pending",ty:["moratorium"],t:"Loudoun moves toward a 12-month pause on new data center applications",
+b:"The heart of Data Center Alley voted to pause board action on legislative data center and some substation applications while it rewrites its rules. By-right projects continue. A formal resolution was expected in October.",
+s:[["McGuireWoods","https://www.mcguirewoods.com/client-resources/alerts/2026/9/virginia-data-centers-fast-changing-landscape-what-developers-need-to-know/"]],
+im:-2,iw:"A pause in the world's densest data center market",pl:[["Loudoun County","county"]]},
+{d:"2026-08-19",j:"VA",w:"Chesapeake",lv:"local",st:"in-force",ty:["siting","water"],t:"Chesapeake limits data centers to conditional uses and bans groundwater use",
+b:"The unanimous ordinance closes by-right loopholes, while an eight-month application pause remains in effect.",
+s:[["Data Center Moratoriums","https://www.datacenterbans.com/state/virginia"]],
+im:-1,iw:"Stricter review and water limits",pl:[["Chesapeake","city"]]},
+{d:"2026-08-25",j:"VA",w:"Henry County",lv:"local",st:"in-force",ty:["siting","water"],t:"Henry County adopts strict data center district rules",
+b:"Requires rezoning plus a special use permit, 1,000-foot setbacks, a 50 dBA noise limit, closed-loop cooling and water-use studies.",
+s:[["Data Center Moratoriums","https://www.datacenterbans.com/state/virginia"]],
+im:-1,iw:"Tough siting conditions",pl:[["Henry County","county"]]},
+{d:"2026-05-27",j:"VA",w:"Hanover County",lv:"local",st:"denied",ty:["siting","water"],t:"Hanover supervisors reject a 430-acre data center campus 4–3",
+b:"Developer Tract sought rezoning for the Mountain Road Technology Park, which projected up to 2 million gallons of water a day at peak.",
+s:[["Virginia Business","https://virginiabusiness.com/hanover-supervisors-reject-430-acre-data-center-campus/"]],
+im:-2,iw:"Project denied",pl:[["Hanover County","county"]]},
+{d:"2026-09",j:"VA",w:"Frederick County",lv:"local",st:"pending",ty:["siting"],t:"Frederick County weighs removing data centers from its zoning entirely",
+b:"The planning commission unanimously recommended eliminating data centers as a permitted or conditional use in every district, after recommending denial of two proposals.",
+s:[["McGuireWoods","https://www.mcguirewoods.com/client-resources/alerts/2026/9/virginia-data-centers-fast-changing-landscape-what-developers-need-to-know/"]],
+im:-2,iw:"Would amount to a countywide ban",pl:[["Frederick County","county"]]},
+
+// ── Florida ──
+{d:"2026-10-13",j:"FL",w:"Leon County",lv:"local",st:"pause",ty:["moratorium"],t:"Leon County adopts an 18-month data center moratorium",
+b:"Commissioners unanimously paused review of large-load facilities, including data centers, after deciding a one-year pause wasn't long enough.",
+s:[["WCTV","https://www.wctv.tv/2026/10/13/leon-county-commission-officially-adopts-data-center-moratorium/"]],
+im:-2,iw:"Long countywide pause",pl:[["Leon County","county"]]},
+{d:"2026-10-08",j:"FL",w:"Manatee County",lv:"local",st:"pause",ty:["moratorium"],t:"Manatee County approves a 12-month data center moratorium",
+b:"Ordinance 26-42 stops new data center applications in unincorporated areas. A state law effective July 1 preserves local planning authority over facilities of 50 MW and up.",
+s:[["Manatee County","https://www.mymanatee.org/connect/news-and-information/news-and-information/article-detail/board-of-county-commissioners/2026/10/09/manatee-county-commissioners-approve-12-month-data-center-moratorium"]],
+im:-1,iw:"One-year county pause",pl:[["Manatee County","county"]]},
+{d:"2026-09-24",j:"FL",w:"Palm Beach County",lv:"local",st:"pause",ty:["moratorium"],t:"Palm Beach County adopts a one-year pause on hyperscale data centers",
+b:"Unanimous final vote, after multiple applications and this summer's rejection of Project Tango. Covers facilities of 50 MW or more, through September 2027.",
+s:[["Town-Crier","https://gotowncrier.com/2026/10/county-commission-finalizes-moratorium-on-data-centers/"]],
+im:-1,iw:"One-year county pause",pl:[["Palm Beach County","county"]]},
+{d:"2026-10-13",j:"FL",w:"Martin County",lv:"local",st:"pending",ty:["moratorium"],t:"Martin County advances a one-year moratorium; final vote Oct. 27",
+b:"Passed unanimously on first reading. The county received a data center application the day before the hearing.",
+s:[["CBS12","https://cbs12.com/news/local/martin-county-advances-proposed-data-center-moratorium-commissioners-meeting-data-center-electricity-consumption-environmental-impact-florida-data-center-regulations-florida-news"]],
+im:-1,iw:"Likely one-year county pause",pl:[["Martin County","county"]]},
+
+// ── Georgia ──
+{d:"2026-06-16",j:"GA",w:"Coweta County",lv:"local",st:"pause",ty:["moratorium"],t:"Coweta County imposes a second 180-day data center moratorium",
+b:"Covers permits, rezonings and hearings while the county revisits its ordinance. Set to expire Dec. 13. The county faces a proposed $17 billion campus, Project Sail.",
+s:[["Citizen Portal","https://citizenportal.ai/articles/10358673/Georgia/Coweta-County/Coweta-commissioners-approve-180day-moratorium-on-datacenter-landuse-actions"]],
+im:-1,iw:"Six-month county pause",pl:[["Coweta County","county"]]},
+{d:"2026-07-28",j:"GA",w:"Albany",lv:"local",st:"pause",ty:["moratorium"],t:"Albany approves a 12-month data center moratorium",
+b:"Unanimous, with an option to extend six months while the planning commission drafts rules. Meriwether County extended its own pause to Nov. 21 the same day.",
+s:[["Savrn Georgia tracker","https://savrn.com/data-center-moratorium-tracker/georgia"]],
+im:-1,iw:"One-year city pause",pl:[["Albany","city"],["Meriwether County","county"]]},
+{d:"2026-07-17",j:"GA",w:"Murray County",lv:"local",st:"pause",ty:["moratorium"],t:"Murray County extends its data center moratorium to July 2027",
+b:"The sole commissioner extended the pause in unincorporated areas by 12 months while staff writes land-use rules.",
+s:[["Savrn Georgia tracker","https://savrn.com/data-center-moratorium-tracker/georgia"]],
+im:-1,iw:"Year-long extension",pl:[["Murray County","county"]]},
+{d:"2026-09",j:"GA",w:"Franklin County",lv:"local",st:"pause",ty:["moratorium"],t:"Franklin County pauses data centers through 2028",
+b:"One of the longest local pauses in Georgia.",
+s:[["Savrn Georgia tracker","https://savrn.com/data-center-moratorium-tracker/georgia"]],
+im:-2,iw:"Two-year-plus county pause",pl:[["Franklin County","county"]]},
+{d:"2026-08",j:"GA",w:"Savannah",lv:"local",st:"pause",ty:["moratorium"],t:"Savannah adopts a 155-day data center moratorium",
+b:"Followed OpenAI's announcement of a 3.2 GW campus in neighboring Effingham County.",
+s:[["ElectricChoice","https://www.electricchoice.com/datacenters/moratoriums/"]],
+im:-1,iw:"City pause near a major new campus",pl:[["Savannah","city"]]},
+
+// ── Pennsylvania ──
+{d:"2026-10-13",j:"PA",w:"Penn Township",lv:"local",st:"in-force",ty:["siting"],t:"Penn Township limits data centers to one small industrial district",
+b:"Conditional use only, with noise caps, on-site power requirements and impact studies.",
+s:[["Butler Eagle","https://www.butlereagle.com/20261013/penn-township-adopts-ordinance-restricting-data-center-development/"]],
+im:-1,iw:"Tight siting and power rules",pl:[["Penn Township (Butler County)","township"]]},
+{d:"2026-09-24",j:"PA",w:"East Whiteland Township",lv:"local",st:"in-force",ty:["siting","water"],t:"East Whiteland adopts a 32-page data center ordinance after a moratorium",
+b:"Sets distances from homes, schools and parks and covers noise, water, cooling and power. It doesn't affect the 1.5 million-square-foot project already under construction that sparked it.",
+s:[["Philadelphia Inquirer","https://www.inquirer.com/news/pennsylvania/east-whiteland-data-center-20260925.html"]],
+im:-1,iw:"Stricter rules for future projects",pl:[["East Whiteland Township","township"]]},
+{d:"2026-06-08",j:"PA",w:"Hazle Township",lv:"local",st:"pause",ty:["moratorium"],t:"Hazle Township pauses data center applications for 180 days",
+b:"Aimed at Project Hazelnut, a proposed 15-building, 1,300-acre complex on a former coal plateau.",
+s:[["Inside Climate News","https://insideclimatenews.org/news/02072026/pennsylvania-coal-town-data-center-moratorium/"]],
+im:-1,iw:"Pause blocks a very large proposal",pl:[["Hazle Township","township"]]},
+{d:"2026-05-21",j:"PA",w:"East Vincent Township",lv:"local",st:"denied",ty:["siting"],t:"East Vincent rejects a 1.9 million-square-foot data center at Pennhurst",
+b:"Unanimous rejection of the project at the historic state school site after months of resident campaigning.",
+s:[["Brockovich AI Data Center Reporting","https://www.brockovichdatacenter.com/community-and-legislation.html"]],
+im:-2,iw:"Project denied",pl:[["East Vincent Township","township"]]},
+
+// ── Midwest ──
+{d:"2026-10-13",j:"WI",w:"Milwaukee",lv:"local",st:"pending",ty:["moratorium"],t:"Milwaukee council votes 13–0 for a one-year data center moratorium",
+b:"Bars new data centers and most expansions until the city writes zoning rules. Awaits the mayor's signature; he supports it. Madison, Dane County and Manitowoc County have adopted their own pauses.",
+s:[["Urban Milwaukee","https://urbanmilwaukee.com/2026/10/13/council-unanimously-approves-data-center-moratorium/"],["WTMJ","https://wtmj.com/news/2026/10/13/milwaukee-common-council-unanimously-approves-one-year-pause-on-new-data-centers/"]],
+im:-1,iw:"One-year pause in the state's largest city",pl:[["Milwaukee","city"]]},
+{d:"2026-08-18",j:"MI",w:"Kalamazoo",lv:"local",st:"pause",ty:["moratorium"],t:"Kalamazoo enacts a one-year data center moratorium",
+b:"The community is split on whether to make it a permanent ban. Garfield Charter Township adopted its own one-year pause a week later.",
+s:[["Data Center Moratoriums","https://www.datacenterbans.com/state/michigan"]],
+im:-1,iw:"City pause",pl:[["Kalamazoo","city"],["Garfield Charter Township","township"]]},
+{d:"2026-07-14",j:"MI",w:"Lansing",lv:"local",st:"pause",ty:["moratorium"],t:"Lansing adopts a 182-day pause on new data centers",
+b:"Voted 7–1; runs from July 27 through Jan. 25, 2027.",
+s:[["Brockovich AI Data Center Reporting","https://www.brockovichdatacenter.com/community-and-legislation.html"]],
+im:-1,iw:"Six-month city pause",pl:[["Lansing","city"]]},
+{d:"2026-06-08",j:"MI",w:"Flint",lv:"local",st:"pause",ty:["moratorium"],t:"Flint votes 7–1 for a one-year data center moratorium",
+b:"Adopted amid public outcry.",
+s:[["Data Center Moratoriums","https://www.datacenterbans.com/state/michigan"]],
+im:-1,iw:"One-year city pause",pl:[["Flint","city"]]},
+{d:"2026-09-28",j:"MI",w:"Saginaw",lv:"local",st:"in-force",ty:["siting"],t:"Saginaw adopts permanent data center zoning",
+b:"Data centers become special land uses with a 500-foot residential setback, effective Oct. 9.",
+s:[["Data Center Moratoriums","https://www.datacenterbans.com/state/michigan"]],
+im:0,iw:"Rules rather than a pause",pl:[["Saginaw","city"]]},
+{d:"2026-04-22",j:"MI",w:"Ypsilanti utility authority",lv:"local",st:"pause",ty:["water","moratorium"],t:"Ypsilanti utility halts water and sewer service to new data centers for a year",
+b:"Prompted by a proposed $1.2 billion University of Michigan facility and a separate $1 billion proposal.",
+s:[["Data Center Moratoriums","https://www.datacenterbans.com/state/michigan"]],
+im:-2,iw:"No water means no new projects",pl:[["Ypsilanti Township","township"]]},
+{d:"2026-10-14",j:"MI",w:"Van Buren Township",lv:"local",st:"in-force",ty:["siting"],t:"Van Buren Township approves the site plan for Google's 1 GW campus",
+b:"The planning commission voted 5–1, clearing the way for Michigan's second hyperscale facility near Detroit Metro Airport. Regulators approved its 20-year DTE power contract Oct. 1.",
+s:[["Data Centers: Daily Notes","https://writing.strisker.com/data-centers-daily-notes-october-15-2026/"]],
+im:1,iw:"Major project approved",pl:[["Van Buren Township","township"]]},
+{d:"2026-10",j:"IN",w:"Fort Wayne",lv:"local",st:"failed",ty:["moratorium"],t:"Fort Wayne council defeats a one-year data center moratorium",
+b:"Also rejected a task force, ending a push aimed at Google's southeast campus.",
+s:[["Data Centers: Daily Notes","https://writing.strisker.com/data-centers-daily-notes-october-14-2026/"]],
+im:1,iw:"Pause rejected",pl:[["Fort Wayne","city"]]},
+{d:"2026-10",j:"IN",w:"Michigan City",lv:"local",st:"pending",ty:["moratorium"],t:"Michigan City weighs a new moratorium that exempts Google's project",
+b:"Residents and the original sponsors object to the exemption for Project Maize. The pause could run to July 2028.",
+s:[["Hoodline","https://hoodline.com/2026/10/michigan-city-council-s-new-data-center-pause-excludes-google-sparks-backlash/"]],
+im:-1,iw:"Possible long pause, but the big project is exempt",pl:[["Michigan City","city"]]},
+
+// ── South & Border ──
+{d:"2026-10-12",j:"TN",w:"Shelby County",lv:"local",st:"pending",ty:["moratorium"],t:"Shelby County advances a moratorium for areas outside Memphis",
+b:"Passed first reading 5–4 with four abstentions. Needs two more readings; some commissioners question the county's authority.",
+s:[["Action News 5","https://www.actionnews5.com/2026/10/13/first-city-now-county-debates-data-center-temporary-moratorium/"]],
+im:-1,iw:"Possible county pause",pl:[["Shelby County","county"]]},
+{d:"2026-07-21",j:"TN",w:"Nashville",lv:"local",st:"pause",ty:["moratorium","permitting"],t:"Nashville pauses data center permits until Dec. 1",
+b:"Metro Council passed BL2026-1448 on third reading and the mayor approved it July 24.",
+s:[["dcmap.us","https://dcmap.us/insights/policy/"]],
+im:-1,iw:"Pause in a major metro",pl:[["Nashville","city"]]},
+{d:"2026-10-15",j:"NC",w:"Guilford County",lv:"local",st:"pending",ty:["moratorium"],t:"Guilford County postpones a vote on a 180-day moratorium",
+b:"After a long hearing where many speakers called six months too short, commissioners delayed the decision to their next meeting.",
+s:[["Rhino Times","https://www.rhinotimes.com/featured-article/commissioners-punt-on-data-center-moratorium/"]],
+im:-1,iw:"Pause still likely",pl:[["Guilford County","county"]]},
+{d:"2026-04-22",j:"NC",w:"Orange County",lv:"local",st:"pause",ty:["moratorium"],t:"Orange County pauses large data centers for a year",
+b:"Voted 6–0 to give staff time to rewrite land use policies before any applications arrive.",
+s:[["Brockovich AI Data Center Reporting","https://www.brockovichdatacenter.com/community-and-legislation.html"]],
+im:-1,iw:"One-year county pause",pl:[["Orange County","county"]]},
+{d:"2026-06-09",j:"KY",w:"Lexington-Fayette",lv:"local",st:"pause",ty:["moratorium"],t:"Lexington pauses data center permits and zone changes",
+b:"Unanimous; runs to at least Oct. 31. A first reading of an extension was scheduled Oct. 8 while new zoning rules are drafted.",
+s:[["Engage Lexington","https://engage.lexingtonky.gov/DataCenters"]],
+im:-1,iw:"City-county pause",pl:[["Lexington-Fayette County","county"]]},
+{d:"2026-10",j:"AL",w:"Lowndes County",lv:"local",st:"in-force",ty:["tax"],t:"Lowndes County approves agreements for Project Red Clay",
+b:"Commissioners approved development and tax deals with Cloverleaf Infrastructure despite months of opposition.",
+s:[["Data Centers: Daily Notes","https://writing.strisker.com/data-centers-daily-notes-october-14-2026/"]],
+im:1,iw:"Project approved with incentives",pl:[["Lowndes County","county"]]},
+{d:"2026-06-02",j:"CA",w:"Monterey Park voters",lv:"local",st:"in-force",ty:["moratorium","siting"],t:"Monterey Park voters ban data centers, 88% to 12%",
+b:"Measure NDC permanently prohibits data centers within city limits.",
+s:[["Brockovich AI Data Center Reporting","https://www.brockovichdatacenter.com/community-and-legislation.html"]],
+im:-2,iw:"Voter-approved permanent ban",pl:[["Monterey Park","city"]]},
+
+// ── West ──
+{d:"2026-06-24",j:"WA",w:"Snohomish County",lv:"local",st:"pause",ty:["moratorium"],t:"Snohomish County imposes a six-month emergency pause",
+b:"Covers new or expanded data centers of 2 MW or more in unincorporated areas, through Dec. 24 unless renewed.",
+s:[["dcmap.us","https://dcmap.us/insights/policy/"]],
+im:-1,iw:"Low threshold catches small projects",pl:[["Snohomish County","county"]]},
+{d:"2026-08-18",j:"WA",w:"Skamania County",lv:"local",st:"pause",ty:["moratorium"],t:"Skamania County adopts a data center moratorium the day residents ask",
+b:"Unanimous, though the county had no applications. Neighboring Klickitat County chose a policy statement instead.",
+s:[["Skamania Dispatch","https://skamania-dispatch.ghost.io/a-data-center-moratorium-two-new-planning-commissioners-skamania-bocc-august-26/"]],
+im:-1,iw:"Preemptive county pause",pl:[["Skamania County","county"]]},
+{d:"2026-07",j:"OR",w:"Hillsboro",lv:"local",st:"pause",ty:["moratorium"],t:"Hillsboro adopts a 120-day data center moratorium",
+b:"A major Oregon data center hub, acting before the state's permit pause.",
+s:[["Hoodline","https://hoodline.com/2026/10/kotek-freezes-oregon-data-center-permits-through-2027-amazon-project-in-limbo/"]],
+im:-1,iw:"Short pause in an established hub",pl:[["Hillsboro","city"]]}
+];
+
+// Places for entries that already existed (matched by exact title)
+const PLX={
+"7–0 vote halts new data centers through Jan 31, 2028":[["Anne Arundel County","county"]],
+"One-year moratorium on large data centers":[["Baltimore City","city"]],
+"Memphis council votes on its 12-month moratorium":[["Memphis","city"]],
+"First Texas city to exclude data centers from every zoning district":[["San Marcos","city"],["Hill County","county"]],
+"Court sets aside county moratorium":[["Imperial County","county"]],
+"120-day pause in unincorporated areas":[["Pima County","county"]],
+"Nine-month moratorium":[["Camden County","county"]],
+"One-year moratorium at a former steel plant site":[["Gibraltar","city"]],
+"Voters reject a data center rezoning, about 90% no":[["Augusta Township","township"]],
+"Voters require a public vote on big incentive deals":[["Port Washington","city"]],
+"About 20 local data center measures on the November ballot":[["Pataskala","city"],["Sunbury","city"],["Granville","city"],["Urbana","city"],["Wilmington","city"]],
+"Kansas towns vote on some of the strictest bans":[["Emporia","city"],["El Dorado","city"]],
+"Advisory votes on data center development":[["Madison County communities","city"]],
+"Charter amendment to ban new data centers":[["Edgewater","city"]],
+"Vote on allowing data centers in the Eldorado Valley":[["Boulder City","city"]],
+"Voter approval for redevelopment of the old GM site":[["Janesville","city"]],
+"Measure to prohibit data centers citywide":[["Alhambra","city"]],
+"Pause on new data center permits through end of 2027":[["Indianapolis","city"]],
+"Pause on new applications until May 2027":[["Denver","city"],["Mesa County","county"]],
+"A wave of town moratoriums":[["Anniston","city"],["Westover","city"],["Pinson","city"],["Prichard","city"],["Harpersville","city"],["Chelsea","city"],["Foley","city"],["Tarrant","city"]],
+"Cherokee Nation bars large data centers on tribal lands":[["Cherokee Nation","tribal"]],
+"Three-year moratorium through October 2029":[["Cheyenne and Arapaho Tribes","tribal"]],
+"Rally against data center development at the Texas Capitol":[["Austin","city"]],
+"Rally in Lansing presses Hochul to sign the legislative moratorium":[["Lansing (Tompkins County)","city"]],
+"El-Sayed rallies at the Saline Township site, calls for no more approvals":[["Saline Township","township"]],
+"Kaptur calls her Republican opponent \"Data Center Derek\"":[],
+"Bresnahan and Cognetti campaign around data centers in northeast Pennsylvania":[]
+};
+
+E.push(...L.map(x=>Object.assign({k:"action"},x)));
+E.forEach(e=>{if(!e.pl&&PLX[e.t])e.pl=PLX[e.t];});
 
 
 // ── POLITICS ────────────────────────────────────
@@ -842,11 +1107,16 @@ const POLLS=[
 // ── COMING UP (chronological) ───────────────────
 const NEXT=[
 {w:"Oct 19, 2026",t:"Texas TCEQ reports to Abbott on its permit freeze.",big:false},
-{w:"Oct 20, 2026",t:"Memphis City Council takes up its 12-month moratorium.",big:false},
+{w:"Oct 20, 2026",t:"Memphis City Council votes on its 12-month moratorium. Loudoun County's formal vote on a 12-month pause is also expected in October.",big:false},
+{w:"Oct 27, 2026",t:"Martin County, Florida, holds its final vote on a one-year moratorium.",big:false},
+{w:"Oct 31, 2026",t:"Lexington's data center pause expires unless the council extends it.",big:false},
 {w:"Nov 3, 2026",t:"Election Day: 36 governor races, the Ohio Senate race, two Georgia PSC seats, and 35+ local data center measures led by Ohio.",big:true},
 {w:"November 2026",t:"Virginia work group reports on data center taxation ahead of the 2027 session.",big:false},
 {w:"By Nov 16, 2026",t:"PJM targets its FERC filing for a flexible large-load service model.",big:false},
+{w:"Nov 21, 2026",t:"Meriwether County, Georgia's extended moratorium ends.",big:false},
+{w:"Dec 1, 2026",t:"Nashville's data center permit pause ends.",big:false},
 {w:"December 2026",t:"ERCOT's target for finishing the Texas audit. Grid approvals stay frozen until then.",big:false},
+{w:"Dec 13 and 24, 2026",t:"Coweta County, Georgia, and Snohomish County, Washington, pauses expire unless renewed.",big:false},
 {w:"Dec 31, 2026",t:"Hochul's deadline to sign or veto the Responsible Data Center Development Act. Inaction is a pocket veto.",big:true},
 {w:"Jan 1, 2027",t:"Most of California's seven data center laws take effect; 2027 sessions open with incentive repeal fights in Texas and Virginia.",big:false},
 {w:"July 1, 2027",t:"Oregon's state land pause ends. Ohio ban amendment organizers need 413,488 signatures by about this time for the Nov 2027 ballot.",big:false},
@@ -886,7 +1156,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function fmt(d){const p=d.split("-");if(p.length===1)return p[0];if(p.length===2)return MON[+p[1]-1]+" "+p[0];return MON[+p[1]-1]+" "+(+p[2])+", "+p[0];}
 function key(d){const p=d.split("-");return (p[0]||"0000")+"-"+(p[1]||"00")+"-"+(p[2]||"00");}
-const STLBL={"pause":"Pause in force","in-force":"In force","pending":"Pending","ballot":"On the ballot","failed":"Failed or vetoed","campaign":"Campaign","poll":"Poll","statement":"Statement","protest":"Protest"};
+const STLBL={"pause":"Pause in force","in-force":"In force","pending":"Pending","ballot":"On the ballot","failed":"Failed or vetoed","denied":"Project denied","campaign":"Campaign","poll":"Poll","statement":"Statement","protest":"Protest"};
 const LVL={federal:"Federal",state:"State",local:"Local",tribal:"Tribal"};
 const IML={"-2":"Strong headwind","-1":"Headwind","0":"Mixed or neutral","1":"Tailwind","2":"Strong tailwind"};
 function meter(v){
@@ -896,7 +1166,11 @@ function meter(v){
 }
 const TYL={moratorium:"Moratorium or pause",cost:"Who pays for power",tax:"Tax incentives",water:"Water",siting:"Siting and local control",permitting:"Permitting",disclosure:"Disclosure"};
 
-const state={sel:null,q:"",lv:"",ty:"",st:"",k:"",im:""};
+const state={sel:null,q:"",lv:"",ty:"",st:"",k:"",im:"",pl:""};
+const TODAY=(()=>{const n=new Date();return n.getFullYear()+"-"+String(n.getMonth()+1).padStart(2,"0")+"-"+String(n.getDate()).padStart(2,"0");})();
+const isUp=e=>e.d.length===10&&e.d>TODAY;
+const PTL={county:"County",city:"City or town",township:"Township",tribal:"Tribal nation"};
+const plKey=(e,n)=>e.j+"|"+n;
 const countBy={};E.forEach(e=>{if(e.j!=="US")countBy[e.j]=(countBy[e.j]||0)+1;});
 
 // ── Map ───────────────────────────────────────
@@ -923,8 +1197,9 @@ requestAnimationFrame(()=>{
 
 function select(ab){
   state.sel=ab;
+  if(state.pl && ab && !state.pl.startsWith(ab+"|")) state.pl="";
   [...map.children].forEach(t=>t.setAttribute("aria-pressed",t.dataset.ab===ab?"true":"false"));
-  renderPanel();renderEntries();
+  fillPlaces();renderPanel();renderEntries();
   if(ab) showTab("actions",false);
 }
 
@@ -943,6 +1218,8 @@ function renderPanel(){
         <div><b>${c.rules}</b><small>states with binding new rules</small></div>
         <div><b>${c.proposed}</b><small>states where a statewide pause was proposed or failed</small></div>
         <div><b>${inForcePauses}</b><small>logged pauses in force at any level</small></div>
+        <div><b>${new Set(E.flatMap(e=>(e.pl||[]).map(([n])=>e.j+"|"+n))).size}</b><small>counties, cities, townships and tribal nations logged</small></div>
+        <div><b>${E.filter(isUp).length}</b><small>scheduled votes and deadlines still ahead</small></div>
       </div>
       <p style="font-size:15px">Select a state on the map to see its story and filter the list.</p>`;
     return;
@@ -957,51 +1234,68 @@ function renderPanel(){
       const avg=sc.reduce((t,e)=>t+e.im,0)/sc.length, r=Math.max(-2,Math.min(2,Math.round(avg)));
       const nh=sc.filter(e=>e.im<0).length, nt=sc.filter(e=>e.im>0).length;
       return `<div class="climate"><small style="color:var(--ink-2);font-size:14px">Climate for developers, averaged over ${sc.length} scored ${sc.length===1?"entry":"entries"}</small><div class="im-line">${meter(r)}<span><b>${IML[r]}</b> (${nh} headwind${nh===1?"":"s"}, ${nt} tailwind${nt===1?"":"s"})</span></div></div>`;})()}
+    ${(()=>{const m={};E.filter(e=>e.j===ab).forEach(e=>(e.pl||[]).forEach(([n,t])=>{const k=plKey(e,n);m[k]=m[k]||{n,t,c:0};m[k].c++;}));
+      const arr=Object.entries(m).sort((a,b)=>b[1].c-a[1].c||a[1].n.localeCompare(b[1].n));
+      if(!arr.length)return "";
+      return `<div class="places"><h3>Counties, cities and townships</h3><ul>${arr.map(([k,v])=>`<li><button type="button" data-pl="${esc(k)}" aria-pressed="${state.pl===k}">${esc(v.n)}<small>${v.c}</small></button></li>`).join("")}</ul></div>`;})()}
     <div class="clear"><button type="button" class="btn-quiet" id="clearSel">Show all states</button></div>`;
   $("#clearSel").addEventListener("click",()=>select(null));
+  p.querySelectorAll("[data-pl]").forEach(b=>b.addEventListener("click",()=>{state.pl=state.pl===b.dataset.pl?"":b.dataset.pl;$("#f-place").value=state.pl;renderPanel();renderEntries();}));
 }
 
 // ── Entries ───────────────────────────────────
 function match(e){
   if(state.sel && e.j!==state.sel && !(e.j==="US" && e.lv==="federal" && e.k==="action")) return false;
   if(state.k && e.k!==state.k) return false;
-  if(state.lv && e.lv!==state.lv) return false;
+  if(state.lv){
+    if(PTL[state.lv]&&state.lv!=="tribal"){ if(!(e.pl||[]).some(([,t])=>t===state.lv)) return false; }
+    else if(state.lv==="tribal"){ if(e.lv!=="tribal"&&!(e.pl||[]).some(([,t])=>t==="tribal")) return false; }
+    else if(e.lv!==state.lv) return false;
+  }
+  if(state.pl && !(e.pl||[]).some(([n])=>plKey(e,n)===state.pl)) return false;
   if(state.ty && !e.ty.includes(state.ty)) return false;
-  if(state.st && e.st!==state.st) return false;
+  if(state.st==="upcoming"){ if(!isUp(e)) return false; }
+  else if(state.st && e.st!==state.st) return false;
   if(state.im){
     if(state.im==="neg"){if(!(e.im<0))return false;}
     else if(state.im==="pos"){if(!(e.im>0))return false;}
     else if(e.im!==+state.im) return false;
   }
   if(state.q){
-    const hay=(e.iw||"")+" "+(e.t+" "+e.b+" "+e.w+" "+(NAMES[e.j]||e.j)+" "+e.j+" "+e.ty.join(" ")+" "+STLBL[e.st]+" "+(e.k==="politics"?"politics political noise":"action")).toLowerCase();
+    const hay=(e.iw||"")+" "+(e.t+" "+e.b+" "+e.w+" "+(NAMES[e.j]||e.j)+" "+e.j+" "+e.ty.join(" ")+" "+STLBL[e.st]+" "+(e.k==="politics"?"politics political noise":"action")+" "+(e.pl||[]).map(([n,t])=>n+" "+t).join(" ")+(isUp(e)?" upcoming scheduled":"")).toLowerCase();
     if(!state.q.split(/\s+/).every(w=>hay.includes(w))) return false;
   }
   return true;
 }
 function renderEntries(){
-  const list=E.filter(match).sort((a,b)=>(!!b.fresh-!!a.fresh)||key(b.d).localeCompare(key(a.d)));
-  if(state.sel) list.sort((a,b)=>(!!b.fresh-!!a.fresh)||(a.j!==state.sel)-(b.j!==state.sel)||key(b.d).localeCompare(key(a.d)));
+  const all=E.filter(match);
+  const up=all.filter(isUp).sort((a,b)=>a.d.localeCompare(b.d));
+  const past=all.filter(e=>!isUp(e)).sort((a,b)=>(!!b.fresh-!!a.fresh)||key(b.d).localeCompare(key(a.d)));
+  if(state.sel) past.sort((a,b)=>(!!b.fresh-!!a.fresh)||(a.j!==state.sel)-(b.j!==state.sel)||key(b.d).localeCompare(key(a.d)));
+  const list=[...up,...past];
   const nA=list.filter(e=>e.k==="action").length, nP=list.length-nA;
-  $("#rc").textContent=`${list.length} of ${E.length} entries: ${nA} official ${nA===1?"action":"actions"}, ${nP} political`+(state.sel?` (${NAMES[state.sel]} plus federal actions)`:"");
+  $("#rc").textContent=`${list.length} of ${E.length} entries: ${nA} official ${nA===1?"action":"actions"}, ${nP} political`+(state.pl?` in ${state.pl.split("|")[1]}, ${NAMES[state.pl.split("|")[0]]||state.pl.split("|")[0]}`:(state.sel?` (${NAMES[state.sel]} plus federal actions)`:""));
   $("#c-actions").textContent=E.length;
   const ul=$("#entries");
   if(!list.length){ul.innerHTML='<li class="empty">No entries match. Try clearing a filter or picking a different state.</li>';return;}
-  ul.innerHTML=list.map(e=>{
+  const row=e=>{
     const where=e.j==="US"||e.lv==="state"?esc(e.w):`${esc(e.w)}, ${esc(e.j)}`;
-    return `<li class="entry${e.k==="politics"?" pol":""}${e.fresh?" fresh":""}"><details><summary>
-      <span class="e-date">${fmt(e.d)}</span>
-      <span class="e-where">${where}</span>
+    const pt=(e.pl||[]).length?[...new Set(e.pl.map(([,t])=>PTL[t]))].join(" · "):"";
+    return `<li class="entry${e.k==="politics"?" pol":""}${e.fresh?" fresh":""}${isUp(e)?" up":""}"><details><summary>
+      <span class="e-date">${isUp(e)?'<span class="up-k">Upcoming</span>':""}${fmt(e.d)}</span>
+      <span class="e-where">${where}${pt?`<span class="e-place">${esc(pt)}</span>`:""}</span>
       <span class="e-title">${esc(e.t)}${e.fresh?'<span class="fresh-mark">New, unverified</span>':(e.auto?'<span class="fresh-mark" style="color:var(--ink-3)">Auto-found</span>':"")}</span>
       <span class="chip ${e.st}">${STLBL[e.st]}</span>
       ${meter(e.im)}
     </summary><div class="e-body">
       <p>${esc(e.b)}</p>
       <div class="im-line">${meter(e.im)}<span><b>${typeof e.im==="number"?IML[e.im]:"Not scored"}</b>${e.iw?" for developers: "+esc(e.iw):""}</span></div>
-      <div class="tags"><span class="tag">${e.k==="politics"?"Political noise":"Official action"}</span><span class="tag">${LVL[e.lv]}</span>${e.ty.map(t=>`<span class="tag">${TYL[t]}</span>`).join("")}</div>
-      <div class="srcs">Sources: ${e.s.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join("")}</div>
+      <div class="tags"><span class="tag">${e.k==="politics"?"Political noise":"Official action"}</span><span class="tag">${LVL[e.lv]}</span>${(e.pl||[]).map(([n,t])=>`<span class="tag">${esc(n)} (${PTL[t]||t})</span>`).join("")}${e.ty.map(t=>`<span class="tag">${TYL[t]}</span>`).join("")}</div>
+      <div class="srcs">Sources: ${e.s.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join("")}${e.by?` · Added by ${esc(e.by)}`:""}</div>
       ${e.fresh||e.auto?'<p style="font-size:14px;margin-top:8px">Found and summarized automatically from web search. Open the source before relying on it.</p>':""}
-    </div></details></li>`;}).join("");
+    </div></details></li>`;};
+  const head=(t,n,sub)=>`<li class="group-h" role="presentation">${t}<small>${n} ${n===1?"item":"items"}${sub?" · "+sub:""}</small></li>`;
+  ul.innerHTML=(up.length?head("Coming up",up.length,"scheduled votes and deadlines, soonest first")+up.map(row).join("")+(past.length?head("What has happened",past.length,"newest first"):""):"")+past.map(row).join("");
 }
 function paintCounts(){
   const c={};E.forEach(e=>{if(e.j!=="US")c[e.j]=(c[e.j]||0)+1;});
@@ -1010,16 +1304,24 @@ function paintCounts(){
     t.setAttribute("aria-label",(NAMES[ab]||ab)+": "+SLABEL[s]+(n?", "+n+" entries":""));});
   Object.keys(countBy).forEach(k=>delete countBy[k]);Object.assign(countBy,c);
 }
+function fillPlaces(){
+  const sel=$("#f-place"), byState={};
+  E.forEach(e=>(e.pl||[]).forEach(([n,t])=>{ if(state.sel&&e.j!==state.sel) return; (byState[e.j]=byState[e.j]||{})[plKey(e,n)]=n; }));
+  const states=Object.keys(byState).sort((a,b)=>(NAMES[a]||a).localeCompare(NAMES[b]||b));
+  sel.innerHTML='<option value="">All places</option>'+states.map(st=>`<optgroup label="${esc(NAMES[st]||st)}">${Object.entries(byState[st]).sort((a,b)=>a[1].localeCompare(b[1])).map(([k,n])=>`<option value="${esc(k)}">${esc(n)}</option>`).join("")}</optgroup>`).join("");
+  sel.value=state.pl;
+}
 const bindSel=(id,f)=>$(id).addEventListener("change",ev=>{state[f]=ev.target.value;renderEntries();});
 $("#q").addEventListener("input",ev=>{state.q=ev.target.value.trim().toLowerCase();renderEntries();});
 bindSel("#f-kind","k");bindSel("#f-level","lv");bindSel("#f-type","ty");bindSel("#f-status","st");bindSel("#f-impact","im");
-$("#reset").addEventListener("click",()=>{state.q=state.lv=state.ty=state.st=state.k=state.im="";
-  ["#q","#f-kind","#f-level","#f-type","#f-status","#f-impact"].forEach(id=>$(id).value="");select(null);});
+$("#f-place").addEventListener("change",ev=>{state.pl=ev.target.value;renderPanel();renderEntries();});
+$("#reset").addEventListener("click",()=>{state.q=state.lv=state.ty=state.st=state.k=state.im=state.pl="";
+  ["#q","#f-kind","#f-level","#f-type","#f-status","#f-impact","#f-place"].forEach(id=>$(id).value="");select(null);});
 
 // ── Live updates (works when opened inside Claude) ──────────
 const STORE_KEY="loadwatch-updates";
 const OK_LV=new Set(Object.keys(LVL)), OK_TY=new Set(Object.keys(TYL));
-const ACT_ST=new Set(["pause","in-force","pending","ballot","failed"]), POL_ST=new Set(["campaign","poll","statement","protest"]);
+const ACT_ST=new Set(["pause","in-force","pending","ballot","failed","denied"]), POL_ST=new Set(["campaign","poll","statement","protest"]);
 let fetched=[], lastChecked=null;
 const norm=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 function clean(o){
@@ -1033,7 +1335,8 @@ function clean(o){
   const s=(Array.isArray(o.s)?o.s:[]).filter(x=>Array.isArray(x)&&/^https:\/\//.test(String(x[1]))).map(x=>[String(x[0]).slice(0,60),String(x[1])]);
   if(!s.length||!o.t||!o.b)return null;
   const im=Number.isInteger(o.im)&&o.im>=-2&&o.im<=2?o.im:undefined;
-  return {d,j,w:String(o.w||"").slice(0,60),lv,k,st,ty:ty.length?ty:["siting"],t:String(o.t).slice(0,140),b:String(o.b).slice(0,500),s,im,iw:o.iw?String(o.iw).slice(0,140):"",fresh:true};
+  const pl=(Array.isArray(o.pl)?o.pl:[]).filter(x=>Array.isArray(x)&&x[0]&&PTL[x[1]]).map(x=>[String(x[0]).slice(0,60),x[1]]).slice(0,12);
+  return {d,j,w:String(o.w||"").slice(0,60),lv,k,st,ty:ty.length?ty:["siting"],t:String(o.t).slice(0,140),b:String(o.b).slice(0,500),s,im,iw:o.iw?String(o.iw).slice(0,140):"",pl,fresh:true};
 }
 const isDupe=o=>E.some(e=>norm(e.t)===norm(o.t)||(e.d===o.d&&e.s.some(x=>o.s.some(y=>y[1]===x[1]))));
 function liveMsg(html){$("#liveStatus").innerHTML=html;const b=$("#clearFetched");if(b)b.addEventListener("click",clearFetched);}
@@ -1077,7 +1380,7 @@ ${recent}
 Include both official actions (state or federal laws, executive orders, regulator orders, local moratoriums or bans, court rulings, ballot results) and political noise (candidate promises, polls, notable statements by officials, protests). Prefer primary sources and established outlets.
 
 Respond ONLY with a JSON array, no prose and no markdown fences. Each element:
-{"d":"YYYY-MM-DD","j":"two-letter state code, or US for national","w":"who acted, under 6 words","lv":"federal|state|local|tribal","k":"action|politics","st":"for actions: pause|in-force|pending|ballot|failed; for politics: campaign|poll|statement|protest","ty":["any of: moratorium,cost,tax,water,siting,permitting,disclosure"],"t":"headline in your own words, under 15 words","b":"summary in your own words, under 45 words, no direct quotes","s":[["publication name","https URL of the article you found"]],"im":"integer from -2 to 2: near-term business impact on data center developers and operators (-2 strong headwind such as a ban or pause, -1 headwind such as new costs or rising opposition, 0 mixed, 1 tailwind, 2 strong tailwind such as faster permits). This is about business impact, not whether the policy is good.","iw":"one-line reason for the impact score, under 15 words"}
+{"d":"YYYY-MM-DD","j":"two-letter state code, or US for national","w":"who acted, under 6 words","lv":"federal|state|local|tribal","k":"action|politics","st":"for actions: pause|in-force|pending|ballot|failed|denied (denied = a specific project rejected); for politics: campaign|poll|statement|protest","ty":["any of: moratorium,cost,tax,water,siting,permitting,disclosure"],"t":"headline in your own words, under 15 words","b":"summary in your own words, under 45 words, no direct quotes","s":[["publication name","https URL of the article you found"]],"im":"integer from -2 to 2: near-term business impact on data center developers and operators (-2 strong headwind such as a ban or pause, -1 headwind such as new costs or rising opposition, 0 mixed, 1 tailwind, 2 strong tailwind such as faster permits). This is about business impact, not whether the policy is good.","iw":"one-line reason for the impact score, under 15 words","pl":[["county, city, township or tribal nation name","county|city|township|tribal"]] (for local or tribal items; empty array otherwise)}
 Only include items you actually found in search results with a real URL. If nothing new, return [].`;
   try{
     const res=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},
@@ -1105,7 +1408,7 @@ async function loadPublished(){
   try{
     const r=await fetch("updates.json",{cache:"no-store"}); if(!r.ok) return;
     const arr=await r.json(); if(!Array.isArray(arr)||!arr.length) return;
-    const items=arr.map(o=>{const c=clean(o); if(!c) return null; c.fresh=false; c.auto=true; c.added=o.added; return c;}).filter(Boolean).filter(x=>!isDupe(x));
+    const items=arr.map(o=>{const c=clean(o); if(!c) return null; c.fresh=false; c.auto=o.auto!==false; c.added=o.added; if(o.by) c.by=String(o.by).slice(0,40); return c;}).filter(Boolean).filter(x=>!isDupe(x));
     E.push(...items); paintCounts(); renderEntries(); renderPanel();
     const last=arr.map(o=>o.added||"").sort().pop();
     if(last){ $("#reading-sub").textContent="Auto-updated "+new Date(last).toLocaleDateString([], {month:"short",day:"numeric",year:"numeric"}); }
@@ -1179,6 +1482,12 @@ document.addEventListener("keydown",ev=>{
 });
 
 document.querySelectorAll(".im-key > span").forEach(sp=>{sp.innerHTML=sp.innerHTML.replace(/__K(-?\d)__/,(m,v)=>meter(+v));});
+const tb=$("#themeBtn");
+function syncTheme(){const d=document.documentElement.dataset.theme==="dark";tb.setAttribute("aria-pressed",d);tb.textContent=d?"Light mode":"Dark mode";}
+tb.addEventListener("click",()=>{const d=document.documentElement.dataset.theme!=="dark";
+  if(d)document.documentElement.dataset.theme="dark";else delete document.documentElement.dataset.theme;
+  try{localStorage.setItem("lw-theme",d?"dark":"light");}catch(e){} syncTheme();});
+syncTheme();fillPlaces();
 renderPanel();renderEntries();
 })();
 </script>
