@@ -8,7 +8,7 @@ You are updating Load Watch, a tracker of U.S. data center policy and politics.
 2. Use web search broadly. Run separate searches for each of these beats, from several angles each (different states, outlets, officials, local news):
    - **Federal:** Congress, White House, FERC, DOE, EPA, federal courts, grid operators (PJM, ERCOT, MISO, SPP)
    - **State:** legislatures, governors' executive orders, utility commissions, state agencies and courts
-   - **Local and tribal:** county and city moratoriums, bans, zoning rules, project denials or approvals, lawsuits, ballot measures, tribal decisions
+   - **Local and tribal:** county, city, township and village moratoriums, bans, zoning rules, project denials or approvals, lawsuits, ballot measures, tribal decisions. Search state by state; local news covers these best.
    - **Politics:** candidate promises, campaign ads, debates, new polls, notable statements by officials or industry, protests
 3. Open each article you plan to cite with web fetch to confirm the date and facts.
 4. Write **only** the file `candidates.json` in the repository root: a JSON array of up to 20 genuinely new, significant items. Do not edit any other file.
@@ -21,7 +21,7 @@ Each item:
  "w":"who acted, under 6 words",
  "lv":"federal|state|local|tribal",
  "k":"action for official government actions; politics for campaigns, polls, statements, protests",
- "st":"for actions: pause|in-force|pending|ballot|failed; for politics: campaign|poll|statement|protest",
+ "st":"for actions: pause|in-force|pending|ballot|failed|denied (denied = a specific project rejected); for politics: campaign|poll|statement|protest",
  "ty":["one or more of: moratorium, cost, tax, water, siting, permitting, disclosure"],
  "t":"headline in your own words, under 15 words",
  "b":"summary in your own words, under 50 words, no direct quotes",
@@ -29,7 +29,9 @@ Each item:
  "im": integer -2..2 for near-term business impact on data center developers and operators
        (-2 strong headwind such as a ban or pause, -1 headwind such as new costs or rising opposition,
         0 mixed, 1 tailwind, 2 strong tailwind such as faster permits). Business impact, not whether the policy is good.,
- "iw":"one-line reason for the score, under 15 words"}
+ "iw":"one-line reason for the score, under 15 words",
+ "pl":[["county, city, township or tribal nation name","county|city|township|tribal"]]
+       (every local or tribal item names its place(s); use [] for state and federal items)}
 ```
 
-Rules: only cite URLs you actually opened. Skip anything already in the tracker. If nothing new turned up, write `[]`.
+Rules: only cite URLs you actually opened. The date `d` is when the event happened. For a scheduled vote, use the scheduled date; the site shows future dates as "Coming up." Skip anything already in the tracker. If nothing new turned up, write `[]`.
