@@ -28,7 +28,8 @@ const BEATS = [
 const STATES = "AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY".split(" ");
 const LV = ["federal", "state", "local", "tribal"];
 const TY = ["moratorium", "cost", "tax", "water", "siting", "permitting", "disclosure"];
-const ACT_ST = ["pause", "in-force", "pending", "ballot", "failed"];
+const ACT_ST = ["pause", "in-force", "pending", "ballot", "failed", "denied"];
+const PT = ["county", "city", "township", "tribal"];
 const POL_ST = ["campaign", "poll", "statement", "protest"];
 
 // ── Existing entries, used for dedupe and to tell Claude what we already have ──
@@ -53,7 +54,7 @@ Search from several angles (different states, outlets, officials, local news) ra
 ${recent}
 
 Return up to ${MAX_PER_BEAT} genuinely new, significant items. Respond ONLY with a JSON array, no prose and no markdown fences. Each element:
-{"d":"YYYY-MM-DD (date of the event, not the article)","j":"two-letter state code, or US for national","w":"who acted, under 6 words","lv":"federal|state|local|tribal","k":"action for official government actions, politics for campaigns/polls/statements/protests","st":"for actions: pause|in-force|pending|ballot|failed; for politics: campaign|poll|statement|protest","ty":["one or more of: moratorium,cost,tax,water,siting,permitting,disclosure"],"t":"headline in your own words, under 15 words","b":"summary in your own words, under 50 words, no direct quotes","s":[["publication name","exact URL of a page you found in your search results"]],"im":"integer -2..2, the near-term business impact on data center developers and operators (-2 strong headwind such as a ban or pause, -1 headwind such as new costs or rising opposition, 0 mixed, 1 tailwind, 2 strong tailwind such as faster permits). Business impact, not whether the policy is good.","iw":"one-line reason for the impact score, under 15 words"}
+{"d":"YYYY-MM-DD (date of the event, not the article)","j":"two-letter state code, or US for national","w":"who acted, under 6 words","lv":"federal|state|local|tribal","k":"action for official government actions, politics for campaigns/polls/statements/protests","st":"for actions: pause|in-force|pending|ballot|failed|denied (denied = a specific project rejected); for politics: campaign|poll|statement|protest","ty":["one or more of: moratorium,cost,tax,water,siting,permitting,disclosure"],"t":"headline in your own words, under 15 words","b":"summary in your own words, under 50 words, no direct quotes","s":[["publication name","exact URL of a page you found in your search results"]],"im":"integer -2..2, the near-term business impact on data center developers and operators (-2 strong headwind such as a ban or pause, -1 headwind such as new costs or rising opposition, 0 mixed, 1 tailwind, 2 strong tailwind such as faster permits). Business impact, not whether the policy is good.","iw":"one-line reason for the impact score, under 15 words","pl":[["place name","county|city|township|tribal"]] for local or tribal items, otherwise []}
 Only use URLs that appeared in your search results. If nothing new turned up, return [].`;
 }
 
@@ -115,10 +116,12 @@ function clean(o, seen) {
   if (!s.length) return [null, "no source from search results"];
   if (!o.t || !o.b) return [null, "missing text"];
   const im = Number.isInteger(o.im) && o.im >= -2 && o.im <= 2 ? o.im : undefined;
+  const pl = (Array.isArray(o.pl) ? o.pl : []).filter(x => Array.isArray(x) && x[0] && PT.includes(x[1]))
+    .map(x => [String(x[0]).slice(0, 60), x[1]]).slice(0, 12);
   return [{
     d, j, w: String(o.w || "").slice(0, 60), lv, k, st, ty: ty.length ? ty : ["siting"],
     t: String(o.t).slice(0, 140), b: String(o.b).slice(0, 500), s, im,
-    iw: o.iw ? String(o.iw).slice(0, 140) : "", auto: true, added: new Date().toISOString()
+    iw: o.iw ? String(o.iw).slice(0, 140) : "", pl, auto: true, added: new Date().toISOString()
   }, null];
 }
 
