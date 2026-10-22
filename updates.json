@@ -1,1 +1,1117 @@
-[]
+[
+ {
+  "d": "2026-11-03",
+  "j": "CO",
+  "w": "Littleton City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Littleton weighs six-month moratorium on new data centers",
+  "b": "The ordinance had a first reading in October. A public hearing and second reading are planned for Nov. 3. Staff would study land-use, energy, water, noise and infrastructure impacts.",
+  "s": [
+   [
+    "Colorado Politics",
+    "https://www.coloradopolitics.com/2026/10/16/littleton-to-consider-6-month-moratorium-on-data-centers-2/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Possible pause if adopted, not yet decided",
+  "pl": [
+   [
+    "Littleton",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-26",
+  "j": "CO",
+  "w": "Aurora City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Aurora to vote on indefinite data center moratorium after neighbors protest Trident project",
+  "b": "A mayor-backed proposal would stop new applications until regulations are adopted but would not affect the pending Trident project. The Oct. 19 vote was delayed to Oct. 26 because two supporters could not attend.",
+  "s": [
+   [
+    "Colorado Politics",
+    "https://www.coloradopolitics.com/2026/10/19/aurora-meeting-on-data-center-moratorium-delayed/"
+   ],
+   [
+    "Denver7",
+    "https://www.denver7.com/news/front-range/aurora/aurora-leaders-to-vote-on-indefinite-data-center-moratorium-as-neighbors-oppose-trident-data-center"
+   ]
+  ],
+  "im": -2,
+  "iw": "Indefinite pause on new applications in a major metro city",
+  "pl": [
+   [
+    "Aurora",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-20",
+  "j": "CO",
+  "w": "Colorado Public Utilities Commission",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Colorado PUC holds public hearing on Xcel's large-load data center tariff",
+  "b": "The commission heard public comment on Xcel's proposal to make very large power users cover the grid costs of serving them. Five days earlier, activists delivered a petition with almost 5,000 signatures urging stronger customer protections.",
+  "s": [
+   [
+    "Denver Gazette",
+    "https://www.denvergazette.com/2026/10/15/activists-submit-thousands-of-petition-signatures-to-colorado-puc/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Tariff would shift grid costs onto large users like data centers",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-13",
+  "j": "CO",
+  "w": "Landowner companies near Windsor",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Companies tied to neighboring industrial park sue Weld County over Global AI approval",
+  "b": "Three companies filed in Weld District Court to overturn the September approval. They allege rule-bending, open-meetings violations and unenforced stop-work orders. Responses from the county and Global AI were not found.",
+  "s": [
+   [
+    "KUNC",
+    "https://www.kunc.org/news/2026-10-13/landowner-alleges-weld-county-commissioners-bent-rules-for-data-center-project"
+   ],
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/10/15/weld-county-data-center-opposition-petition/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Lawsuit could overturn a key project permit",
+  "pl": [
+   [
+    "Weld County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-08",
+  "j": "CO",
+  "w": "Phil Weiser (D) and Victor Marx (R), governor candidates",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "cost",
+   "tax"
+  ],
+  "t": "Weiser and Marx outline data center views at Colorado Chamber forum",
+  "b": "Weiser said data centers should meet clean-energy and water criteria, protect ratepayers, and not be forced on communities. Marx called for a common-sense approach that attracts investment, protects ratepayers and leaves decisions to local governments.",
+  "s": [
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/10/08/victor-marx-phil-weiser-governor-debate-forum/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Both support some guardrails; details differ",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-07",
+  "j": "CO",
+  "w": "Grand Junction City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Grand Junction advances one-year moratorium on data centers of one megawatt or more",
+  "b": "Council approved the first reading on Oct. 7. The pause would last up to 365 days or until code changes pass. A public hearing and final vote were scheduled for Oct. 21; the outcome was not confirmed.",
+  "s": [
+   [
+    "City of Grand Junction",
+    "https://www.gjcity.org/m/newsflash/Archive/Item/2283?arcId=2753"
+   ],
+   [
+    "KJCT",
+    "https://www.kjct8.com/2026/10/08/grand-junction-city-council-advances-one-year-moratorium-large-data-centers/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Low threshold, so most projects would be covered",
+  "pl": [
+   [
+    "Grand Junction",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-07",
+  "j": "CO",
+  "w": "Denver Mayor and City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Denver names 26-member working group to recommend data center rules",
+  "b": "Members were picked from more than 250 applicants and include residents, unions, utilities, industry and academics. The one-year moratorium runs to May 2027 and could be extended. Officials have not ruled out a ban.",
+  "s": [
+   [
+    "Axios Denver",
+    "https://www.axios.com/local/denver/2026/10/07/denver-data-center-working-group"
+   ],
+   [
+    "KUNC",
+    "https://www.kunc.org/news/2026-10-08/denver-names-data-center-advisory-group-amid-moratorium"
+   ]
+  ],
+  "im": -1,
+  "iw": "Ongoing uncertainty over whether new projects will be allowed",
+  "pl": [
+   [
+    "Denver",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-06",
+  "j": "CO",
+  "w": "Brighton City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Brighton advances one-year data center moratorium as developer withdraws application",
+  "b": "Council approved the ordinance on first reading, extending a proposed six months to a year. A day earlier the developer withdrew a rezoning application for a 2.5-million-square-foot campus. Second reading should be confirmed.",
+  "s": [
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/10/07/brighton-approves-data-center-moratorium/"
+   ],
+   [
+    "CBS Colorado",
+    "https://www.cbsnews.com/colorado/news/colorado-brighton-city-council-data-center-moratorium-proposed-project-withdrawn/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Pause plus loss of a large proposed project",
+  "pl": [
+   [
+    "Brighton",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-29",
+  "j": "CO",
+  "w": "Mesa County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium",
+   "water"
+  ],
+  "t": "Mesa County commissioners approve 12-month data center moratorium",
+  "b": "The unanimous vote halts acceptance and approval of data center applications in unincorporated areas while the land code is rewritten. The county had no pending applications and plans to revisit in 2027.",
+  "s": [
+   [
+    "Mesa County",
+    "https://www.mesacounty.us/news/county-wide/commissioners-approve-data-center-moratorium"
+   ],
+   [
+    "KJCT",
+    "https://www.kjct8.com/2026/09/30/mesa-county-approves-one-year-moratorium-data-centers/"
+   ]
+  ],
+  "im": -2,
+  "iw": "First Western Slope county pause, year-long",
+  "pl": [
+   [
+    "Mesa County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-28",
+  "j": "CO",
+  "w": "POWER (Protect Our Water and Energy Resources)",
+  "lv": "local",
+  "k": "politics",
+  "st": "campaign",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Weld County group circulates petitions for votes on Global AI data center",
+  "b": "Two petitions were cleared for circulation: a referendum on commissioners' Sept. 9 approval of Global AI's Windsor project, and an initiative requiring voter approval of future data centers. Each needs 9,103 signatures. CPR reports the group is backed by a neighboring landowner.",
+  "s": [
+   [
+    "KUNC",
+    "https://www.kunc.org/news/2026-10-01/weld-county-group-collecting-petition-signatures-to-block-global-ai-data-center"
+   ],
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/10/15/weld-county-data-center-opposition-petition/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Could force a public vote on a pending project",
+  "pl": [
+   [
+    "Weld County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-22",
+  "j": "CO",
+  "w": "Berthoud Board of Trustees",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Berthoud adopts 12-month moratorium on large data centers",
+  "b": "Trustees voted 5-2 on Sept. 22 to pause applications for large data centers while the town studies water use, electricity demand and building standards. The mayor said the pause could be extended if the work is not finished.",
+  "s": [
+   [
+    "BizWest",
+    "https://bizwest.com/2026/09/23/berthoud-oks-1-year-pause-on-data-center-applications/"
+   ],
+   [
+    "Denver7",
+    "https://www.denver7.com/news/local-news/in-your-community/northern-colorado/northern-colorado-communities-weigh-data-center-moratoriums"
+   ]
+  ],
+  "im": -2,
+  "iw": "Large projects frozen for a year",
+  "pl": [
+   [
+    "Berthoud",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-22",
+  "j": "CO",
+  "w": "Thornton City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Thornton adopts 12-month moratorium on data centers over 50,000 square feet",
+  "b": "The council voted 5-3 for a year-long pause on new data centers over 50,000 square feet, after a 5-4 first-reading vote on Sept. 8. Expansions of existing large facilities are also barred. No applications were pending.",
+  "s": [
+   [
+    "BusinessDen",
+    "https://businessden.com/two-more-cities-pass-moratoriums-on-new-data-centers/"
+   ],
+   [
+    "Northglenn-Thornton Sentinel",
+    "https://www.northglenn-thorntonsentinel.com/news/thornton-clamps-on-12-month-moratorium-on-new-data-centers/article_92f708f1-dee2-420d-968b-02e9a65b0900.html"
+   ]
+  ],
+  "im": -2,
+  "iw": "Large projects frozen for a year",
+  "pl": [
+   [
+    "Thornton",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-21",
+  "j": "CO",
+  "w": "Commerce City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Commerce City passes six-month data center moratorium",
+  "b": "The council voted 7-1 to stop accepting new data center applications while it writes rules. Officials said the city's code has no specific standards for these facilities.",
+  "s": [
+   [
+    "Westword",
+    "https://www.westword.com/news/colorado-data-center-moratoriums-growing-commerce-city-40938030/"
+   ],
+   [
+    "BusinessDen",
+    "https://businessden.com/two-more-cities-pass-moratoriums-on-new-data-centers/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for six months",
+  "pl": [
+   [
+    "Commerce City",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-17",
+  "j": "CO",
+  "w": "Colorado Springs City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "cost"
+  ],
+  "t": "Colorado Springs council delays Project Taurus data center appeals to April 2027",
+  "b": "Council voted 7-2 to postpone appeals of the 50-megawatt project near Garden of the Gods until April 13, 2027, citing noise and utility-rate questions. Four people were arrested at the contentious hearing.",
+  "s": [
+   [
+    "Colorado Newsline",
+    "https://coloradonewsline.com/2026/09/18/colorado-springs-data-center-decision/"
+   ],
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/09/17/project-taurus-data-center-postponed-colorado-springs/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Project stalled about seven months with outcome uncertain",
+  "pl": [
+   [
+    "Colorado Springs",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-15",
+  "j": "CO",
+  "w": "Loveland City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Loveland approves 12-month pause on data center land-use applications",
+  "b": "Council voted 7-2 to ratify a direction given to staff on Sept. 1. The pause ends earlier if new land-use rules are adopted first.",
+  "s": [
+   [
+    "BizWest",
+    "https://bizwest.com/2026/09/16/loveland-imposes-12-month-data-center-moratorium/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for up to a year",
+  "pl": [
+   [
+    "Loveland",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-14",
+  "j": "CO",
+  "w": "Aurora City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "water",
+   "siting"
+  ],
+  "t": "Aurora council advances ban on evaporative cooling in new buildings, including data centers",
+  "b": "Council unanimously introduced the ordinance, which covers new projects only and excludes the already-approved QTS campus. A final vote was due at the next meeting; the outcome should be confirmed.",
+  "s": [
+   [
+    "Colorado Politics",
+    "https://www.coloradopolitics.com/2026/09/14/aurora-bans-evaporative-cooling-for-data-centers-turf-installation-to-save-water/"
+   ],
+   [
+    "Westword",
+    "https://www.westword.com/news/aurora-colorado-residents-say-data-center-regulation-falls-short-40935162/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Forces closed-loop cooling on new projects",
+  "pl": [
+   [
+    "Aurora",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-13",
+  "j": "CO",
+  "w": "Magellan Strategies (self-funded survey)",
+  "lv": "state",
+  "k": "politics",
+  "st": "poll",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Magellan poll: most Colorado voters oppose data centers, strongest near home",
+  "b": "A survey of 1,389 registered voters found 86% oppose one near their neighborhood, 82% in their city or town and 75% elsewhere in the state. Fifty-five percent chose a ban on construction as the best path for their community.",
+  "s": [
+   [
+    "Magellan Strategies",
+    "https://magellanstrategies.com/colorado-2026-ai-data-center-opinion-survey/"
+   ],
+   [
+    "Westword",
+    "https://www.westword.com/news/most-colorado-voters-hate-ai-and-data-centers-study-says-40934952/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Broad opposition adds pressure on local officials",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-09",
+  "j": "CO",
+  "w": "Weld County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Weld County approves Global AI data center near Windsor, 5-0",
+  "b": "Commissioners granted a Use by Special Review permit for a 41-acre campus on the former Carestream site. The first phase is 27.5 megawatts, with long-term plans up to one gigawatt. Most public comment at the daylong hearing opposed it.",
+  "s": [
+   [
+    "KUNC",
+    "https://www.kunc.org/news/2026-09-12/weld-county-commissioners-approve-permit-for-global-ai-data-center"
+   ],
+   [
+    "Colorado Newsline",
+    "https://coloradonewsline.com/2026/09/29/weld-county-group-collecting-petition-signatures-to-block-global-ai-data-center/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Approval of a large project, though petitions seek a vote",
+  "pl": [
+   [
+    "Weld County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-31",
+  "j": "CO",
+  "w": "Mead Board of Trustees",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Mead trustees approve 12-month data center moratorium on a 4-2 vote",
+  "b": "The pause prevents data center applications while staff study infrastructure, water use and setbacks. The town attorney said it does not permanently prohibit data centers. The two dissenting trustees questioned whether a full year was needed.",
+  "s": [
+   [
+    "Berthoud Weekly Surveyor",
+    "https://berthoudsurveyor.com/mead-approves-12-month-data-center-moratorium/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for up to a year",
+  "pl": [
+   [
+    "Mead",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-27",
+  "j": "CO",
+  "w": "Phil Weiser (D) and Greg Lopez (I), governor candidates",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "cost"
+  ],
+  "t": "Colorado governor candidates split on state data center rules at debate",
+  "b": "Democrat Phil Weiser backed a state law protecting community interests, clean energy standards and utility rates. Independent Greg Lopez said the jury is still out and cited water worries. Republican Victor Marx skipped the debate.",
+  "s": [
+   [
+    "Colorado Politics",
+    "https://www.coloradopolitics.com/2026/08/27/gubernatorial-candidates-phil-weiser-greg-lopez-spar-as-marx-skips-debate/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Possible state regulation after the November election",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-14",
+  "j": "CO",
+  "w": "Colorado Springs mayor",
+  "lv": "local",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "cost",
+   "water",
+   "siting"
+  ],
+  "t": "Colorado Springs mayor sets 'community-first' standards for data centers",
+  "b": "The city page says data centers will not be approved by default. Large projects must pay for new electric infrastructure and reserved capacity, show water availability, limit neighborhood impacts, and keep public hearings. It is a policy statement, not an ordinance.",
+  "s": [
+   [
+    "City of Colorado Springs",
+    "https://coloradosprings.gov/news/colorado-springs-community-first-data-center-standards"
+   ]
+  ],
+  "im": -1,
+  "iw": "Higher bar for approval and cost responsibility",
+  "pl": [
+   [
+    "Colorado Springs",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-11",
+  "j": "CO",
+  "w": "Douglas County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "tax"
+  ],
+  "t": "Douglas County approves $19.3 million tax rebate for Parker data center",
+  "b": "Commissioners voted unanimously to rebate the county's share of business personal property tax for a 22.5-megawatt Flexential facility over 35 years. Every public commenter opposed it. The company says it will create 16 jobs.",
+  "s": [
+   [
+    "Denver Gazette",
+    "https://www.denvergazette.com/2026/08/11/douglas-county-approves-19-3-million-tax-rebate-for-parker-data-center/"
+   ],
+   [
+    "Denver7",
+    "https://www.denver7.com/news/local-news/in-your-community/dougco/douglas-county-approves-19m-tax-rebate-for-parker-data-center"
+   ]
+  ],
+  "im": 1,
+  "iw": "Long county tax break in a state with no state incentive",
+  "pl": [
+   [
+    "Douglas County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-10",
+  "j": "CO",
+  "w": "Aurora City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Aurora council rejects six-month data center moratorium on a 6-5 tiebreak",
+  "b": "The mayor broke a tie against the pause. Council instead directed the city manager to draft standards within 35 days, including a possible ban on evaporative cooling and buffer zones near neighborhoods.",
+  "s": [
+   [
+    "Denver7",
+    "https://www.denver7.com/news/local-news/in-your-community/aurora-arapahoe-county/aurora-city-council-rejects-six-month-data-center-ban-as-it-pursues-new-regulations"
+   ],
+   [
+    "9News",
+    "https://www.9news.com/article/news/local/local-politics/aurora-city-council-rejects-data-center-moratorium-new-regulations/73-463310a3-3908-44ef-b21b-dfc91ef29ae4"
+   ]
+  ],
+  "im": 1,
+  "iw": "Pause rejected, though new standards are coming",
+  "pl": [
+   [
+    "Aurora",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-21",
+  "j": "CO",
+  "w": "Lochbuie Town Board",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Lochbuie approves five-year data center moratorium, longest in Colorado",
+  "b": "The board voted 6-1 to stop accepting or reviewing applications for new or expanded data centers. The mayor called it proactive, since no developer had approached the town.",
+  "s": [
+   [
+    "Rocky Mountain PBS",
+    "https://www.rmpbs.org/news/government/lochbuie-approves-five-year-data-center-moratorium"
+   ],
+   [
+    "Data Center Dynamics",
+    "https://www.datacenterdynamics.com/en/news/town-of-lochbuie-colorado-passes-five-year-data-center-moratorium/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Five-year pause, the longest in Colorado",
+  "pl": [
+   [
+    "Lochbuie",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-20",
+  "j": "CO",
+  "w": "Monument Town Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Monument adopts six-month moratorium on data center applications",
+  "b": "The town council voted to pause new applications while the land development code is updated. No project had applied. It is the first municipality in El Paso County to adopt a pause, a week after Woodland Park.",
+  "s": [
+   [
+    "Colorado Springs Gazette",
+    "https://gazette.com/2026/07/21/monument-places-moratorium-on-data-centers-following-decision-in-woodland-park/"
+   ],
+   [
+    "KOAA",
+    "https://www.koaa.com/news/local-news/monument-puts-the-brakes-on-data-centers-as-council-approves-moratorium"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for six months",
+  "pl": [
+   [
+    "Monument",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-16",
+  "j": "CO",
+  "w": "Woodland Park City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Woodland Park adopts 18-month moratorium on data center applications",
+  "b": "The ordinance halts submission, acceptance and approval of data center applications in the city while staff draft standards. A councilmember said no data center proposal existed and the code does not address the use.",
+  "s": [
+   [
+    "Colorado Springs Gazette",
+    "https://gazette.com/2026/07/17/woodland-park-passes-moratorium-on-data-centers/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Long pause, though no project was proposed",
+  "pl": [
+   [
+    "Woodland Park",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-13",
+  "j": "CO",
+  "w": "Larimer County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Larimer County extends data center application pause to February 2027",
+  "b": "Commissioners lengthened the pause on new applications in unincorporated areas while staff draft land-use rules. A county survey found about 94% of respondents opposed data centers locally.",
+  "s": [
+   [
+    "Larimer County",
+    "https://www.larimer.gov/planning/temp-moratorium-data-centers"
+   ],
+   [
+    "GovTech",
+    "https://www.govtech.com/artificial-intelligence/colorado-county-prepares-to-extend-data-center-moratorium"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for about seven more months",
+  "pl": [
+   [
+    "Larimer County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-07",
+  "j": "CO",
+  "w": "Broomfield City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Broomfield adopts 18-month moratorium on data centers of 10 megawatts or more",
+  "b": "The council voted unanimously to bar new or expanded facilities at that size through December 2027, or until regulations pass. Existing centers are unaffected.",
+  "s": [
+   [
+    "Colorado Politics",
+    "https://www.coloradopolitics.com/2026/07/08/broomfield-passes-temporary-ban-on-new-data-center-construction/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Long pause on new projects of meaningful size",
+  "pl": [
+   [
+    "Broomfield",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-27",
+  "j": "CO",
+  "w": "Gov. Jared Polis",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "cost",
+   "water"
+  ],
+  "t": "Polis says Colorado needs data centers if rates and water use are protected",
+  "b": "In an on-stage Axios interview at the Aspen Ideas Festival, the governor said data centers are needed if they lower utility rates and fit water use. He said the backlash is aimed more at AI itself than at the facilities.",
+  "s": [
+   [
+    "Axios",
+    "https://www.axios.com/2026/07/02/colorado-polis-ai-data-centers-energy-mix"
+   ],
+   [
+    "Axios Colorado Springs",
+    "https://www.axios.com/local/colorado-springs/2026/07/08/colorado-jared-polis-bullish-data-centers-backlash"
+   ]
+  ],
+  "im": 1,
+  "iw": "Governor open to projects that meet conditions",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-09",
+  "j": "CO",
+  "w": "Longmont City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting"
+  ],
+  "t": "Longmont bans hyperscale data centers above a power threshold",
+  "b": "The council voted 6-1 to ban data centers whose peak demand reaches 5% of regional grid capacity or 100 megawatts, whichever is lower (about 70 MW). No project of that size had been proposed in the city.",
+  "s": [
+   [
+    "Denver7",
+    "https://www.denver7.com/news/front-range/longmont/longmont-bans-hyperscale-data-centers-amid-concerns-about-energy-and-water-use"
+   ],
+   [
+    "Rocky Mountain Voice",
+    "https://rockymountainvoice.com/2026/06/11/longmont-approves-data-center-restrictions-to-safeguard-power-and-water/"
+   ],
+   [
+    "KUNC",
+    "https://www.kunc.org/podcast/inthenoco/2026-06-17/why-longmont-leaders-said-no-to-massive-data-centers-in-town-before-any-had-been-proposed-there"
+   ]
+  ],
+  "im": -2,
+  "iw": "Bans the largest campuses, though none were proposed there",
+  "pl": [
+   [
+    "Longmont",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-02",
+  "j": "CO",
+  "w": "Boulder County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Boulder County adopts six-month pause on data center applications",
+  "b": "Commissioners unanimously stopped accepting planning applications for data centers (and detention centers) in unincorporated areas while staff draft land-use code changes. A public hearing was set for July 2.",
+  "s": [
+   [
+    "Boulder County",
+    "https://bouldercounty.gov/news/data-centers-and-detention-centers-commissioners-declare-moratorium/"
+   ]
+  ],
+  "im": -2,
+  "iw": "New applications frozen for up to six months",
+  "pl": [
+   [
+    "Boulder County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-19",
+  "j": "CO",
+  "w": "Jefferson County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium",
+   "water"
+  ],
+  "t": "Jefferson County pauses new data center applications and rezonings until March 2027",
+  "b": "Commissioners cited drought and unclear zoning definitions. Land already zoned for data centers through a Planned Development is excluded from the pause.",
+  "s": [
+   [
+    "Denver7",
+    "https://www.denver7.com/news/front-range/jefferson-county-imposes-temporary-moratorium-on-development-of-new-data-centers"
+   ]
+  ],
+  "im": -2,
+  "iw": "Ten-month freeze in a large metro-area county",
+  "pl": [
+   [
+    "Jefferson County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-11",
+  "j": "CO",
+  "w": "Colorado Senate Transportation & Energy Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "cost",
+   "water",
+   "siting"
+  ],
+  "t": "Colorado Senate committee shelves large-load data center regulation bill SB26-102",
+  "b": "The sponsor asked the committee to postpone her bill indefinitely, and it agreed unanimously, after a compromise with incentives fell through. She plans to reintroduce it next session.",
+  "s": [
+   [
+    "Colorado Newsline",
+    "https://coloradonewsline.com/2026/05/11/data-center-bills-rejected-legislative-session/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Proposed energy and water rules died for this year",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-07",
+  "j": "CO",
+  "w": "Colorado House Energy & Environment Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "tax",
+   "water"
+  ],
+  "t": "Colorado committee kills data center tax-incentive bill HB26-1030",
+  "b": "The House committee voted 11-2 to postpone the industry-backed incentive bill indefinitely. It would have offered long sales-tax exemptions for large investments. Colorado still has no state data center incentive.",
+  "s": [
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/05/07/data-center-incentives-colorado-die-in-legislature/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Developers lose a hoped-for state tax break",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-06",
+  "j": "CO",
+  "w": "Weld County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Weld County adopts data center zoning code and bars them from agricultural land",
+  "b": "Ordinance 2026-01 passed 4-1. Light industrial zones need a Use by Special Review; medium and heavy industrial need site plan review. The 50-megawatt figure limits backup generation, not total power use. Proof of water and an electric will-serve letter are required.",
+  "s": [
+   [
+    "Weld County",
+    "https://www.weld.gov/Newsroom/2026-News/Weld-County-Commissioners-approve-addition-of-data-centers-to-code"
+   ],
+   [
+    "North Forty News",
+    "https://northfortynews.com/category/news/weld-county-approves-data-center-code-update/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Clear permitting path with water and power proof required",
+  "pl": [
+   [
+    "Weld County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-07",
+  "j": "CO",
+  "w": "Colorado Air Pollution Control Division",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting"
+  ],
+  "t": "State reviews QTS request for 98 more diesel generators at Aurora data center",
+  "b": "QTS applied in July 2025 to add 98 backup generators to 40 already installed. State air regulators were reviewing the application as of July 2026, with a public comment period expected. NRDC cited ozone concerns.",
+  "s": [
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/07/08/qts-aurora-data-center-diesel-generators/"
+   ],
+   [
+    "Sentinel Colorado",
+    "https://sentinelcolorado.com/metro/aurora-considers-targeted-regulations-for-new-data-centers-amidst-growing-concerns/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Air permit could limit backup power at a hyperscale site",
+  "pl": [
+   [
+    "Aurora",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ }
+]
