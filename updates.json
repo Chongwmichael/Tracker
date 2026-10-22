@@ -1355,6 +1355,36 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-15",
+  "j": "WY",
+  "w": "Uinta County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Uinta County approves power-plant permit and rezoning for Prometheus data center",
+  "b": "Commissioners approved a conditional use permit for on-site, off-grid power generation and rezoned a 644-acre parcel from agricultural to business industrial. The permit carries 13 conditions, including annual county inspections and road upkeep.",
+  "s": [
+   [
+    "Wyoming Tribune Eagle",
+    "http://www.wyomingnews.com/news/local_news/uinta-county-approves-permit-for-incoming-data-center-s-power-grid/article_0e238d3c-5b6e-4be4-98d8-cc9e034e5bc8.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Clears the power side of a 1.25-gigawatt campus",
+  "pl": [
+   [
+    "Uinta County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-14",
   "j": "CO",
   "w": "Aurora City Council",
@@ -1511,21 +1541,25 @@
   "w": "Attorney General Raúl Torrez",
   "lv": "state",
   "k": "action",
-  "st": "pending",
+  "st": "failed",
   "ty": [
    "permitting",
    "water"
   ],
   "t": "Attorney general backs challenges to Project Jupiter air permit hearing and emergency well",
-  "b": "Torrez filed support for New Energy Economy and the Center for Biological Diversity, arguing the hearing was premature while the pipeline lacked federal approval and that the State Engineer misused an emergency well authorization. He said NMED could extend its deadline for good cause.",
+  "b": "Torrez filed support for New Energy Economy and the Center for Biological Diversity, arguing the air-permit hearing was premature and the State Engineer misused an emergency well authorization. The Supreme Court denied both petitions on Sept. 17.",
   "s": [
    [
-    "Source New Mexico (Yahoo)",
-    "https://www.yahoo.com/news/us/articles/mexico-ag-backs-environmental-groups-190642981.html"
+    "Source New Mexico",
+    "https://sourcenm.com/2026/09/03/new-mexico-ag-backs-environmental-groups-challenging-project-jupiter-before-state-supreme-court/"
+   ],
+   [
+    "New Mexico Department of Justice",
+    "https://nmdoj.gov/press-release/attorney-general-raul-torrez-files-responses-backing-emergency-petitions-challenging-project-jupiter-permitting-decisions/"
    ]
   ],
   "im": -1,
-  "iw": "State's top lawyer sides with project opponents",
+  "iw": "Attorney general sided with opponents, but the court rejected the challenges",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1606,6 +1640,40 @@
   ],
   "im": -1,
   "iw": "Moratorium and community-veto pledges in an open Senate race",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-01",
+  "j": "WY",
+  "w": "Natrona County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Natrona County weighs conditions and industrial-park zoning for Prometheus data center",
+  "b": "At a packed Sept. 1 meeting, commissioners heard Prometheus Hyperscale's plan for a roughly 1.25-gigawatt campus east of Casper. They are drafting conditions and weighing an industrial-park exemption that would bypass the state Industrial Siting Council.",
+  "s": [
+   [
+    "WyoFile",
+    "https://wyofile.com/natrona-county-and-prometheus-hyperscale-consider-bypassing-state-review-for-new-ai-complex/"
+   ],
+   [
+    "Your Wyoming Link",
+    "https://www.yourwyominglink.com/news/local/data-center-seeks-zoning-approval-from-natrona-county-commissioners/article_8be02051-6318-489c-a04e-f3440dcf78d5.html"
+   ]
+  ],
+  "im": 0,
+  "iw": "Zoning path and conditions still undecided",
+  "pl": [
+   [
+    "Natrona County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1983,6 +2051,34 @@
   ],
   "im": -1,
   "iw": "Proposed statewide ban faces a long road in the 2027 session",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-18",
+  "j": "WY",
+  "w": "Wyoming Republican primary voters",
+  "lv": "state",
+  "k": "politics",
+  "st": "campaign",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Wyoming primary: Barlow wins governor nomination, moratorium backer Bien loses",
+  "b": "State Sen. Eric Barlow, who says communities should decide on data center proposals, won the Republican nomination. Brent Bien, who promised a moratorium, lost. WyoFile found no sign that anti-data-center positions won local races in the southeast.",
+  "s": [
+   [
+    "WyoFile",
+    "https://wyofile.com/how-did-data-center-skepticism-impact-elections-in-southeastern-wyoming/"
+   ],
+   [
+    "KOTA",
+    "https://www.kotatv.com/2026/08/19/barlow-wins-gop-nomination-wyoming-governor-defeating-trump-backed-rival/"
+   ]
+  ],
+  "im": 1,
+  "iw": "A statewide pause pledge failed to win the nomination",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -2885,6 +2981,29 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-07",
+  "j": "WY",
+  "w": "Wyoming Public Service Commission",
+  "lv": "state",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Wyoming PSC rejects Anschutz request to treat Carbon County power project as non-utility",
+  "b": "The commission declined to declare that a direct power-to-customer project on the Overland Trail Ranch is not a public utility, which would have carved it out of Rocky Mountain Power's territory. Developers have eyed such projects for data centers.",
+  "s": [
+   [
+    "WyoFile via County 17",
+    "https://county17.com/2026/07/24/wyoming-contemplates-power-supply-regulations-for-ai-data-centers/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Limits one route for data centers to buy off-grid power",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-06-30",
   "j": "NM",
   "w": "Santa Fe County Commission",
@@ -3117,6 +3236,41 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-06-16",
+  "j": "WY",
+  "w": "Uinta County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting",
+   "water"
+  ],
+  "t": "Uinta County unanimously approves permit for Prometheus Hyperscale data center near Evanston",
+  "b": "The conditional use permit covers a 506-acre campus planned at 1.25 gigawatts. Its 15 conditions include annual public water-use reporting for 10 years, noise and lighting limits, and construction starting within five years.",
+  "s": [
+   [
+    "WyoFile",
+    "https://wyofile.com/uinta-county-data-center-moves-forward/"
+   ],
+   [
+    "Cowboy State Daily",
+    "https://cowboystatedaily.com/2026/06/17/uinta-county-oks-massive-prometheus-data-center-as-residents-remain-split/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Major county permit granted, with transparency conditions",
+  "pl": [
+   [
+    "Uinta County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-06-10",
   "j": "UT",
   "w": "Box Elder County Commission",
@@ -3309,6 +3463,35 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-06-04",
+  "j": "WY",
+  "w": "Sen. Cheri Steinmetz",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "water",
+   "cost"
+  ],
+  "t": "Steinmetz asks lawmakers to poll on special session for data centers",
+  "b": "The senator requested a poll on a session focused on data centers, large electric loads and water, calling the governor's order a fast track. Senate President Bo Biteman called a session premature. No special session had been reported.",
+  "s": [
+   [
+    "Cowboy State Daily",
+    "https://cowboystatedaily.com/2026/06/04/wyoming-state-senator-interested-in-special-session-to-address-data-centers/"
+   ],
+   [
+    "KOWB",
+    "https://kowb1290.com/ixp/99/p/legislature-data-centers-special-session/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Pressure for state limits before the 2027 session",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-06-03",
   "j": "UT",
   "w": "Box Elder Accountability Referendum (BEAR)",
@@ -3371,6 +3554,39 @@
   ],
   "im": -1,
   "iw": "Challenges the legal basis of the fast-track approval",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-03",
+  "j": "WY",
+  "w": "Gov. Mark Gordon",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "cost",
+   "water",
+   "siting"
+  ],
+  "t": "Gordon signs 'Data Centers the Wyoming Way' executive order",
+  "b": "Executive Order 2026-03 sets a framework directing agencies to protect ratepayers, water, wildlife and communities, require public participation, and expect developers to cover their power costs. It also welcomes investment and cites national security.",
+  "s": [
+   [
+    "WyoFile",
+    "https://wyofile.com/gov-gordon-demands-data-center-developers-do-it-the-wyoming-way/"
+   ],
+   [
+    "Oil City News",
+    "https://oilcity.news/government/state/2026/06/03/gov-gordon-signs-order-to-manage-wyomings-data-center-growth/"
+   ],
+   [
+    "Governor Mark Gordon",
+    "https://governor.wyo.gov/news-releases/op-ed-by-governor-mark-gordon-managing-data-centers-to-protect-the-wyoming-way-while-securing-our-economic-future-and-our-nation"
+   ]
+  ],
+  "im": 0,
+  "iw": "Welcomes projects but adds cost, water and transparency expectations",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -3438,6 +3654,61 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-06",
+  "j": "WY",
+  "w": "Wyoming Minerals, Business and Economic Development Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost",
+   "permitting"
+  ],
+  "t": "Wyoming interim committee carries draft bill to exempt some generators from utility rules",
+  "b": "The draft would let producers serving one customer of 25 megawatts or more operate outside utility regulation. Prometheus Hyperscale backed it; utilities warned residents could bear backup and stranded-asset costs. The committee also asked for a bill codifying PSC rules.",
+  "s": [
+   [
+    "Oil City News",
+    "https://oilcity.news/general/2026/06/04/wyoming-lawmakers-consider-energy-deregulation-for-data-centers-industrial-power/"
+   ],
+   [
+    "County 17",
+    "https://county17.com/2026/06/04/wyoming-lawmakers-consider-energy-deregulation-for-data-centers-industrial-power/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Possible route for off-grid power supply to data centers",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06",
+  "j": "WY",
+  "w": "Cheyenne Light, Fuel and Power (Black Hills Energy)",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Black Hills asks Wyoming PSC for large-customer transmission cost mechanism",
+  "b": "The filing seeks a Large Customer Transmission Cost Adjustment Mechanism and changes to related tariffs, aimed at assigning transmission costs to very large customers such as data centers. The PSC noticed the application July 7; a decision is pending.",
+  "s": [
+   [
+    "Wyoming PSC",
+    "https://psc.wyo.gov/home/public-notices"
+   ],
+   [
+    "American Public Power Association",
+    "https://www.publicpower.org/periodical/article/energy-company-signs-agreements-serve-planned-google-data-center-wyoming"
+   ]
+  ],
+  "im": -1,
+  "iw": "Shifts more transmission cost onto large data center customers",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-05-29",
   "j": "UT",
   "w": "Gov. Spencer Cox",
@@ -3501,6 +3772,34 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-05-27",
+  "j": "WY",
+  "w": "Wyoming Public Service Commission",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "cost"
+  ],
+  "t": "Wyoming PSC proposes rules for non-public-utility power generators",
+  "b": "The commission gave notice of intent to adopt Chapter 6, a process to decide when arrangements generating electricity for retail customers are exempt from utility rules. A public hearing was set for Aug. 5; adoption is pending.",
+  "s": [
+   [
+    "Wyoming PSC",
+    "https://psc.wyo.gov/home/public-notices"
+   ],
+   [
+    "WyoFile via KOTA",
+    "https://www.kotatv.com/2026/07/30/wyoming-contemplates-power-supply-regulations-ai-data-centers/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Could ease off-grid generation for data centers",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-05-26",
   "j": "UT",
   "w": "Iron County Commission",
@@ -3532,6 +3831,43 @@
    [
     "Iron County",
     "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-26",
+  "j": "WY",
+  "w": "Cheyenne City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Cheyenne council rejects one-year data center moratorium, 8-1",
+  "b": "After about four hours of public comment, split roughly evenly, only sponsor Mark Moody voted for the pause. Some outlets reported 9-1; the Greater Cheyenne Chamber says the official record shows 8-1. Opponents cited jobs and existing studies.",
+  "s": [
+   [
+    "WyoFile",
+    "https://wyofile.com/cheyenne-rejects-moratorium-on-data-centers/"
+   ],
+   [
+    "Cap City News",
+    "https://capcity.news/community/city/2026/05/27/cheyenne-city-council-rejects-data-center-moratorium/"
+   ],
+   [
+    "Greater Cheyenne Chamber",
+    "https://www.cheyennechamber.org/post/cheyenne-votes-down-data-center-moratorium-what-happened-and-what-s-actually-confirmed"
+   ]
+  ],
+  "im": 1,
+  "iw": "Pause rejected in the state's biggest data center market",
+  "pl": [
+   [
+    "Cheyenne",
+    "city"
    ]
   ],
   "auto": false,
@@ -4677,6 +5013,44 @@
   ],
   "im": 1,
   "iw": "Stricter state requirements did not advance",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-01-06",
+  "j": "WY",
+  "w": "Laramie County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Laramie County unanimously approves Crusoe data center and Tallgrass power plant site plans",
+  "b": "Site plans cover Project Jade, a 1.8-gigawatt first phase that could scale far higher, and a gas plant of up to 2.7 gigawatts south of Cheyenne. The campus was later renamed Project Tembo. Future phases need new county review.",
+  "s": [
+   [
+    "Oil City News",
+    "https://oilcity.news/wyoming/2026/01/06/crusoe-tallgrass-get-green-light-for-wyoming-ai-energy-campus-2/"
+   ],
+   [
+    "WyoFile (Inside Climate News)",
+    "https://wyofile.com/laramie-county-approves-construction-of-what-could-become-the-largest-data-center-in-us/"
+   ],
+   [
+    "Cap City News",
+    "https://capcity.news/latest-news/2026/08/26/deq-explains-role-in-regulating-laramie-county-industrial-projects-in-tuesday-forum/"
+   ]
+  ],
+  "im": 1,
+  "iw": "One of the largest proposed campuses clears county approval",
+  "pl": [
+   [
+    "Laramie County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
