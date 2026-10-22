@@ -62,6 +62,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-21",
+  "j": "MT",
+  "w": "Missoula County Planning, Development and Sustainability",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Missoula County study finds data center risks justify its moratorium",
+  "b": "The draft emergency study released Oct. 21 cites electricity demand and costs, noise, wildlife and residential compatibility, and recommends stronger zoning. The county may extend the pause past July 8, 2027. A permanent ban is unlikely under the Right to Compute Act.",
+  "s": [
+   [
+    "NBC Montana",
+    "https://nbcmontana.com/news/local/missoula-co-releases-ai-data-center-study-amid-1-year-pause"
+   ],
+   [
+    "Montana Right Now",
+    "https://www.montanarightnow.com/missoula/missoula-county-draft-study-echoes-concerns-about-data-centers/article_b67b1970-6f16-4536-9982-dac2301d7ad9.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "Points to stricter zoning and a possible second year of pause",
+  "pl": [
+   [
+    "Missoula County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-20",
   "j": "CO",
   "w": "Colorado Public Utilities Commission",
@@ -504,6 +537,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-06",
+  "j": "MT",
+  "w": "Yellowstone County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting"
+  ],
+  "t": "Yellowstone County sues again to test legality of new data center initiative",
+  "b": "Commissioners voted 3-0 to seek a court ruling on Kassi Solberg's new initiative, which would require two-thirds voter approval before data centers start or resume operations, aimed at a May 2027 vote. The county cites the Right to Compute Act.",
+  "s": [
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/10/07/yellowstone-county-sues-over-initiative-aimed-at-quantica-data-center/"
+   ],
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/09/24/broadview-data-center-state-law/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Court ruling could block the voter-approval measure",
+  "pl": [
+   [
+    "Yellowstone County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-05",
   "j": "NM",
   "w": "Attorney General Raúl Torrez",
@@ -664,6 +730,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-24",
+  "j": "MT",
+  "w": "Montana Supreme Court",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "siting"
+  ],
+  "t": "Montana Supreme Court reverses itself, keeps Butte data center initiative off ballot",
+  "b": "The court ordered the measure onto the November ballot Sept. 22, then vacated that order two days later because ballots had already been mailed. The initiative would require two-thirds voter approval for new data centers. Organizers asked for reconsideration.",
+  "s": [
+   [
+    "Daily Montanan",
+    "https://dailymontanan.com/2026/09/25/montana-supreme-court-vacates-decision-to-put-butte-data-center-issue-to-voters/"
+   ],
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/09/23/supreme-court-puts-data-center-initiative-back-on-ballot/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Voter-approval requirement stays off the ballot for now",
+  "pl": [
+   [
+    "Butte-Silver Bow",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-23",
   "j": "AZ",
   "w": "Arizona congressional Democrats",
@@ -818,6 +917,36 @@
    [
     "Tucson",
     "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-22",
+  "j": "MT",
+  "w": "Yellowstone County Commissioners",
+  "lv": "local",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Yellowstone County asks legislators to refine Montana's Right to Compute Act",
+  "b": "The three commissioners signed a letter saying the 2025 law keeps them from regulating Quantica's 5,000-acre project near Broadview. They asked local legislators to clarify counties' authority over data center land use.",
+  "s": [
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/09/24/broadview-data-center-state-law/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Local officials press for power to regulate large projects",
+  "pl": [
+   [
+    "Yellowstone County",
+    "county"
    ]
   ],
   "auto": false,
@@ -1007,6 +1136,34 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-16",
+  "j": "MT",
+  "w": "Montana Free Press-Rutgers Eagleton poll",
+  "lv": "state",
+  "k": "politics",
+  "st": "poll",
+  "ty": [
+   "cost",
+   "siting"
+  ],
+  "t": "Poll: nearly three-quarters of Montana voters oppose nearby data centers",
+  "b": "A survey of 839 registered voters found nearly 75% oppose a data center in their city or a neighboring county, and 92% back state rules limiting effects on electricity prices. Voters split 45% to 49% on whether data centers help the economy.",
+  "s": [
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/09/16/montana-registered-voters-data-centers/"
+   ],
+   [
+    "Eagleton Institute of Politics",
+    "https://eagleton.rutgers.edu/whats-on-montana-voters-minds-new-poll-explores-the-issues-shaping-their-state/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Broad opposition adds pressure on officials and utilities",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-15",
   "j": "UT",
   "w": "Mona Cares (residents' group)",
@@ -1165,6 +1322,29 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-09",
+  "j": "MT",
+  "w": "Energy and Technology Interim Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Montana interim committee advances draft bill to shield ratepayers from data center costs",
+  "b": "The committee voted unanimously to carry the draft into the 2027 session. It would direct the PSC to set terms for customers of 5 megawatts or more and require financial guarantees. NorthWestern Energy criticized it.",
+  "s": [
+   [
+    "Daily Montanan",
+    "https://dailymontanan.com/2026/09/09/lawmakers-dont-want-ratepayers-saddled-with-data-center-costs/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Likely cost-allocation and guarantee requirements in 2027",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-08",
   "j": "UT",
   "w": "Clearfield City Council",
@@ -1274,6 +1454,30 @@
   ],
   "im": -1,
   "iw": "Broad bipartisan opposition adds political pressure",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-02",
+  "j": "MT",
+  "w": "Alani Bankhead (D) and Seth Bodnar (I), U.S. Senate candidates",
+  "lv": "federal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "cost"
+  ],
+  "t": "Montana Senate candidates Bankhead and Bodnar lay out data center positions",
+  "b": "Democrat Alani Bankhead called for a moratorium on large data center development until community impacts are studied. Independent Seth Bodnar pledged to shield ratepayers and give communities the final say. The candidates agreed projects need more transparency.",
+  "s": [
+   [
+    "Montana Right Now",
+    "https://www.montanarightnow.com/helena/montana-u-s-senate-candidates-weigh-in-on-data-centers-and-ai/article_64f0ce52-f6d0-44df-b2a2-4cd2cc8290ad.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "Moratorium and community-veto pledges in an open Senate race",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1482,6 +1686,38 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-25",
+  "j": "MT",
+  "w": "Governor's Energy Task Force",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "cost",
+   "permitting"
+  ],
+  "t": "Montana energy task force urges clear path for large loads without cost shifts",
+  "b": "The 20-recommendation final report asks the state to intervene in NorthWestern's large-load tariff case and clarify how utilities serve loads like data centers, with no rate impacts or stranded costs for existing customers. Its first item is considering an appointed PSC.",
+  "s": [
+   [
+    "Montana Governor's Office",
+    "https://news.mt.gov/Governors-Office/Governor-Gianforte-Receives-Energy-Task-Force-Report"
+   ],
+   [
+    "Daily Montanan",
+    "https://dailymontanan.com/2026/08/25/gianfortes-energy-task-force-calls-for-psc-reform/"
+   ],
+   [
+    "KRTV",
+    "https://www.krtv.com/news/montana-politics/state-task-force-unveils-recommendations-on-montanas-energy-future"
+   ]
+  ],
+  "im": 0,
+  "iw": "Wants faster service for large loads but protected ratepayers",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-08-24",
   "j": "NM",
   "w": "Rep. Melanie Stansbury",
@@ -1596,6 +1832,33 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-18",
+  "j": "MT",
+  "w": "State Sen. Ellie Boldman (D-Missoula)",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Montana state senator says her first 2027 bill request would ban large data centers",
+  "b": "In an op-ed, Democratic Sen. Ellie Boldman said she has filed a draft request to ban large-scale data centers statewide and will not compromise. Draft requests have no legal effect until a bill is introduced.",
+  "s": [
+   [
+    "Missoula Current",
+    "https://missoulacurrent.com/ban-data-centers/"
+   ],
+   [
+    "Montana Legislature",
+    "https://www.legmt.gov/bills/2027-bill-draft-requests/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Proposed statewide ban faces a long road in the 2027 session",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-08-14",
   "j": "CO",
   "w": "Colorado Springs mayor",
@@ -1680,6 +1943,39 @@
   "pl": [
    [
     "Douglas County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-11",
+  "j": "MT",
+  "w": "Yellowstone County District Court",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "siting"
+  ],
+  "t": "Judge rules Yellowstone County data center initiative missed signature deadline",
+  "b": "The judge held the deadline passed July 13, not Aug. 12 as organizers were first told, so the voter-approval measure stays off the November ballot. Organizers had gathered roughly 15,000 signatures against about 16,600 needed.",
+  "s": [
+   [
+    "KTVQ",
+    "https://www.ktvq.com/news/judge-rules-deadline-has-passed-for-signatures-for-yellowstone-county-data-center-measure"
+   ],
+   [
+    "Daily Montanan",
+    "https://dailymontanan.com/2026/08/15/yellowstone-county-data-center-ballot-initiative-stopped-by-courts/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Voter-approval measure blocked for Quantica's Broadview project",
+  "pl": [
+   [
+    "Yellowstone County",
     "county"
    ]
   ],
@@ -2103,6 +2399,66 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-07-09",
+  "j": "MT",
+  "w": "Missoula County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Missoula County adopts one-year data center moratorium outside city limits",
+  "b": "Commissioners voted unanimously for interim zoning that pauses new or expanded data centers through July 8, 2027, extendable once. The county attorney said it has no authority to ban them permanently. An application already filed was not covered.",
+  "s": [
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/07/09/missoula-county-adopts-temporary-moratorium-on-data-centers/"
+   ],
+   [
+    "Missoula County Voice",
+    "https://missoulacountyvoice.com/data-center-interim-zoning"
+   ]
+  ],
+  "im": -2,
+  "iw": "Year-long freeze on new and expanded projects in the county",
+  "pl": [
+   [
+    "Missoula County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-08",
+  "j": "MT",
+  "w": "Gov. Greg Gianforte",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "cost"
+  ],
+  "t": "Gianforte signs Trump's Ratepayer Protection Pledge for data centers",
+  "b": "The governor said the pledge commits data center companies to pay the full cost of their energy and infrastructure. The pledge is voluntary, and the elected Public Service Commission, which sets utility rates, is not bound by it.",
+  "s": [
+   [
+    "Montana Governor's Office",
+    "https://news.mt.gov/Governors-Office/Gov-Gianforte-Signs-Ratepayer-Protection-Pledge-to-Protect-Montana-Consumers"
+   ],
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/07/10/connecting-montanas-immigration-enforcement-dots/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Signals developers will be expected to pay their own way",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-07-07",
   "j": "UT",
   "w": "Grand County Commission",
@@ -2158,6 +2514,39 @@
   "pl": [
    [
     "Broomfield",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-06",
+  "j": "MT",
+  "w": "Bonner Mill Industrial Park owner",
+  "lv": "local",
+  "k": "politics",
+  "st": "protest",
+  "ty": [
+   "siting"
+  ],
+  "t": "Bonner property owner withdraws support for Krambu data center after opposition",
+  "b": "The industrial park's manager withdrew his signature from the special exception application after hearing public concerns, halting a 7-megawatt first phase that could grow to 29. The county moratorium would not have covered the filed application.",
+  "s": [
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/07/06/property-owner-of-proposed-bonner-data-center-backs-out/"
+   ],
+   [
+    "Missoula County Voice",
+    "https://missoulacountyvoice.com/bonner-data-center"
+   ]
+  ],
+  "im": -1,
+  "iw": "Opposition cost a proposed project its site",
+  "pl": [
+   [
+    "Missoula County",
     "county"
    ]
   ],
@@ -2381,6 +2770,29 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-20",
+  "j": "MT",
+  "w": "Montana Democratic Party convention",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Montana Democrats adopt two-year data center moratorium plank at convention",
+  "b": "Delegates voted at the June 20 state convention to support a two-year moratorium on data center projects as a party platform plank. The plank is a political position, not law.",
+  "s": [
+   [
+    "Daily Montanan",
+    "https://www.newsfromthestates.com/article/montana-voters-seek-oversight-data-center-construction"
+   ]
+  ],
+  "im": -1,
+  "iw": "A major party now backs a statewide pause",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -3097,6 +3509,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-05",
+  "j": "MT",
+  "w": "Sabey Data Centers",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "siting"
+  ],
+  "t": "Sabey ends Butte land deal after REC Silicon uses purchase right",
+  "b": "Sabey terminated its agreement to buy about 606 acres for two planned 500,000-square-foot data centers after REC Silicon exercised a right of first refusal on much of the land. Sabey said it is still looking in southwest Montana.",
+  "s": [
+   [
+    "NBC Montana",
+    "https://nbcmontana.com/news/local/sabey-data-centers-officially-backs-out-of-butte-agreement"
+   ],
+   [
+    "MSU Exponent",
+    "https://www.msuexponent.com/news/state/sabey-nixes-buy-sell-agreement-with-butte-silver-bow-but-still-hunting-for-data-center/article_52530a82-0222-5270-92ce-427e33f8921b.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "Project lost its site over land rights, though Sabey seeks others",
+  "pl": [
+   [
+    "Butte-Silver Bow",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-04-27",
   "j": "UT",
   "w": "Duchesne County Commission",
@@ -3291,6 +3736,33 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03-31",
+  "j": "MT",
+  "w": "NorthWestern Energy and Montana PSC",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "NorthWestern asks PSC to approve large-load tariff for data centers",
+  "b": "The proposal covers new customers of 5 megawatts or more, with minimum service terms, billing requirements, collateral and termination costs, and PSC review of agreements for the largest. Many parties, including DEQ, sought to intervene. A decision is pending.",
+  "s": [
+   [
+    "Montana Governor's Office",
+    "https://news.mt.gov/Governors-Office/Gov-Gianforte-DEQ-Intervene-in-Large-New-Load-Tariff-Case-to-Protect-Montana-Customers"
+   ],
+   [
+    "Daily Montanan",
+    "https://dailymontanan.com/2026/06/22/high-interest-in-data-center-discussion-at-public-service-commission/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Minimum bills, collateral and exit fees raise developer costs",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -3656,6 +4128,40 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-02-04",
+  "j": "MT",
+  "w": "Butte-Silver Bow Council of Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Butte commissioners extend Sabey data center land deal six months, 9-3",
+  "b": "The council moved the closing deadline for 606 acres from Feb. 11 to Aug. 11, short of the one year Sabey sought. Any final land transfer now needs approval from two-thirds of the 12 commissioners.",
+  "s": [
+   [
+    "NBC Montana",
+    "https://nbcmontana.com/news/local/butte-commissioners-grant-extension-for-proposed-data-center-deal"
+   ],
+   [
+    "KULR",
+    "https://www.kulr8.com/news/state/b-sb-council-oks-six-month-extension-on-sabey-data-center-land-deal/article_9f4dbd86-2168-5ab7-9916-14f37656e61f.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Keeps the project alive but adds a two-thirds council vote",
+  "pl": [
+   [
+    "Butte-Silver Bow",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-02",
   "j": "AZ",
   "w": "LeChee Chapter, Navajo Nation",
@@ -3713,6 +4219,35 @@
   ],
   "im": 1,
   "iw": "Stricter state requirements did not advance",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-01",
+  "j": "MT",
+  "w": "Butte-Silver Bow Council of Commissioners",
+  "lv": "local",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "cost"
+  ],
+  "t": "Butte commissioners ask PSC for separate rate class for large data center loads",
+  "b": "The council voted 10-0 to send a letter urging the Public Service Commission to create a separate rate class and binding tariffs for large electric loads, protecting existing customers. The county has no authority over electric rates.",
+  "s": [
+   [
+    "Montana Right Now",
+    "https://www.montanarightnow.com/news/state/sabey-wants-extension-on-data-center-land-deal-with-butte-silver-bow/article_e053bb73-46a0-5f2a-8748-942d25d1bd42.html?mode=nowapp"
+   ]
+  ],
+  "im": -1,
+  "iw": "Local officials push regulators toward stricter large-load rules",
+  "pl": [
+   [
+    "Butte-Silver Bow",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -3908,6 +4443,61 @@
   ],
   "im": -1,
   "iw": "Higher power costs for large users if approved",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-05",
+  "j": "MT",
+  "w": "Montana Legislature",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "tax"
+  ],
+  "t": "Montana extends data center property tax incentive to 2037",
+  "b": "HB 424 extends the window to begin qualified data center construction to 2037 and adds on-site generation and storage property to the reduced-rate treatment. Data center property is taxed at 0.9%.",
+  "s": [
+   [
+    "Montana Legislature",
+    "https://archive.legmt.gov/content/Sessions/69th/Contractor_index/CH0678.pdf"
+   ],
+   [
+    "Daily Montanan",
+    "https://dailymontanan.com/2025/04/03/legislators-propose-bills-to-back-data-centers-legislate-blockchain-technology/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Longer tax incentive and self-generation treatment",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-04",
+  "j": "MT",
+  "w": "Montana Legislature and Gov. Gianforte",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Montana Right to Compute Act limits government restrictions on data centers",
+  "b": "SB 212 passed 50-0 in the Senate and 61-38 in the House. It requires restrictions on computing resources to be narrowly tailored to a compelling interest. Local officials say it constrains moratoria and zoning.",
+  "s": [
+   [
+    "Montana Legislature",
+    "https://archive.legmt.gov/content/Sessions/69th/Contractor_index/CH0150.pdf"
+   ],
+   [
+    "Montana Free Press",
+    "https://montanafreepress.org/2026/09/24/broadview-data-center-state-law/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Legal shield against local bans and strict zoning",
   "auto": false,
   "by": "Chongwmichael"
  }
