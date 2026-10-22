@@ -570,6 +570,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-06",
+  "j": "ID",
+  "w": "Blaine County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Blaine County adopts 182-day emergency moratorium on data center permits",
+  "b": "Commissioners voted 3-0 to stop receiving, processing and approving data center permit applications for the maximum period the law allows while staff draft zoning rules. No application had been filed.",
+  "s": [
+   [
+    "Idaho Mountain Express",
+    "https://www.mtexpress.com/news/blaine_county/county-enacts-emergency-moratorium-on-data-centers/article_f6a9f3b1-88ad-40c6-b9c2-36649bedfe3f.html"
+   ],
+   [
+    "KIVI",
+    "https://www.kivitv.com/wood-river-valley/blaine-county-passes-emergency-moratorium-on-data-centers-giving-the-county-182-days-to-craft-rules"
+   ]
+  ],
+  "im": -2,
+  "iw": "Permit applications frozen for six months",
+  "pl": [
+   [
+    "Blaine County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-05",
   "j": "NM",
   "w": "Attorney General Raúl Torrez",
@@ -791,6 +824,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-23",
+  "j": "ID",
+  "w": "Boise Mayor Lauren McLean",
+  "lv": "local",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting"
+  ],
+  "t": "Boise mayor says no mega data center should proceed without statewide framework",
+  "b": "McLean called a proposed data center on public land near Blacks Creek shortsighted and said none of that size should be considered until Idaho adopts a statewide framework. The Sierra Club also opposed the plan.",
+  "s": [
+   [
+    "Idaho Statesman via Spokesman-Review",
+    "https://www.spokesman.com/stories/2026/sep/23/boise-mayor-blasts-shortsighted-push-for-mega-data/"
+   ],
+   [
+    "KIVI via Local News 8",
+    "https://localnews8.com/news/top-stories/2026/09/25/massive-south-boise-data-center-proposal/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Adds local political pressure against a very large project",
+  "pl": [
+   [
+    "Boise",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-22",
   "j": "NM",
   "w": "Raton City Commission",
@@ -982,6 +1048,34 @@
     "city"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-21",
+  "j": "ID",
+  "w": "Bureau of Land Management",
+  "lv": "federal",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "BLM reviews application for 4-million-square-foot Rhea Data center near Boise",
+  "b": "Rhea Data, an Arevia Power subsidiary, seeks about 3,700 acres of public land in Ada County for a 600-megawatt campus with a gas plant. BLM expects to publish a notice of intent by year-end; nothing has been approved.",
+  "s": [
+   [
+    "East Idaho News (Idaho Statesman)",
+    "https://www.eastidahonews.com/2026/09/massive-data-center-with-power-plant-planned-for-public-land-in-idaho/"
+   ],
+   [
+    "Boise State Public Radio",
+    "https://www.boisestatepublicradio.org/politics-government/2026-09-21/idaho-data-center-blacks-creek-blm"
+   ]
+  ],
+  "im": 0,
+  "iw": "Early federal review of a very large project with local opposition",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1221,6 +1315,40 @@
    [
     "Loveland",
     "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-15",
+  "j": "ID",
+  "w": "Latah County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "water"
+  ],
+  "t": "Latah County adopts data center ordinance restricting groundwater cooling",
+  "b": "Commissioners unanimously approved rules making data centers a conditional use in industrial zones and prohibiting consumptive groundwater use for routine cooling. No data center has been proposed in the county.",
+  "s": [
+   [
+    "Pullman Radio",
+    "https://pullmanradio.com/latah-county-commissioners-unanimously-approve-rules-for-data-centers/"
+   ],
+   [
+    "Lewiston Tribune",
+    "https://www.lmtribune.com/local-news/latah-county-passes-new-rules-for-data-centers-5445f4c7"
+   ]
+  ],
+  "im": -1,
+  "iw": "Conditional approval and a groundwater cooling ban",
+  "pl": [
+   [
+    "Latah County",
+    "county"
    ]
   ],
   "auto": false,
@@ -2119,6 +2247,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-04",
+  "j": "ID",
+  "w": "Coeur d'Alene City Council",
+  "lv": "local",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting"
+  ],
+  "t": "Coeur d'Alene council opposes approving data centers until study is complete",
+  "b": "Council unanimously adopted Resolution 26-065 opposing construction, expansion or approval of data centers within city limits until further analysis and policy review. Proposals would still receive due process. No data centers operate in the city.",
+  "s": [
+   [
+    "Coeur d'Alene Press",
+    "https://cdapress.com/news/2026/aug/05/city-takes-stance-on-data-centers/"
+   ],
+   [
+    "City of Coeur d'Alene",
+    "https://www.cdaid.org/media/smxnt3fx/packet-081826-web-rev-081426.pdf"
+   ]
+  ],
+  "im": -1,
+  "iw": "Signals denial of near-term approvals in the city",
+  "pl": [
+   [
+    "Coeur d'Alene",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-08-03",
   "j": "NM",
   "w": "Sen. Martin Heinrich",
@@ -2146,6 +2307,43 @@
   ],
   "im": -1,
   "iw": "Developers would bear grid-upgrade costs; he opposes moratoria",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-30",
+  "j": "ID",
+  "w": "Bannock County Commissioners",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Bannock County adopts 180-day moratorium on data center permit applications",
+  "b": "Emergency Ordinance 2026-02 pauses applications in unincorporated areas from July 30 through Jan. 26, 2027 while staff draft a standalone ordinance. It does not apply to Pocatello, where a separate project is under city review.",
+  "s": [
+   [
+    "Bannock County",
+    "https://www.bannockcounty.gov/datacenter/"
+   ],
+   [
+    "Idaho State Journal",
+    "https://www.idahostatejournal.com/news/local/bannock-county-enacts-data-center-moratorium-as-hoku-land-use-battle-rages-in-pocatello/article_1130b8d7-0fd0-429c-af31-e1a31559c391.html"
+   ],
+   [
+    "KIFI",
+    "https://localnews8.com/news/pocatello/2026/07/31/bannock-county-approves-180-day-emergency-moratorium-on-data-center-permits/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for six months in a county with strong power resources",
+  "pl": [
+   [
+    "Bannock County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -2299,6 +2497,77 @@
   "pl": [
    [
     "Woodland Park",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-16",
+  "j": "ID",
+  "w": "Pocatello City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Pocatello council upholds denial of AI data center on former Hoku site, 4-1",
+  "b": "Council voted 4-1 to affirm the hearing examiner's decision on the $2.6 billion project. The developer filed for reconsideration July 29. The city is updating its zoning code to address data centers, which staff said could take up to 18 months.",
+  "s": [
+   [
+    "East Idaho News",
+    "https://www.eastidahonews.com/2026/07/pocatello-city-council-upholds-decision-to-deny-ai-data-center/"
+   ],
+   [
+    "KTVB",
+    "https://www.ktvb.com/article/news/local/pocatello-council-affirms-denial-proposed-data-center/277-d4e8df30-8031-4183-b453-c528ad0fb20c"
+   ],
+   [
+    "Idaho State Journal",
+    "https://www.idahostatejournal.com/news/local/lex-developments-files-reconsideration-request-accuses-pocatello-of-due-process-violations/article_8f5ab450-36bc-4bb1-8c4c-49440ee95e8e.html"
+   ]
+  ],
+  "im": -2,
+  "iw": "Large project stays blocked, with reconsideration or court review possible",
+  "pl": [
+   [
+    "Pocatello",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-15",
+  "j": "ID",
+  "w": "Sandpoint City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting"
+  ],
+  "t": "Sandpoint council directs staff to define data centers for future city ban",
+  "b": "Council voted unanimously to have staff propose a definition of data center for an ordinance that would prohibit the use within city limits. Councilor Pam Duquette brought the idea. No ban has been adopted.",
+  "s": [
+   [
+    "Sandpoint Reader",
+    "https://sandpointreader.com/sandpoint-looking-to-ban-data-centers-within-city-limits/"
+   ],
+   [
+    "Coeur d'Alene Press",
+    "https://cdapress.com/news/2026/jul/22/council-discusses-next-steps-to-ban-data-centers-c/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Possible city ban if an ordinance follows",
+  "pl": [
+   [
+    "Sandpoint",
     "city"
    ]
   ],
@@ -3323,6 +3592,40 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-05-19",
+  "j": "ID",
+  "w": "Pocatello hearing examiner",
+  "lv": "local",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Pocatello hearing examiner denies permit for $2.6 billion AI data center",
+  "b": "Examiner Kathleen Lewis found Lex Developments' application for the former Hoku plant failed three of seven criteria: public facilities, environmental impact and public welfare. She said power, water and air studies should come before another application.",
+  "s": [
+   [
+    "BoiseDev",
+    "https://boisedev.com/news/2026/06/09/a-2-6-billion-idaho-data-center-was-denied-the-developer-is-trying-again/"
+   ],
+   [
+    "Local News 8",
+    "https://localnews8.com/news/2026/07/02/city-council-to-hear-ai-data-center-appeal-on-july-16-following-new-idaho-law-on-water-usage/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Project-killing decision for Idaho's largest proposed campus",
+  "pl": [
+   [
+    "Pocatello",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-05-11",
   "j": "CO",
   "w": "Colorado Senate Transportation & Energy Committee",
@@ -3542,6 +3845,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-05",
+  "j": "ID",
+  "w": "Idaho district court",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Judge rejects farmers' challenge to Kuna's approval of 620-acre data center",
+  "b": "Judge James Cawthon denied judicial review of the 3-2 council vote that rezoned land for Diode Ventures' Gemstone Technology Park, finding no disqualifying conflict of interest. The farmers have appealed to the Idaho Supreme Court.",
+  "s": [
+   [
+    "BoiseDev",
+    "https://boisedev.com/news/2026/08/19/kuna-farmers-appeal-to-idaho-supreme-court-after-petition-against-a-kuna-data-center-was-thrown-out/"
+   ],
+   [
+    "BoiseDev",
+    "https://boisedev.com/news/2026/02/03/data-center-suit/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Rezoning for a large campus survives a legal challenge",
+  "pl": [
+   [
+    "Kuna",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-04-27",
   "j": "UT",
   "w": "Duchesne County Commission",
@@ -3671,6 +4007,37 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-04-10",
+  "j": "ID",
+  "w": "Idaho Legislature and Gov. Brad Little",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "cost"
+  ],
+  "t": "Idaho law requires PUC-approved contracts for new loads of 50 megawatts or more",
+  "b": "HB 911, signed April 10, sets a no-harm test, cost allocation and financial security for utilities serving new large loads such as data centers. It took effect July 1 after passing the House 65-3 and Senate 34-1.",
+  "s": [
+   [
+    "Idaho Legislature",
+    "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0911/"
+   ],
+   [
+    "LegiScan",
+    "https://legiscan.com/ID/bill/H0911/2026"
+   ],
+   [
+    "Idaho Conservation League",
+    "https://idahoconservation.org/icl-bill-tracker/electricity-new-large-loads"
+   ]
+  ],
+  "im": -1,
+  "iw": "Cost-recovery and security requirements for large loads",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-04-07",
   "j": "AZ",
   "w": "Cochise County Board of Supervisors",
@@ -3740,6 +4107,70 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-04-02",
+  "j": "ID",
+  "w": "Idaho Legislature and Gov. Brad Little",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water"
+  ],
+  "t": "Idaho law restricts consumptive water cooling for new data centers",
+  "b": "HB 895 bars data centers that begin construction on or after July 1, 2026 from consuming water for cooling unless it comes from a municipal or water district system. It passed the House 58-10 and Senate 32-1.",
+  "s": [
+   [
+    "Idaho Legislature",
+    "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0895/"
+   ],
+   [
+    "LegiScan",
+    "https://legiscan.com/ID/bill/H0895/2026"
+   ],
+   [
+    "Capital Press",
+    "https://capitalpress.com/2026/03/30/idaho-advances-bill-on-data-center-water-consumption/"
+   ]
+  ],
+  "im": -1,
+  "iw": "New projects must use closed-loop cooling or municipal water",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-02",
+  "j": "ID",
+  "w": "Idaho Legislature",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "tax",
+   "water",
+   "cost"
+  ],
+  "t": "Idaho bill to narrow data center tax breaks dies without House concurrence",
+  "b": "HB 897 would have limited the sales tax exemption for new data centers to server equipment and added utility cost-recovery and water-notice rules. It passed the House 68-0 and the Senate 34-0 as amended, but the House never voted on the changes.",
+  "s": [
+   [
+    "LegiScan",
+    "https://legiscan.com/ID/bill/H0897/2026"
+   ],
+   [
+    "BoiseDev",
+    "https://boisedev.com/news/2026/03/16/data-micron-exemption/"
+   ],
+   [
+    "Idaho Conservation League",
+    "https://idahoconservation.org/icl-bill-tracker/hb-897-tax-accountability-for-data-centers-2026"
+   ]
+  ],
+  "im": 1,
+  "iw": "Broad state tax breaks stay for at least another year",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-03-31",
   "j": "MT",
   "w": "NorthWestern Energy and Montana PSC",
@@ -3763,6 +4194,33 @@
   ],
   "im": -1,
   "iw": "Minimum bills, collateral and exit fees raise developer costs",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03-31",
+  "j": "ID",
+  "w": "Idaho Power and Idaho Public Utilities Commission",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Idaho Power asks PUC to review cost-of-service rules for new large loads",
+  "b": "The March 31 petition opens a docket on how costs are allocated among customer classes, including new large loads such as data centers. The PUC set a technical hearing for Jan. 19, 2027 and is taking written comments until Dec. 14.",
+  "s": [
+   [
+    "Idaho PUC",
+    "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/IPCE2607/OrdNotc/20260413Notice_of_Petition_Order_No_36998.pdf"
+   ],
+   [
+    "Capital Press",
+    "https://capitalpress.com/2026/09/18/idaho-powers-rates-for-big-customers-subject-of-hearing/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Could raise cost allocation for large new customers",
   "auto": false,
   "by": "Chongwmichael"
  },
