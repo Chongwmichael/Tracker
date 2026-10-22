@@ -85,6 +85,33 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-16",
+  "j": "NM",
+  "w": "NMED hearing officer James Browning",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Hearing on Project Jupiter's air permit set for Dec. 7 in Sunland Park",
+  "b": "Hearing Officer James Browning, a retired federal judge, scheduled the hearing to begin Dec. 7, with the first day for public comment. He also set Oct. 26 and Oct. 29 sessions on a motion to dismiss and on discovery.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/10/19/data-center-project-jupiter-air-quality-permit-hearing-set-for-early-december/"
+   ],
+   [
+    "Organ Mountain News",
+    "https://www.organmountainnews.com/project-jupiter-air-quality-permit-hearing-sunland-park-december-2026/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Key power-source permit decision still months away",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-15",
   "j": "UT",
   "w": "O'Leary Digital (Stratos developer)",
@@ -108,6 +135,38 @@
   ],
   "im": 0,
   "iw": "Necessary water step, but protests are expected",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-14",
+  "j": "NM",
+  "w": "Attorney General Raúl Torrez",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "disclosure"
+  ],
+  "t": "Attorney general says substantial share of Project Jupiter permit comments were not genuine",
+  "b": "Torrez reviewed 17,419 comments: about 60% were one pro-project form letter from roughly 9,000 internet addresses, mostly with out-of-state phone numbers. About 4,700, mostly opposed, came from 17 connections. He advised NMED to consider reopening comment.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/10/14/new-mexico-ag-finds-substantial-share-of-project-jupiter-public-comments-raise-concerns/"
+   ],
+   [
+    "KOB 4",
+    "https://www.kob.com/new-mexico/nmdoj-substantial-share-of-project-jupiter-comments-not-from-the-public/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/news/ag-substantial-share-of-project-jupiter-permit-comments-unverified/3142708"
+   ]
+  ],
+  "im": 0,
+  "iw": "Permit comment record, mostly pro-project, under investigation",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -418,7 +477,7 @@
  {
   "d": "2026-10-06",
   "j": "AZ",
-  "w": "Andy Biggs (R) and Teri Hourihan (No Labels), governor candidates",
+  "w": "Biggs (R) and Hourihan (No Labels), governor candidates",
   "lv": "state",
   "k": "politics",
   "st": "statement",
@@ -441,6 +500,34 @@
   ],
   "im": -1,
   "iw": "Both challengers favor tighter limits",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-05",
+  "j": "NM",
+  "w": "Attorney General Raúl Torrez",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Attorney general calls FERC review of Project Jupiter gas pipeline inadequate",
+  "b": "Torrez told the Federal Energy Regulatory Commission that its environmental assessment of the 17-mile Green Chile pipeline ignores Project Jupiter's own emissions and cannot justify skipping a full impact statement. He said the pipeline exists only to fuel the project.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/10/06/new-mexico-ag-challenges-federal-commissions-review-of-proposed-project-jupiter-gas-pipeline/"
+   ],
+   [
+    "KANW",
+    "https://www.kanw.org/new-mexico-news/2026-10-06/new-mexico-ag-challenges-federal-commissions-review-of-proposed-project-jupiter-gas-pipeline"
+   ]
+  ],
+  "im": -1,
+  "iw": "Could slow the pipeline the project depends on",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -549,6 +636,34 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-24",
+  "j": "NM",
+  "w": "Rep. Teresa Leger Fernández",
+  "lv": "federal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "cost"
+  ],
+  "t": "Leger Fernández calls for a pause on data centers, releases 'No Blank Checks' principles",
+  "b": "Rep. Teresa Leger Fernández said AI and data centers cannot regulate themselves and urged a pause in New Mexico while communities get a say, listing standards projects should meet before approval. She spoke the day Oracle's force majeure notice on Project Jupiter was reported.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/09/24/u-s-rep-leger-fernandez-calls-for-pause-on-data-centers-in-new-mexico-as-oracle-stock-falls/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/business/oracle-invokes-force-majeure-on-project-jupiter-but-says-data-center-still-on-track/3127907"
+   ]
+  ],
+  "im": -1,
+  "iw": "Another federal Democrat backs a pause",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-23",
   "j": "AZ",
   "w": "Arizona congressional Democrats",
@@ -573,6 +688,39 @@
   ],
   "im": 0,
   "iw": "Adds scrutiny to fast-tracked federal-land projects",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-22",
+  "j": "NM",
+  "w": "Raton City Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Raton commission rejects data center moratorium 3-2 despite petition",
+  "b": "Raton's City Commission voted 3-2 against a one-year moratorium after nearly 500 residents signed a petition. Opponents of the pause said city utilities and state oversight already provide safeguards. A feasibility deal with developer Atterix had ended in August.",
+  "s": [
+   [
+    "KRTN Radio",
+    "https://krtnradio.com/2026/09/22/raton-city-commission-turns-down-data-center-moratorium/"
+   ],
+   [
+    "Santa Fe New Mexican",
+    "https://www.santafenewmexican.com/news/business/city-of-raton-colfax-county-take-opposite-stands-on-data-center-moratoriums/article_eb078237-f72d-4626-ab4e-80deabfd8870.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Pause rejected, though a regulating ordinance is still planned",
+  "pl": [
+   [
+    "Raton",
+    "city"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -710,6 +858,95 @@
  },
  {
   "d": "2026-09-17",
+  "j": "NM",
+  "w": "New Mexico Supreme Court",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "permitting",
+   "water"
+  ],
+  "t": "New Mexico Supreme Court rejects Project Jupiter challenges and lifts stays",
+  "b": "The justices unanimously denied petitions from New Energy Economy and the Center for Biological Diversity and unpaused the air-permit proceeding and well use, without explanation. The Environment Department must still decide the permit.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/09/17/new-mexico-supreme-court-rejects-2-project-jupiter-challenges-allows-permitting-process-to-resume/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/business/new-mexico-supreme-court-lifts-stays-on-project-jupiter-dealing-setback-to-opponents/3124024"
+   ]
+  ],
+  "im": 1,
+  "iw": "Legal setback for opponents; permitting resumes",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-17",
+  "j": "NM",
+  "w": "Deb Haaland (D) and Gregg Hull (R), governor candidates",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Haaland pledges day-one data center moratorium; Hull opposes",
+  "b": "Democrat Deb Haaland said she would sign an executive order on her first day pausing new large-scale data centers until lawmakers pass an eight-point set of protections. Republican Gregg Hull opposes a moratorium, saying it signals New Mexico is closed for business.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/09/17/new-mexico-dem-governor-nominee-haaland-announces-data-center-moratorium-executive-order-if-elected/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/news/deb-haaland-vows-to-impose-data-center-moratorium-via-executive-order-if-elected-governor/3123658"
+   ]
+  ],
+  "im": -1,
+  "iw": "Possible statewide pause if Haaland wins in November",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-17",
+  "j": "NM",
+  "w": "Clovis City Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Clovis commission rejects 120-day data center moratorium 5-3",
+  "b": "Commissioners voted 5-3 against pausing data center permits, saying no project was pending and a moratorium would signal Clovis was closed for business. Mayor Mike Morris, who proposed it, asked staff to keep drafting rules; an ordinance goes to the commission Nov. 5.",
+  "s": [
+   [
+    "Eastern New Mexico News",
+    "https://www.easternnewmexiconews.com/story/2026/09/23/news/clovis-commission-rejects-data-center-moratorium/234218.html"
+   ],
+   [
+    "Eastern New Mexico News",
+    "https://www.easternnewmexiconews.com/story/2026/10/14/news/proposed-ordinance-aimed-at-data-centers/234393.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Pause rejected, though zoning rules are coming",
+  "pl": [
+   [
+    "Clovis",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-17",
   "j": "CO",
   "w": "Colorado Springs City Council",
   "lv": "local",
@@ -739,6 +976,33 @@
     "city"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-16",
+  "j": "NM",
+  "w": "New Mexico State Ethics Commission",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "disclosure"
+  ],
+  "t": "Ethics Commission says Oracle disclosed $3.44 million Project Jupiter lobbying ad campaign",
+  "b": "After an Ethics Commission investigation, Oracle registered and reported spending $3.44 million from January to April on ads, polling and canvassing meant to influence the Environment Department's air permit decision. The commission called it likely the largest such campaign disclosed in New Mexico.",
+  "s": [
+   [
+    "State Ethics Commission",
+    "https://www.sec.nm.gov/2026/09/16/press-release-oracle-registers-and-discloses-3-44-million-project-jupiter-lobbying-advertising-campaign/"
+   ],
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/09/16/new-mexico-state-ethics-commission-says-oracles-3-4m-project-jupiter-ads-sought-to-sway-permitting/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Lobbying spending now public, no penalty announced",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -935,6 +1199,30 @@
  },
  {
   "d": "2026-09-03",
+  "j": "NM",
+  "w": "Attorney General Raúl Torrez",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "water"
+  ],
+  "t": "Attorney general backs challenges to Project Jupiter air permit hearing and emergency well",
+  "b": "Torrez filed support for New Energy Economy and the Center for Biological Diversity, arguing the hearing was premature while the pipeline lacked federal approval and that the State Engineer misused an emergency well authorization. He said NMED could extend its deadline for good cause.",
+  "s": [
+   [
+    "Source New Mexico (Yahoo)",
+    "https://www.yahoo.com/news/us/articles/mexico-ag-backs-environmental-groups-190642981.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "State's top lawyer sides with project opponents",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-03",
   "j": "AZ",
   "w": "Gov. Katie Hobbs",
   "lv": "state",
@@ -958,6 +1246,34 @@
   ],
   "im": 0,
   "iw": "Rejects a pause but wants the tax break ended",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-02",
+  "j": "NM",
+  "w": "Albuquerque Journal poll",
+  "lv": "state",
+  "k": "politics",
+  "st": "poll",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Journal poll: 65% of New Mexico voters oppose large data centers",
+  "b": "An Aug. 21-28 poll of 516 likely voters found 65% oppose building large data centers and 75% support a statewide moratorium until rules are set. Opposition was higher among Democrats but a majority of Republicans also opposed.",
+  "s": [
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/news/journal-poll-data-center-opposition-runs-high-in-new-mexico/3112524"
+   ],
+   [
+    "Courier New Mexico",
+    "https://couriernewmexico.com/news/politics/haaland-hull-stand-nm-data-center/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Broad bipartisan opposition adds political pressure",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1108,6 +1424,120 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-25",
+  "j": "NM",
+  "w": "Rep. Gabe Vasquez",
+  "lv": "federal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "cost",
+   "disclosure"
+  ],
+  "t": "Rep. Vasquez co-sponsors two federal data center transparency bills",
+  "b": "Rep. Gabe Vasquez joined the FAIR Data Act, shielding residential and small-business customers from data center energy costs, and the Data Center Water and Energy Transparency Act, which would require usage disclosure with fines up to $20,000 a day.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/08/25/us-rep-vasquez-backs-2-federal-data-center-bills-as-developments-come-under-scrutiny-in-new-mexico/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Backs cost-protection and disclosure mandates",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-25",
+  "j": "NM",
+  "w": "Colfax County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium",
+   "water"
+  ],
+  "t": "Colfax County adopts one-year moratorium on data centers",
+  "b": "Commissioners unanimously adopted Ordinance 2026-02, a one-year moratorium on data centers in unincorporated areas, citing drought and water, energy, heat and noise concerns. It does not cover Raton or other municipalities. Exact vote date needs confirming.",
+  "s": [
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/09/03/colfax-county-data-centers-moratorium/"
+   ],
+   [
+    "Santa Fe New Mexican",
+    "https://www.santafenewmexican.com/news/business/city-of-raton-colfax-county-take-opposite-stands-on-data-center-moratoriums/article_eb078237-f72d-4626-ab4e-80deabfd8870.html"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for a year in unincorporated areas",
+  "pl": [
+   [
+    "Colfax County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-24",
+  "j": "NM",
+  "w": "Rep. Melanie Stansbury",
+  "lv": "federal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "water",
+   "disclosure"
+  ],
+  "t": "Stansbury demands public accounting of Project Jupiter's water sources",
+  "b": "Rep. Melanie Stansbury asked the attorney general, state engineer, environment secretary and Interstate Stream Commission for water-use, water-rights and compact-compliance details, calling for an inquiry into long-term use. She said the project's own estimates have shifted.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/08/24/us-rep-stansbury-calls-on-new-mexico-agencies-to-provide-project-jupiter-water-information/"
+   ],
+   [
+    "Rep. Stansbury",
+    "https://stansbury.house.gov/media/press-releases/rep-stansbury-demands-answers-project-jupiters-water-use-new-mexico-supreme"
+   ]
+  ],
+  "im": -1,
+  "iw": "Adds federal scrutiny of the project's water supply",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-23",
+  "j": "NM",
+  "w": "New Mexico Supreme Court",
+  "lv": "state",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "water",
+   "permitting"
+  ],
+  "t": "New Mexico Supreme Court pauses Project Jupiter air permit hearing and emergency well use",
+  "b": "Two unanimous orders halted the Sept. 14 air-quality permit hearing and told the State Engineer to pause an emergency well authorization for construction, after petitions from two environmental groups. The hearing officer recused himself the next day.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/08/24/nm-supreme-court-temporarily-halt-project-jupiter-air-quality-permit-hearing/"
+   ],
+   [
+    "KRQE",
+    "https://www.krqe.com/news/new-mexico/new-mexico-supreme-court-puts-key-project-jupiter-hearing-on-hold/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Permit hearing and construction water paused for weeks",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-08-20",
   "j": "UT",
   "w": "Gov. Spencer Cox",
@@ -1193,6 +1623,33 @@
     "city"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-11",
+  "j": "NM",
+  "w": "Interim Science, Technology and Telecom Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Interim committee hears first pitch for statewide data center moratorium",
+  "b": "Reps. Micaela Lara Cadena and Angelica Rubio told the interim committee in Socorro they will introduce a statewide moratorium in January, with its definition and length still open. Republican members urged a study of job and economic effects first.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/08/11/new-mexico-democratic-lawmakers-discuss-possibilities-for-proposed-statewide-data-center-moratorium/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/business/republicans-push-back-on-proposal-for-statewide-data-center-moratorium/3100763"
+   ]
+  ],
+  "im": -1,
+  "iw": "Statewide pause gets its first hearing, with GOP resistance",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1366,6 +1823,37 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-03",
+  "j": "NM",
+  "w": "Sen. Martin Heinrich",
+  "lv": "federal",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Heinrich introduces GRID Savings Act making large data centers pay for grid upgrades",
+  "b": "The Senate Energy committee's top Democrat introduced a bill directing FERC to make hyperscale users, 150 megawatts or more, fund the grid upgrades they require. Heinrich said he is not a fan of the moratorium approach because it could push projects to places with weaker standards.",
+  "s": [
+   [
+    "Senate Energy Committee",
+    "https://www.energy.senate.gov/press/dem/heinrich-introduces-legislation-to-ensure-large-users-of-electricity-pay-for-grid-upgrades-protect-customers-from-costs-of-data-center-expansion/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/business/new-heinrich-bill-would-shift-grid-upgrade-costs-to-big-electricity-users/3096327"
+   ],
+   [
+    "Searchlight New Mexico",
+    "https://searchlightnm.org/heinrich-proposes-legislation-to-make-data-centers-pay-for-grid-infrastructure/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Developers would bear grid-upgrade costs; he opposes moratoria",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-07-27",
   "j": "UT",
   "w": "Utah Division of Water Quality",
@@ -1390,6 +1878,39 @@
   ],
   "im": -1,
   "iw": "Key discharge permit faces organized opposition",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-21",
+  "j": "NM",
+  "w": "Sierra County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Sierra County adopts 18-month data center moratorium after Spaceport proposal",
+  "b": "Commissioners unanimously turned a resolution opposing large data centers into an 18-month moratorium on July 21, after residents protested a solar-powered data center proposed at Spaceport America. A petition had gathered 408 signatures.",
+  "s": [
+   [
+    "Daily Chieftain",
+    "https://www.dchieftain.com/news/sierra-county-enacts-18-month-data-center-moratorium/3087323"
+   ],
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/07/22/new-mexico-county-adopts-data-center-moratorium-as-residents-protest-spaceport-proposal/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for 18 months",
+  "pl": [
+   [
+    "Sierra County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1489,6 +2010,38 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-07-14",
+  "j": "NM",
+  "w": "Commissioner of Public Lands Stephanie Garcia Richard",
+  "lv": "state",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Land commissioner again denies Project Jupiter gas pipeline across state trust land",
+  "b": "Commissioner Stephanie Garcia Richard rejected Energy Transfer's request to reconsider her March denial of rights-of-way for a 0.6-mile stretch of the 17-mile pipeline, citing emissions and water strain. Oracle said the project remains on schedule.",
+  "s": [
+   [
+    "NM State Land Office",
+    "https://www.nmstatelands.org/2026/07/15/commissioner-garcia-richard-again-denies-request-to-run-portion-of-project-jupiter-pipeline-through-state-lands/"
+   ],
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/07/16/new-mexico-land-commissioner-blocks-project-jupiter-related-pipeline-from-building-on-state-land/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/news/land-commissioner-nixes-project-jupiter-pipeline-for-second-time/3083075"
+   ]
+  ],
+  "im": -2,
+  "iw": "Blocks part of the gas supply route for the project",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-07-13",
   "j": "CO",
   "w": "Larimer County Commissioners",
@@ -1518,6 +2071,34 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-09",
+  "j": "NM",
+  "w": "Attorney General Raúl Torrez",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "disclosure"
+  ],
+  "t": "Attorney general opens investigation into fraudulent pro-Project Jupiter comments",
+  "b": "Raúl Torrez began an investigation after residents in three cities said their names were used on comments supporting the project's air permit without consent, after canvassers in Project Jupiter shirts approached them. Some elected officials said their names were also misused.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/07/09/new-mexico-ag-to-investigate-alleged-fraudulent-letters-supporting-project-jupiter-data-center/"
+   ],
+   [
+    "KOB 4",
+    "https://www.kob.com/new-mexico/4-investigates-project-jupiter-canvasser-claims-quotas-for-positive-comments-led-to-fraud/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Casts doubt on public support cited for the air permit",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1584,6 +2165,34 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-07-02",
+  "j": "NM",
+  "w": "Reps. Chávez, Lara Cadena, Rubio and Sen. Hamblen",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Four Democratic lawmakers plan statewide data center moratorium bill for 2027",
+  "b": "Four Democratic legislators said they will push in the 2027 session for a pause on new large-scale data centers until rules cover water, energy and other impacts, paired with a bill to close the microgrid loophole. Legislation has not been drafted.",
+  "s": [
+   [
+    "Albuquerque Journal (Daily Chieftain)",
+    "https://www.dchieftain.com/news/democratic-lawmakers-plan-to-push-for-data-center-moratorium-in-new-mexico/3075843"
+   ],
+   [
+    "Organ Mountain News",
+    "https://www.organmountainnews.com/new-mexico-data-center-moratorium-project-jupiter-2027/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Possible first statewide pause, still only a plan",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-07-01",
   "j": "AZ",
   "w": "Phoenix City Council",
@@ -1612,6 +2221,39 @@
    [
     "Phoenix",
     "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-30",
+  "j": "NM",
+  "w": "Santa Fe County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Santa Fe County adopts 18-month moratorium on data centers over one megawatt",
+  "b": "Commissioners voted unanimously June 30 to pause permits for data centers using one megawatt or more while staff write rules on water, energy and noise. The threshold was cut from 100 megawatts. No project was pending.",
+  "s": [
+   [
+    "Santa Fe County",
+    "https://www.santafecountynm.gov/news/detail/santa-fe-county-approves-18-month-moratorium-on-data-centers"
+   ],
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/07/01/santa-fe-county-becomes-latest-new-mexico-community-to-adopt-data-center-moratorium/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Permits frozen for 18 months at a very low threshold",
+  "pl": [
+   [
+    "Santa Fe County",
+    "county"
    ]
   ],
   "auto": false,
@@ -1820,6 +2462,39 @@
   "pl": [
    [
     "Box Elder County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-09",
+  "j": "NM",
+  "w": "Socorro County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Socorro County adopts one-year data center moratorium",
+  "b": "Commissioners voted unanimously on June 9 to bar data centers and related infrastructure on unincorporated land for a year and start an advisory committee on rules. It followed months of opposition to a 10,000-acre solar-powered data center plan with New Mexico Tech.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/06/10/new-mexico-county-adopts-yearlong-data-center-moratorium/"
+   ],
+   [
+    "News From The States",
+    "https://www.newsfromthestates.com/article/new-mexico-county-adopts-yearlong-data-center-moratorium"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for a year",
+  "pl": [
+   [
+    "Socorro County",
     "county"
    ]
   ],
@@ -2286,6 +2961,38 @@
  },
  {
   "d": "2026-05-06",
+  "j": "NM",
+  "w": "Bureau of Land Management",
+  "lv": "federal",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "BLM fast-tracks federal approval of Project Jupiter gas pipeline across 16 miles",
+  "b": "Using a 14-day emergency environmental review, the Bureau of Land Management authorized the Green Chile pipeline across about 16 miles of public land and began finalizing rights-of-way with Transwestern. Federal commission review and state-land access were still unresolved.",
+  "s": [
+   [
+    "Bureau of Land Management",
+    "https://www.blm.gov/press-release/blm-issues-rights-way-green-chile-natural-gas-pipeline"
+   ],
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/2026/05/07/blm-fast-tracks-green-chile-pipeline-construction-review-for-new-mexico-data-center-project-jupiter/"
+   ],
+   [
+    "Santa Fe New Mexican",
+    "https://www.santafenewmexican.com/news/local_news/bureau-of-land-management-oks-natural-gas-pipeline-for-project-jupiter/article_1f55747e-b71f-419c-8b62-0f084b725bac.html"
+   ]
+  ],
+  "im": 2,
+  "iw": "Federal fast track for the project's gas supply",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-06",
   "j": "AZ",
   "w": "Maricopa County Board of Supervisors",
   "lv": "local",
@@ -2680,6 +3387,44 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-03-20",
+  "j": "NM",
+  "w": "Judge Jennifer DeLaney (Third Judicial District)",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "tax",
+   "permitting"
+  ],
+  "t": "Judge lets lawsuit over Project Jupiter's $165 billion bonds proceed",
+  "b": "Judge Jennifer DeLaney denied the county's motion to dismiss a suit alleging commissioners approved the bonds on an incomplete application, though a March 24 ruling refused to stay the ordinances. Yucca Growth Infrastructure and Green Chile Ventures were allowed to join.",
+  "s": [
+   [
+    "Haussamen",
+    "https://haussamen.com/2026/03/20/judge-rejects-motion-to-dismiss-project-jupiter-lawsuit/"
+   ],
+   [
+    "Las Cruces Bulletin",
+    "https://www.lascrucesbulletin.com/stories/court-denies-motion-to-dismiss-nmelc-lawsuit,162721"
+   ],
+   [
+    "New Mexico Environmental Law Center",
+    "https://nmelc.org/2026/03/20/nmelc-lawsuit-against-dona-ana-county-re-project-jupiter-funding-proceeds-after-court-denies-county-motion-to-dismiss/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Incentive approval stays under court review",
+  "pl": [
+   [
+    "Doña Ana County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-03-10",
   "j": "UT",
   "w": "Provo City Council",
@@ -2745,6 +3490,36 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-02-26",
+  "j": "NM",
+  "w": "Lea County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water",
+   "siting"
+  ],
+  "t": "Lea County adopts first data center regulations requiring closed-loop cooling",
+  "b": "Commissioners unanimously approved the first of several planned revisions for data centers, including closed-loop or similar cooling to avoid drawing drinking-water supplies. The county said developers had approached it over two years; New Era's Caprock campus was announced in November.",
+  "s": [
+   [
+    "Hobbs News-Sun",
+    "https://www.hobbsnews.com/county-sets-regs-for-potential-data-centers/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Clear water rules set before projects arrive",
+  "pl": [
+   [
+    "Lea County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-02-19",
   "j": "AZ",
   "w": "Attorney General Kris Mayes",
@@ -2772,6 +3547,111 @@
   ],
   "im": -1,
   "iw": "Legal challenge to a key power contract",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-02-14",
+  "j": "NM",
+  "w": "New Mexico Legislature",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "cost",
+   "siting"
+  ],
+  "t": "Senate passes microgrid oversight bill 22-20; House lets it die",
+  "b": "SB 235 would have held large private microgrids, such as Project Jupiter's, to the Energy Transition Act's renewable standards and barred shifting their costs to utility customers. It passed the Senate Feb. 14 but the House postponed it indefinitely.",
+  "s": [
+   [
+    "Source New Mexico",
+    "https://sourcenm.com/briefs/while-you-were-sleeping-senate-passes-microgrid-bill-and-more/"
+   ],
+   [
+    "FastDemocracy",
+    "https://fastdemocracy.com/bill-search/nm/2026/bills/NMB00012760/"
+   ],
+   [
+    "Taos News",
+    "https://www.taosnews.com/news/environment/calculating-the-cost/article_455725bd-da58-550f-967e-4371fd43a1fb.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Rules for data center microgrids did not advance",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-02-10",
+  "j": "NM",
+  "w": "Bernalillo County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water",
+   "cost",
+   "tax"
+  ],
+  "t": "Bernalillo County sets conditions for data centers seeking incentives",
+  "b": "Commissioners voted 4-1 for a resolution requiring data centers that want county incentives to offset water use, use renewable power, hire locally at set wage floors and pay minimum taxes. Projects that skip incentives can sidestep it.",
+  "s": [
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/news/bernalillo-county-leaders-pass-regulations-for-artificial-intelligence-data-centers/2978906"
+   ],
+   [
+    "KRQE",
+    "https://www.krqe.com/news/albuquerque-metro/bernalillo-county-commission-approves-rules-on-new-data-center-development/"
+   ],
+   [
+    "Bernalillo County",
+    "https://www.bernco.gov/blog/2026/02/11/data-center-project-guardrails-resolution-approved-by-bernalillo-county-commission/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Raises the bar for county subsidies, not a ban",
+  "pl": [
+   [
+    "Bernalillo County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-02-06",
+  "j": "NM",
+  "w": "New Mexico Environmental Law Center (plaintiff)",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Environmental law center sues Doña Ana County over closed session before Project Jupiter vote",
+  "b": "A new Open Meetings Act suit says commissioners paused the Sept. 19 hearing for a closed session without stating its subject, then approved $165 billion in bonds. It is separate from an earlier suit challenging the bonds themselves.",
+  "s": [
+   [
+    "New Mexico Environmental Law Center",
+    "https://nmelc.org/2026/02/10/lawsuit-alleges-nm-countys-project-jupiter-data-center-vote-violated-open-meetings-act/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/news/judge-project-jupiter-lawsuit-to-proceed/3007891"
+   ]
+  ],
+  "im": -1,
+  "iw": "Could void the county's approval of the project's tax incentives",
+  "pl": [
+   [
+    "Doña Ana County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -2894,6 +3774,78 @@
    [
     "Page",
     "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-09-19",
+  "j": "NM",
+  "w": "Doña Ana County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "tax",
+   "siting"
+  ],
+  "t": "Doña Ana County approves $165 billion bonds and tax breaks for Project Jupiter",
+  "b": "Commissioners voted 4-1 after a closed session and seven hours of public comment to approve $165 billion in industrial revenue bonds for the Santa Teresa campus planned for Oracle and OpenAI. The vote later drew Open Meetings Act lawsuits.",
+  "s": [
+   [
+    "Santa Fe New Mexican",
+    "https://www.santafenewmexican.com/news/local_news/do-a-ana-county-approves-165-billion-in-bonds-for-massive-ai-data-center-near/article_29bdb65d-ada4-43c4-8a0f-ba54f5e2a1b9.html"
+   ],
+   [
+    "Las Cruces Bulletin",
+    "https://www.lascrucesbulletin.com/stories/project-jupiter-vote,135110"
+   ],
+   [
+    "Searchlight New Mexico",
+    "https://searchlightnm.org/timeline-the-evolution-of-project-jupiter/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Decades-long tax relief clears a giant campus",
+  "pl": [
+   [
+    "Doña Ana County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-08",
+  "j": "NM",
+  "w": "Chaves County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Chaves County approves Zenith Volts data center campus south of Roswell",
+  "b": "Commissioners approved a 300-acre data center of about 1.25 gigawatts within an 8,500-acre site 20 miles south of Roswell, powered by on-site solar, batteries and gas generators. The county said it offered no incentives. Exact meeting date needs confirming.",
+  "s": [
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/business/chaves-county-approves-data-center-project-amid-rising-demand-for-computing-infrastructure/2896546"
+   ],
+   [
+    "Chaves County",
+    "https://www.chavescounty.net/news/p/item/65878/chaves-county-approves-data-center-project-amid-rising-demand-for-computing-infrastructure"
+   ]
+  ],
+  "im": 1,
+  "iw": "Large off-grid campus approved without opposition or incentives",
+  "pl": [
+   [
+    "Chaves County",
+    "county"
    ]
   ],
   "auto": false,
