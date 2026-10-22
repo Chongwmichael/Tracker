@@ -85,6 +85,34 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-14",
+  "j": "AZ",
+  "w": "Attorney General Kris Mayes",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "siting"
+  ],
+  "t": "Mayes hears data center complaints at Mesa town hall, floats community vote",
+  "b": "Mayes said she would back a law requiring a community vote on data centers and that Prop. 207 does not stop her from filing a nuisance suit. Many speakers focused on the Ahwatukee campus. She promised another town hall there.",
+  "s": [
+   [
+    "CALÓ News",
+    "https://www.calonews.com/arizona/arizona-ag-hosts-community-conversation-on-data-centers-calls-for-moratorium/article_565b06d5-8f29-4f54-81ba-05765eda2b5e.html"
+   ],
+   [
+    "ABC15",
+    "https://www.abc15.com/news/local-news/a-very-serious-health-concern-opponents-to-ahwatukee-data-center-share-worries-at-town-hall"
+   ]
+  ],
+  "im": -1,
+  "iw": "Pressure for a state pause or local votes",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-13",
   "j": "CO",
   "w": "Landowner companies near Windsor",
@@ -112,6 +140,62 @@
    [
     "Weld County",
     "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-09",
+  "j": "AZ",
+  "w": "Attorney General Kris Mayes",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Mayes asks regulators to investigate whether APS customers subsidized data centers",
+  "b": "Citing an outside analysis alleging $587 million in power costs shifted to other customers, Mayes urged a public probe before APS's $608.7 million increase is approved. APS and the Corporation Commission dispute the analysis.",
+  "s": [
+   [
+    "Arizona Attorney General",
+    "https://www.azag.gov/press-release/attorney-general-mayes-urges-arizona-corporation-commission-investigate-whether-aps"
+   ],
+   [
+    "12News",
+    "https://www.12news.com/article/news/local/arizona/arizona-attorney-general-kris-mayes-wants-regulators-to-investigate-alleged-data-center-impact-on-aps-customer-bills/75-6891d0a4-92c5-48b2-8718-ccad1ca1bee9"
+   ]
+  ],
+  "im": -1,
+  "iw": "Could delay or shrink rate decisions tied to large users",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-09",
+  "j": "AZ",
+  "w": "Phoenix Planning and Development Department",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Phoenix posts early-morning inspectors at Ahwatukee data center site after complaints",
+  "b": "The city said it would station inspectors before legal start times and secured contractor commitments to cut noise, such as moving truck traffic and limiting early deliveries. Construction hours return to 7 a.m.-7 p.m. weekdays on Oct. 16.",
+  "s": [
+   [
+    "Ahwatukee Foothills News",
+    "https://www.ahwatukee.com/news/phoenix-steps-up-pressure-on-data-center-construction/article_b5e89ec3-aef3-4893-8987-f7400b1e7817.html"
+   ]
+  ],
+  "im": 0,
+  "iw": "Added enforcement on one project, no change to its approval",
+  "pl": [
+   [
+    "Phoenix",
+    "city"
    ]
   ],
   "auto": false,
@@ -243,6 +327,35 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-06",
+  "j": "AZ",
+  "w": "Andy Biggs (R) and Teri Hourihan (No Labels), governor candidates",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "tax",
+   "water"
+  ],
+  "t": "Biggs and Hourihan debate data centers as Hobbs skips Arizona governor debate",
+  "b": "Republican Andy Biggs said the state should end tax breaks and bar new centers that crowd out residents' water and power. No Labels nominee Teri Hourihan urged a roughly six-month construction pause. Gov. Hobbs did not attend.",
+  "s": [
+   [
+    "KJZZ",
+    "https://www.kjzz.org/elections/2026-10-07/republican-biggs-debates-no-labels-hourihan-as-gov-hobbs-skips-arizona-governor-race-debate"
+   ],
+   [
+    "KAWC",
+    "https://www.kawc.org/news/2026-10-07/biggs-hourihan-spar-over-state-policy-past-records-in-gubernatorial-debate"
+   ]
+  ],
+  "im": -1,
+  "iw": "Both challengers favor tighter limits",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-29",
   "j": "CO",
   "w": "Mesa County Commissioners",
@@ -270,6 +383,43 @@
   "pl": [
    [
     "Mesa County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-29",
+  "j": "AZ",
+  "w": "Goldwater Institute",
+  "lv": "local",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Goldwater Institute demands Pima County rescind data center moratorium",
+  "b": "The think tank says the 120-day pause breaks state law, which allows moratoria only for a shortage of essential facilities or a clear and imminent danger, and raises property-rights concerns. Supervisor Allen disputes this. Draft rules go to the planning commission Oct. 28; the pause expires in January.",
+  "s": [
+   [
+    "Goldwater Institute",
+    "https://www.goldwaterinstitute.org/pima-countys-data-center-moratorium-is-unlawful-and-threatens-growth/"
+   ],
+   [
+    "KJZZ",
+    "https://www.kjzz.org/fronteras-desk/2026-09-29/goldwater-institute-says-pima-county-data-center-moratorium-is-illegal-facilities-arent-a-threat"
+   ],
+   [
+    "KJZZ",
+    "https://www.kjzz.org/fronteras-desk/2026-10-09/pima-county-hears-public-input-on-proposed-data-center-rules-final-vote-expected-in-december"
+   ]
+  ],
+  "im": 1,
+  "iw": "Legal challenge could undercut the pause",
+  "pl": [
+   [
+    "Pima County",
     "county"
    ]
   ],
@@ -306,6 +456,34 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-23",
+  "j": "AZ",
+  "w": "Arizona congressional Democrats",
+  "lv": "federal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Arizona delegation demands answers on four data center proposals on federal land",
+  "b": "Sens. Kelly and Gallego and Reps. Stanton, Ansari and Grijalva asked Interior for details on four proposals covering over 3,000 acres, part of 12 under BLM review in six states. They asked about environmental review, public input and water use.",
+  "s": [
+   [
+    "Rep. Greg Stanton",
+    "https://stanton.house.gov/2026/9/stanton-leads-arizona-democrats-in-pressing-trump-administration-for-answers-on-proposed-data-center-on-public-lands"
+   ],
+   [
+    "KJZZ",
+    "https://www.kjzz.org/politics/2026-09-23/stanton-arizona-democratic-delegation-demand-answers-about-data-center-proposals-on-public-lands"
+   ]
+  ],
+  "im": 0,
+  "iw": "Adds scrutiny to fast-tracked federal-land projects",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -369,6 +547,39 @@
   "pl": [
    [
     "Thornton",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-22",
+  "j": "AZ",
+  "w": "Tucson Mayor and Council",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water"
+  ],
+  "t": "Tucson lowers large water user threshold, orders stricter proposals in 120 days",
+  "b": "Council narrowly approved the first update to its 2025 ordinance, cutting the trigger for conservation plans from about 7.5 to 6.4 million gallons a month. Staff must return in 120 days with a proposal covering users above roughly 3.7 million gallons.",
+  "s": [
+   [
+    "AZ Luminaria",
+    "https://azluminaria.org/2026/09/23/tucson-city-council-tightens-large-water-user-rules-slightly-as-residents-push-for-stronger-limits/"
+   ],
+   [
+    "Coalition for Sonoran Desert Protection",
+    "https://www.sonorandesert.org/2026/09/30/tucson-revisits-its-large-water-user-ordinance/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Water-use rules tighten modestly for new large users",
+  "pl": [
+   [
+    "Tucson",
     "city"
    ]
   ],
@@ -567,6 +778,34 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-03",
+  "j": "AZ",
+  "w": "Gov. Katie Hobbs",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "tax"
+  ],
+  "t": "Hobbs rejects statewide data center moratorium, keeps push to end tax credit",
+  "b": "Responding to the attorney general's call for a pause, the governor said data centers make sense in some places but must pay for themselves and not raise utility costs. Her office said she wants the tax credit ended permanently.",
+  "s": [
+   [
+    "KJZZ",
+    "https://www.kjzz.org/politics/2026-09-03/gov-hobbs-wont-pause-arizona-data-center-development-despite-calls-to-do-so"
+   ],
+   [
+    "AZFamily",
+    "https://www.azfamily.com/2026/08/31/ag-mayes-calls-statewide-pause-new-data-center-construction/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Rejects a pause but wants the tax break ended",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-08-31",
   "j": "CO",
   "w": "Mead Board of Trustees",
@@ -596,6 +835,35 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-31",
+  "j": "AZ",
+  "w": "Attorney General Kris Mayes",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium",
+   "water",
+   "cost"
+  ],
+  "t": "Attorney General Mayes calls for statewide pause on new data center approvals",
+  "b": "Citing rising energy bills and a nearly 30% cut to Colorado River supplies, Mayes urged lawmakers and the governor to halt approvals, especially hyperscale AI projects, until the state has a plan. She does not have power to impose one.",
+  "s": [
+   [
+    "Arizona Attorney General",
+    "https://www.azag.gov/press-release/attorney-general-mayes-calls-statewide-pause-data-centers-announces-town-hall"
+   ],
+   [
+    "AZFamily",
+    "https://www.azfamily.com/2026/08/31/ag-mayes-calls-statewide-pause-new-data-center-construction/"
+   ]
+  ],
+  "im": -1,
+  "iw": "First statewide official to call for a pause",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-08-27",
   "j": "CO",
   "w": "Phil Weiser (D) and Greg Lopez (I), governor candidates",
@@ -616,6 +884,74 @@
   ],
   "im": -1,
   "iw": "Possible state regulation after the November election",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-26",
+  "j": "AZ",
+  "w": "Pinal County Board of Supervisors",
+  "lv": "local",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting",
+   "water"
+  ],
+  "t": "Pinal County rejects Vermaland's La Osa data center near Eloy, 4-1",
+  "b": "Supervisors denied rezoning for what would have been Arizona's largest data center, on about 3,300 acres. The developer had cut the plan from 59 buildings to 11. Residents raised water, power, noise and wildlife concerns.",
+  "s": [
+   [
+    "KJZZ",
+    "https://www.kjzz.org/politics/2026-08-26/pinal-county-rejects-massive-la-osa-data-center-residents-want-more-rules-for-future-projects"
+   ],
+   [
+    "KTAR",
+    "https://ktar.com/arizona-business/pinal-county-rejects-vermaland-data-center-project"
+   ]
+  ],
+  "im": -2,
+  "iw": "Largest proposed Arizona campus killed by rezoning vote",
+  "pl": [
+   [
+    "Pinal County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-20",
+  "j": "AZ",
+  "w": "Hualapai Tribal Council",
+  "lv": "tribal",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium",
+   "water"
+  ],
+  "t": "Hualapai Tribe moves to bar hyperscale data centers on its reservation",
+  "b": "The council passed a resolution opposing hyperscale data centers, which KJZZ describes as a moratorium. It cites Colorado River shortages and says no developer may use tribal resources without the tribe's free, prior and informed consent.",
+  "s": [
+   [
+    "KNAU",
+    "https://www.knau.org/knau-and-arizona-news/2026-08-24/hualapai-tribe-passes-resolution-opposing-data-center-construction-on-the-reservation"
+   ],
+   [
+    "KJZZ",
+    "https://www.kjzz.org/tribal-natural-resources/2026-09-14/hualapai-tribe-enacts-moratorium-to-halt-irresponsible-development-of-hyperscale-data-centers"
+   ]
+  ],
+  "im": -1,
+  "iw": "Closes a large reservation, but no project was proposed",
+  "pl": [
+   [
+    "Hualapai Tribe",
+    "tribal"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -711,6 +1047,75 @@
   "pl": [
    [
     "Aurora",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-05",
+  "j": "AZ",
+  "w": "Tucson Mayor and Council",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "water",
+   "permitting"
+  ],
+  "t": "Tucson adopts first data center rules, requiring rezoning and half-mile buffers",
+  "b": "The 6-1 vote covers facilities over 25,000 square feet or 20 megawatts. They need council-approved rezoning, no potable water for cooling, and a half-mile buffer from homes and schools. Staff will study a possible ban. Effective Sept. 4.",
+  "s": [
+   [
+    "AZPM",
+    "https://news.azpm.org/p/newsheadlines/2026/8/6/230756-tucson-approves-new-regulations-for-large-scale-data-centers/"
+   ],
+   [
+    "AZ Luminaria",
+    "https://azluminaria.org/2026/08/06/tucson-city-council-approves-regulations-on-large-scale-data-centers/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Council discretion and large buffers raise hurdles",
+  "pl": [
+   [
+    "Tucson",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-05",
+  "j": "AZ",
+  "w": "Gilbert Planning Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "water"
+  ],
+  "t": "Gilbert planning commission backs strict data center rules; council vote pending",
+  "b": "The recommendation would limit data centers to industrial zones, require a 650-foot setback from homes, and ban drinking water for cooling. Council members wanted stricter water limits. Reports differ on whether the council vote is Nov. 12 or in December.",
+  "s": [
+   [
+    "AZBEX",
+    "https://azbex.com/local-news/tighter-data-center-restrictions-advancing-in-gilbert/"
+   ],
+   [
+    "East Valley Tribune",
+    "https://www.eastvalleytribune.com/gilbert-debates-tough-data-center-regulations/article_06b22c51-2143-5701-a708-e2877e45ca30.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "Large setback and potable-water ban if adopted",
+  "pl": [
+   [
+    "Gilbert",
     "city"
    ]
   ],
@@ -875,6 +1280,40 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-07-01",
+  "j": "AZ",
+  "w": "Phoenix City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Phoenix council vacates easements for Ahwatukee data center despite resident objections",
+  "b": "The 8-1 vote on routine easements for Menlo's five-building campus came as neighbors urged a delay. Officials said the site was already zoned and exempt from Phoenix's newer data center rules, and that the vote did not approve the project.",
+  "s": [
+   [
+    "Ahwatukee Foothills News",
+    "https://www.ahwatukee.com/news/data-center-request-sparks-council-hand-wringing/article_fe96541b-6e93-4727-ae0d-727984a244bb.html"
+   ],
+   [
+    "FOX 10 Phoenix",
+    "https://www.fox10phoenix.com/news/ahwatukee-residents-push-back-proposed-38-acre-menlo-digital-data-center"
+   ]
+  ],
+  "im": 1,
+  "iw": "Clears a step for a project already entitled",
+  "pl": [
+   [
+    "Phoenix",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-06-27",
   "j": "CO",
   "w": "Gov. Jared Polis",
@@ -899,6 +1338,33 @@
   ],
   "im": 1,
   "iw": "Governor open to projects that meet conditions",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-19",
+  "j": "AZ",
+  "w": "Gov. Katie Hobbs",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Hobbs vetoes bill letting referendum petitioners withdraw, tied to Marana data center fight",
+  "b": "HB 2873 would have let citizens withdraw referendum petitions before a vote. Opponents said it targeted Marana residents challenging a data center rezoning. Hobbs's veto letter cited pending litigation. A developer's lobbyist had backed the bill.",
+  "s": [
+   [
+    "AZ Luminaria",
+    "https://azluminaria.org/2026/07/01/arizona-governor-vetoes-bill-that-would-weaken-referendums-and-empower-data-centers/"
+   ],
+   [
+    "Phoenix New Times",
+    "https://www.phoenixnewtimes.com/news/arizona-governor-katie-hobbs-veto-tracker-2026-40648356/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Developer-backed bill blocked",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -936,6 +1402,34 @@
     "city"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-04",
+  "j": "AZ",
+  "w": "Arizona Legislature and Gov. Hobbs",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "cost",
+   "disclosure"
+  ],
+  "t": "Arizona law lets regulators set minimum bills and contract terms for extra-high-load customers",
+  "b": "HB 2756 authorizes the Corporation Commission to set rules for very large power users such as data centers, including minimum bills and contract terms, and requires utilities to report on new interconnection requests.",
+  "s": [
+   [
+    "Arizona Legislature",
+    "https://www.azleg.gov/legtext/57leg/2r/laws/0111.htm"
+   ],
+   [
+    "The Cool Down",
+    "https://www.thecooldown.com/green-tech/arizona-data-centers-tax-breaks-hold/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Opens the door to stricter cost and contract rules",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1048,6 +1542,141 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-05-06",
+  "j": "AZ",
+  "w": "Maricopa County Board of Supervisors",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Maricopa County approves military permit for Project Baccara data center near Luke base",
+  "b": "Supervisors voted 4-1 for the permit required near military bases. The 160-acre plan has two data centers and a 700-megawatt gas plant. Hundreds of residents opposed it, and air-quality approval was still pending.",
+  "s": [
+   [
+    "KJZZ",
+    "https://www.kjzz.org/politics/2026-05-06/controversial-data-center-project-in-west-valley-near-luke-air-force-base-clears-regulatory-hurdle"
+   ],
+   [
+    "ABC15",
+    "https://www.abc15.com/news/local-news/very-disappointed-maricopa-county-supervisors-approve-controversial-data-center"
+   ]
+  ],
+  "im": 1,
+  "iw": "Key permit cleared for a large bring-your-own-power campus",
+  "pl": [
+   [
+    "Maricopa County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-01",
+  "j": "AZ",
+  "w": "Pima County Superior Court and Marana",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Courts uphold rejection of Marana data center referendum petitions",
+  "b": "A judge ruled the town clerk was right to reject two petitions against January's rezoning, and that the sponsor could not withdraw them. The state Court of Appeals later affirmed. No ballot vote is scheduled.",
+  "s": [
+   [
+    "AZPM",
+    "https://news.azpm.org/p/azpmnews/2026/5/4/229588-no-ballot-vote-for-marana-data-center-after-court-backs-town-clerks-decision/"
+   ],
+   [
+    "Chamber Business News",
+    "https://chamberbusinessnews.com/2026/10/01/arizona-appeals-court-upholds-rejection-of-marana-data-center-referenda/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Rezoning stays in place after referendum challenge failed",
+  "pl": [
+   [
+    "Marana",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-10",
+  "j": "AZ",
+  "w": "Pima County Superior Court",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "permitting"
+  ],
+  "t": "Judge dismisses open-meeting lawsuit over Project Blue rezoning",
+  "b": "A Pima County judge ruled the county did not violate open meeting law in rezoning the land, even though the agenda did not name the data center. The opposition coalition said it would appeal.",
+  "s": [
+   [
+    "AZPM",
+    "https://news.azpm.org/p/azpmnews/2026/4/13/229275-pima-county-judge-tosses-lawsuit-over-project-blue-data-center-rezoning/"
+   ],
+   [
+    "KJZZ",
+    "https://www.kjzz.org/fronteras-desk/2026-04-13/judge-dismisses-lawsuit-against-pima-county-over-project-blue-rezoning"
+   ]
+  ],
+  "im": 1,
+  "iw": "Rezoning for a built-out campus survives a legal challenge",
+  "pl": [
+   [
+    "Pima County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-07",
+  "j": "AZ",
+  "w": "Cochise County Board of Supervisors",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting",
+   "water"
+  ],
+  "t": "Cochise County adopts data center zoning rules instead of a moratorium",
+  "b": "Supervisors voted 3-0 to require special use authorization, noise studies, water-use plans and proof of power supply, and to mostly bar potable water for cooling. They did not take up the 120-day pause planning commissioners recommended 5-4 in March.",
+  "s": [
+   [
+    "AZPM",
+    "https://news.azpm.org/p/news-topical-biz/2026/4/10/229272-cochise-county-will-regulate-data-centers-but-some-residents-want-more/"
+   ],
+   [
+    "KVOA",
+    "https://www.kvoa.com/news/cochisecounty/cochise-county-explains-why-data-center-moratorium-isnt-moving-forward/article_7f1d6b33-34c2-4fdb-9809-43869ef61b0b.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "Clear rules and stricter approval, but no pause",
+  "pl": [
+   [
+    "Cochise County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-04-06",
   "j": "CO",
   "w": "Weld County Commissioners",
@@ -1076,6 +1705,161 @@
    [
     "Weld County",
     "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-02-19",
+  "j": "AZ",
+  "w": "Attorney General Kris Mayes",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "Mayes challenges regulators' approval of TEP deal to power Project Blue",
+  "b": "She argues the Corporation Commission, which approved the contract 4-1 on Dec. 3, 2025, gave away its rate-setting power by letting TEP and the developer adjust rate schedules. A judge heard the case in September and had not ruled.",
+  "s": [
+   [
+    "Arizona Attorney General",
+    "https://www.azag.gov/press-release/attorney-general-mayes-appeals-arizona-corporation-commissions-approval-tucson"
+   ],
+   [
+    "KJZZ",
+    "https://www.kjzz.org/fronteras-desk/2026-09-24/last-attempt-at-rehearing-project-blues-energy-service-agreement-rests-on-maricopa-county-judge"
+   ],
+   [
+    "Arizona Corporation Commission",
+    "https://www.azcc.gov/Rene-Lopez/news/2025/12/05/acc-approves-tep-energy-supply-agreement--ensures-customer-protections-from-costs-related-to-data-center-project"
+   ]
+  ],
+  "im": -1,
+  "iw": "Legal challenge to a key power contract",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-02",
+  "j": "AZ",
+  "w": "LeChee Chapter, Navajo Nation",
+  "lv": "tribal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting"
+  ],
+  "t": "Navajo LeChee Chapter unanimously opposes Page's land sale for data center",
+  "b": "The resolution says Page did not consult nearby Navajo residents or weigh risks to water and the environment. Corner Post reports the Coppermine and Kaibito chapters passed similar resolutions.",
+  "s": [
+   [
+    "Corner Post",
+    "https://cornerpost.org/2026/05/06/navajo-nation-leaders-oppose-data-center-in-page-arizona/"
+   ],
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/2026/05/10/navajo-nation-passes-resolution/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Adds tribal opposition to a proposed 1-gigawatt campus",
+  "pl": [
+   [
+    "LeChee Chapter",
+    "tribal"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-01-22",
+  "j": "AZ",
+  "w": "Arizona House Commerce Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "tax",
+   "water"
+  ],
+  "t": "HB 2467 to repeal data center tax break and set water limits withdrawn",
+  "b": "The bill would have repealed the incentive, required renewable power with battery storage after 2026, and capped cooling water use. It was withdrawn from committee on Jan. 22 and died.",
+  "s": [
+   [
+    "LegiScan",
+    "https://legiscan.com/AZ/bill/HB2467/2026"
+   ],
+   [
+    "BillTrack50",
+    "https://www.billtrack50.com/billdetail/1936151"
+   ]
+  ],
+  "im": 1,
+  "iw": "Stricter state requirements did not advance",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-12-11",
+  "j": "AZ",
+  "w": "Chandler City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting"
+  ],
+  "t": "Chandler council unanimously rejects proposed AI data center",
+  "b": "The council voted against clearing the way for an AI data center after residents raised noise, water and quality-of-life concerns. The meeting drew a large crowd opposed to the project.",
+  "s": [
+   [
+    "Fox Business",
+    "https://www.foxbusiness.com/politics/arizona-city-unanimously-rejects-ai-data-center-after-residents-outcry"
+   ]
+  ],
+  "im": -2,
+  "iw": "Project-killing vote in a major Phoenix suburb",
+  "pl": [
+   [
+    "Chandler",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-10-22",
+  "j": "AZ",
+  "w": "Page City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Page council votes 5-2 to sell 500 acres for possible data center",
+  "b": "The sale to Huntley LLC sets a feasibility period and does not approve a data center. Residents' referendum petition was disqualified on technical grounds, and opponents continue to organize.",
+  "s": [
+   [
+    "Arizona Center for Investigative Reporting",
+    "https://azcir.org/news/2025/11/21/did-page-az-city-council-approve-the-sale-of-500-acres-for-a-data-center-yes/"
+   ],
+   [
+    "AZFamily",
+    "https://www.azfamily.com/2025/12/18/page-residents-push-back-10b-data-center-proposal-near-horseshoe-bend/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Land secured for a possible 1-gigawatt campus",
+  "pl": [
+   [
+    "Page",
+    "city"
    ]
   ],
   "auto": false,
@@ -1111,6 +1895,33 @@
     "city"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2025-06-13",
+  "j": "AZ",
+  "w": "Arizona Public Service",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "cost"
+  ],
+  "t": "APS rate case seeks over 45% increase for data centers and other extra-large users",
+  "b": "APS says the proposal makes large customers pay their costs of service. The hearing began May 18, 2026. A Corporation Commission decision is expected by the end of 2026, and rates could land below the request.",
+  "s": [
+   [
+    "APS",
+    "https://www.aps.com/en/Utility/Regulatory-and-Legal/Rate-case"
+   ],
+   [
+    "Arizona Capitol Times",
+    "https://azcapitoltimes.com/news/2026/10/09/data-center-costs-divide-corporation-commission-candidates/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Higher power costs for large users if approved",
   "auto": false,
   "by": "Chongwmichael"
  }
