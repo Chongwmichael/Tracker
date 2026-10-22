@@ -85,6 +85,33 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-15",
+  "j": "UT",
+  "w": "O'Leary Digital (Stratos developer)",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "water"
+  ],
+  "t": "Stratos developer files new water-right application with Utah regulators",
+  "b": "O'Leary Digital asked the state to move existing irrigation water rights to the Stratos campus, saying use would fall below current farm use. A 20-day protest period follows public advertising. Two earlier applications were withdrawn after heavy protests.",
+  "s": [
+   [
+    "ABC4",
+    "https://www.abc4.com/news/northern-utah/stratos-project-new-water-rights-application/"
+   ],
+   [
+    "Deseret News",
+    "https://www.deseret.com/utah/2026/10/16/stratos-project-water-application-reveals-new-details-on-massive-data-center/"
+   ]
+  ],
+  "im": 0,
+  "iw": "Necessary water step, but protests are expected",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-14",
   "j": "AZ",
   "w": "Attorney General Kris Mayes",
@@ -203,6 +230,34 @@
  },
  {
   "d": "2026-10-08",
+  "j": "UT",
+  "w": "Utah State University (CANRI survey)",
+  "lv": "state",
+  "k": "politics",
+  "st": "poll",
+  "ty": [
+   "siting",
+   "water"
+  ],
+  "t": "Utah State survey: about three-quarters of residents oppose new data centers",
+  "b": "A statewide August survey of nearly 900 adults found 75.8% oppose or strongly oppose building more data centers, with opposition higher nearer home. Water use was the top concern, and most were dissatisfied with state officials' handling.",
+  "s": [
+   [
+    "Utah State University",
+    "https://www.usu.edu/today/story/utah-survey-uncovers-why-residents-oppose-new-data-centers"
+   ],
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/environment/2026/10/08/utah-data-centers-most-utahns/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Broad opposition adds pressure on officials",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-08",
   "j": "CO",
   "w": "Phil Weiser (D) and Victor Marx (R), governor candidates",
   "lv": "state",
@@ -223,6 +278,40 @@
   ],
   "im": 0,
   "iw": "Both support some guardrails; details differ",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-10-07",
+  "j": "UT",
+  "w": "Tooele County Planning Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Tooele planning commission tables data center ordinance after four-hour hearing",
+  "b": "The commission voted unanimously to table draft Chapter 34 until a data center is defined, after residents delivered a letter with more than 900 signatures. The county said the council will not accept a data center application until the chapter is complete.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51633969/tooele-county-planning-commission-votes-to-table-draft-of-data-center-ordinance"
+   ],
+   [
+    "KSL",
+    "https://www.ksl.com/article/51633485/900-tooele-residents-sign-letter-to-not-approve-data-center-ordinance-draft"
+   ]
+  ],
+  "im": -1,
+  "iw": "Local rules delayed a third time amid opposition",
+  "pl": [
+   [
+    "Tooele County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -655,6 +744,40 @@
  },
  {
   "d": "2026-09-15",
+  "j": "UT",
+  "w": "Mona Cares (residents' group)",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Mona residents appeal Juab County permit for $10 billion data center",
+  "b": "Mona Cares asked Juab County commissioners to overturn the April conditional use permit, arguing residents lacked timely notice. Commissioners said they followed state notice rules and were unsure they could cancel the permit.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51624497/mona-residents-file-appeal-seeking-to-overturn-approval-of-data-center-project"
+   ],
+   [
+    "KSL",
+    "https://www.ksl.com/article/51621507/mona-residents-question-approval-process-for-proposed-10b-data-center"
+   ]
+  ],
+  "im": -1,
+  "iw": "Administrative appeal could reopen a key permit",
+  "pl": [
+   [
+    "Juab County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09-15",
   "j": "CO",
   "w": "Loveland City Council",
   "lv": "local",
@@ -778,6 +901,39 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-08",
+  "j": "UT",
+  "w": "Clearfield City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Clearfield adopts 180-day moratorium on data center development",
+  "b": "The council voted 4-0 to bar data center development for six months while it studies rules, though no project is proposed. City code has no data center definition. Mayor Mark Shepherd, a MIDA board member, cited Stratos's scale.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51622427/clearfield-leaders-ok-180-day-moratorium-on-data-center-development"
+   ],
+   [
+    "Standard-Examiner",
+    "https://www.standard.net/news/local/2026/sep/09/clearfield-city-council-passes-data-center-moratorium-in-wake-of-grandiose-scale-of-stratos/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for six months",
+  "pl": [
+   [
+    "Clearfield",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-03",
   "j": "AZ",
   "w": "Gov. Katie Hobbs",
@@ -802,6 +958,36 @@
   ],
   "im": 0,
   "iw": "Rejects a pause but wants the tax break ended",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09",
+  "j": "UT",
+  "w": "Skull Valley Band of Goshute Indians",
+  "lv": "tribal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "water",
+   "siting"
+  ],
+  "t": "Skull Valley Goshute tribe opposes data center plans in Tooele County",
+  "b": "The tribe said a hyperscale data center in Tooele County could harm the groundwater that is its sole water source. KSL tied the statement to the Army's Dugway proposal; the tribe urged county officials to oppose related zoning requests.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51617458/goshute-indian-tribe-voices-opposition-to-us-army-data-center-proposal-in-tooele-county"
+   ]
+  ],
+  "im": -1,
+  "iw": "Adds tribal water-rights opposition",
+  "pl": [
+   [
+    "Skull Valley Band of Goshute",
+    "tribal"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -918,6 +1104,30 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-20",
+  "j": "UT",
+  "w": "Gov. Spencer Cox",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Cox calls for MIDA overhaul and bigger governor role after Stratos backlash",
+  "b": "Gov. Cox called for changes to the agency that approved Stratos, including a larger role for his office. MIDA said it had paused work on Stratos during litigation, while developer Kevin O'Leary said the project is full steam ahead.",
+  "s": [
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/politics/2026/08/20/utah-gov-cox-calls-stratos-data/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Signals tighter oversight of fast-track approvals",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1123,6 +1333,67 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-08-04",
+  "j": "UT",
+  "w": "Sanpete County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Sanpete County approves six-month data center moratorium",
+  "b": "Commissioners approved a six-month moratorium on new data center development at their Aug. 4 meeting, giving the county time to draft land-use rules. The county had no ordinance covering data centers; planners began discussing rules in May.",
+  "s": [
+   [
+    "Sanpete Messenger",
+    "https://sanpetemessenger.com/category/news/"
+   ],
+   [
+    "Sanpete Messenger",
+    "https://sanpetemessenger.com/sanpete-county-planning-commission-opens-discussion-on-data-centers-and-solar-farms/"
+   ]
+  ],
+  "im": -2,
+  "iw": "New applications frozen for six months",
+  "pl": [
+   [
+    "Sanpete County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-27",
+  "j": "UT",
+  "w": "Utah Division of Water Quality",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "water",
+   "permitting"
+  ],
+  "t": "Utah regulators hear opposition to Tooele Valley data center discharge permit",
+  "b": "At a July 27 hearing, residents opposed a state permit that would let the Tooele Valley project, which includes a 500-megawatt data center, discharge up to 250,000 gallons of wastewater daily toward Great Salt Lake wetlands. No decision had been issued as of mid-August.",
+  "s": [
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/environment/2026/07/28/yet-another-data-center-planned/"
+   ],
+   [
+    "Grow the Flow",
+    "https://growtheflowutah.org/2026/08/18/tooele-valleys-proposed-data-center-a-clear-look-at-whats-happening/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Key discharge permit faces organized opposition",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-07-21",
   "j": "CO",
   "w": "Lochbuie Town Board",
@@ -1252,6 +1523,39 @@
  },
  {
   "d": "2026-07-07",
+  "j": "UT",
+  "w": "Grand County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Grand County adopts 180-day pause on data center applications",
+  "b": "Commissioners voted unanimously on July 7 for a temporary regulation while permanent standards are written. No applications were pending. Staff said a mid-scale data center could need two to four times the county's yearly electricity use.",
+  "s": [
+   [
+    "Moab Times",
+    "https://www.moabtimes.com/articles/grand-county-pauses-data-center-applications-to-develop-new-land-use-rules/"
+   ],
+   [
+    "Moab Sun News",
+    "https://moabsunnews.com/2026/07/08/grand-county-commission-meeting-july-7-2026/"
+   ]
+  ],
+  "im": -2,
+  "iw": "New applications frozen for six months",
+  "pl": [
+   [
+    "Grand County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-07-07",
   "j": "CO",
   "w": "Broomfield City Council",
   "lv": "local",
@@ -1314,6 +1618,43 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-06-30",
+  "j": "UT",
+  "w": "Logan Municipal Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Logan adopts 180-day moratorium on data centers and data center power plants",
+  "b": "The municipal council voted unanimously on June 30 to stop accepting or approving applications while staff study rules. The pause runs to Dec. 30. Draft rules would cap standalone sites at about eight acres and bar hyperscale facilities; they need further votes.",
+  "s": [
+   [
+    "Herald Journal",
+    "https://www.hjnews.com/news/local/logan-city-council-places-moratorium-on-data-centers/article_7e9bc512-6d6e-433d-aac0-1ccd7b13bc47.html"
+   ],
+   [
+    "City of Logan",
+    "https://www.loganutah.gov/news_detail_T2_R412.php"
+   ],
+   [
+    "Utah Statesman",
+    "https://usustatesman.com/logan-to-hold-second-data-center-open-house-oct-5/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for six months",
+  "pl": [
+   [
+    "Logan",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-06-27",
   "j": "CO",
   "w": "Gov. Jared Polis",
@@ -1342,6 +1683,66 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-06-23",
+  "j": "UT",
+  "w": "Utah Republican primary voters",
+  "lv": "state",
+  "k": "politics",
+  "st": "campaign",
+  "ty": [
+   "siting"
+  ],
+  "t": "Data center backlash helps oust Senate President Adams and two Box Elder commissioners",
+  "b": "Senate President Stuart Adams, who chaired MIDA's board, lost his June 23 primary to critic Stephanie Hollist. Box Elder commissioners Lee Perry and Boyd Bingham, who backed the Stratos agreements, also lost. Perry said his vote cost him the seat.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51540078/how-a-data-center-helped-topple-one-of-utahs-most-powerful-lawmakers"
+   ],
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/2026/06/23/box-elder-county-commission/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Shows the political cost of backing mega-projects",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-23",
+  "j": "UT",
+  "w": "Cache County Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Cache County adopts 180-day moratorium on data centers",
+  "b": "The council voted 6-0 on June 23, with one member absent, to stop reviewing data center and related power applications in unincorporated areas. No developer interest was known. Staff will weigh new standards or a prohibition.",
+  "s": [
+   [
+    "Utah Public Radio",
+    "https://www.upr.org/politics/2026-07-01/as-data-centers-weigh-on-utahns-minds-another-county-has-hit-pause"
+   ],
+   [
+    "KSL NewsRadio",
+    "https://kslnewsradio.com/utah/cache-county-pauses-data-centers/2311473/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen for six months",
+  "pl": [
+   [
+    "Cache County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-06-19",
   "j": "AZ",
   "w": "Gov. Katie Hobbs",
@@ -1365,6 +1766,63 @@
   ],
   "im": -1,
   "iw": "Developer-backed bill blocked",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-17",
+  "j": "UT",
+  "w": "Utah Legislature Economic Development Interim Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Utah interim committee opens bill file to define large data centers",
+  "b": "The Economic Development and Workforce Services Interim Committee voted unanimously to start a bill defining large-scale data centers in state code. Chair Sen. Ann Millner said hearings would follow. Other lawmakers are drafting environmental-review and incentive bills.",
+  "s": [
+   [
+    "FOX 13",
+    "https://www.fox13now.com/news/politics/utah-lawmakers-start-drafting-data-center-bills"
+   ]
+  ],
+  "im": 0,
+  "iw": "Rule-writing begins; outcome unknown",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-10",
+  "j": "UT",
+  "w": "Box Elder County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Box Elder County adopts 180-day data center moratorium, exempting Stratos",
+  "b": "Commissioners voted unanimously on June 10 to pause new data centers and their power plants on unincorporated land. Stratos is exempt because MIDA governs it. Critics called the move too late; the county is drafting land-use rules.",
+  "s": [
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/2026/06/10/box-elder-county-consider/"
+   ],
+   [
+    "KSL",
+    "https://www.ksl.com/article/news/business/box-elder-county-commissioners-approve-data-center-moratorium-stratos-project-exempt/51509683"
+   ]
+  ],
+  "im": -2,
+  "iw": "New applications frozen six months, though Stratos is exempt",
+  "pl": [
+   [
+    "Box Elder County",
+    "county"
+   ]
+  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1407,6 +1865,67 @@
  },
  {
   "d": "2026-06-04",
+  "j": "UT",
+  "w": "Senate President Stuart Adams and developer Kevin O'Leary",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting"
+  ],
+  "t": "Adams demands 75% Stratos cut; O'Leary agrees to halve footprint",
+  "b": "After Senate President Stuart Adams asked June 1 for a 75% smaller footprint, developer Kevin O'Leary announced June 4 he would cut about 20,000 of 40,000 acres. He had earlier called the request outrageous and did not commit to lower power use.",
+  "s": [
+   [
+    "Christian Science Monitor",
+    "https://www.csmonitor.com/Environment/2026/0605/utah-stratos-data-center-kevin-oleary"
+   ],
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/2026/06/04/lawsuit-mida-box-elder-leaders/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Smaller footprint, but power demand unchanged and pressure growing",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-04",
+  "j": "UT",
+  "w": "Iron County Planning Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Iron County planners approve permit for 1.5-gigawatt Antelope data campus",
+  "b": "The planning commission unanimously approved a conditional use permit for Pronghorn Development's 640-acre campus west of Cedar City, with up to five buildings and an on-site 1.5-gigawatt gas plant, after months of opposition. The permit is separate from any tax incentives.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51507699/iron-county-planning-commission-approves-conditional-use-permit-for-antelope-data-campus"
+   ],
+   [
+    "St. George News",
+    "https://www.stgeorgeutah.com/news/planning-commission-approves-conditional-use-permit-for-proposed-iron-county-data-center/article_0a818ae9-8496-4e3e-87e0-53a09ee256c5.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Key permit cleared for a large campus with its own power",
+  "pl": [
+   [
+    "Iron County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-04",
   "j": "AZ",
   "w": "Arizona Legislature and Gov. Hobbs",
   "lv": "state",
@@ -1430,6 +1949,72 @@
   ],
   "im": -1,
   "iw": "Opens the door to stricter cost and contract rules",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-03",
+  "j": "UT",
+  "w": "Box Elder Accountability Referendum (BEAR)",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Residents sue to put Stratos agreements on Box Elder ballot",
+  "b": "The Box Elder Accountability Referendum group appealed the county attorney's rejection in 1st District Court, arguing the resolutions were legislative. The county and developer O'Leary Digital moved to dismiss in late July; no hearing had been scheduled as of early August.",
+  "s": [
+   [
+    "Herald Journal",
+    "https://www.hjnews.com/news/local/bear-appeals-referendum-denial-over-stratos-data-center-project/article_a097de5a-c4e8-41ba-9e64-4225eaa17959.html"
+   ],
+   [
+    "ABC4",
+    "https://www.abc4.com/news/box-elder-county-kevin-oleary-dismiss-suit-referendum-data-center/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Could force a public vote, though odds are uncertain",
+  "pl": [
+   [
+    "Box Elder County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06-03",
+  "j": "UT",
+  "w": "Alliance for a Better Utah and five Box Elder residents",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Alliance for a Better Utah sues MIDA over Stratos approvals",
+  "b": "A civil-rights suit in 3rd District Court argues the MIDA law strips residents' referendum rights and that two senators' seats on MIDA's board violate the constitution. Defendants include MIDA, the county commission, Sen. Stuart Adams and Sen. Jerry Stevenson.",
+  "s": [
+   [
+    "Alliance for a Better Utah",
+    "https://betterutah.org/mida-lawsuit/"
+   ],
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/2026/06/04/lawsuit-mida-box-elder-leaders/"
+   ],
+   [
+    "Utah News Dispatch",
+    "https://utahnewsdispatch.com/2026/06/05/nonprofits-lawsuit-challenges-not-only-stratos-project-but-midas-code/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Challenges the legal basis of the fast-track approval",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1459,6 +2044,164 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06",
+  "j": "UT",
+  "w": "Tooele County Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "tax"
+  ],
+  "t": "Tooele County starts review of data center rules and energy excise tax",
+  "b": "Resolution 2026-18 directs staff and planners to recommend data center land-use rules, an energy excise tax and development-overlay standards. The county said it had approved no data center and has no specific regulations yet. Exact meeting date needs confirming.",
+  "s": [
+   [
+    "ABC4",
+    "https://www.abc4.com/news/local-news/tooele-county-data-center-council-resolution-adopted/"
+   ],
+   [
+    "Tooele County",
+    "https://tooeleco.gov/departments/administration/clerk/resolutions_and_ordinances.php"
+   ]
+  ],
+  "im": 0,
+  "iw": "Rule-writing under way; no pause or approval yet",
+  "pl": [
+   [
+    "Tooele County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-29",
+  "j": "UT",
+  "w": "Gov. Spencer Cox",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water",
+   "cost",
+   "permitting"
+  ],
+  "t": "Cox signs executive order setting a 'higher bar' for large data centers",
+  "b": "Executive Order 2026-03 directs state agencies to apply a framework protecting Great Salt Lake water, ratepayers and air quality, mitigating wildlife impacts and allowing public comment. Cox said it could delay Stratos.",
+  "s": [
+   [
+    "Governor's Office",
+    "https://governor.utah.gov/wp-content/uploads/2026.05.29-EO-Higher-Bar-for-Data-Center-Development-1.pdf"
+   ],
+   [
+    "KSL",
+    "https://www.ksl.com/article/51504319/cox-signs-new-order-for-data-center-development-after-public-outcry"
+   ]
+  ],
+  "im": -1,
+  "iw": "Stricter state review, mostly applying existing laws",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-28",
+  "j": "UT",
+  "w": "Box Elder County Attorney",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "permitting",
+   "siting"
+  ],
+  "t": "Box Elder attorney rules Stratos resolutions cannot go to voters",
+  "b": "County Attorney Stephen Hadfield found the consent and interlocal-agreement resolutions administrative, not legislative, so not referable. The county said repeal would cost guaranteed revenue of $5.4 million a year. Sponsors vowed to appeal.",
+  "s": [
+   [
+    "Box Elder County",
+    "https://www.boxeldercountyut.gov/666/Stratos-Project-Referendum"
+   ],
+   [
+    "Utah News Dispatch",
+    "https://utahnewsdispatch.com/2026/05/28/box-elder-county-data-center-referendum-denied/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Blocks a ballot challenge to the project approvals",
+  "pl": [
+   [
+    "Box Elder County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-26",
+  "j": "UT",
+  "w": "Iron County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Iron County pauses new data center and large solar applications for 180 days",
+  "b": "Ordinance 2026-13 halts new applications for data centers, their power plants and large solar projects while the county rewrites its rules. One already-complete project was not covered. Planners proposed new restrictions in early October.",
+  "s": [
+   [
+    "Iron County",
+    "https://ironcountyut.gov/planning/data-center-projects"
+   ],
+   [
+    "KSL",
+    "https://www.ksl.com/article/51503330/iron-county-presses-pause-on-new-ai-data-center-proposals-to-review-current-regulations"
+   ],
+   [
+    "KUER",
+    "https://www.kuer.org/business-economy/2026-10-09/box-elder-iron-county-data-center-moratoriums-new-regulations"
+   ]
+  ],
+  "im": -2,
+  "iw": "Applications frozen up to six months, pending rules",
+  "pl": [
+   [
+    "Iron County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-20",
+  "j": "UT",
+  "w": "Utah Legislature Natural Resources Interim Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "water"
+  ],
+  "t": "Utah interim committee votes to study data center impacts",
+  "b": "The Natural Resources Interim Committee agreed to add a study of data center impacts, on a motion by Rep. Doug Owens. Republicans on the panel did not oppose it. The scope was not yet defined.",
+  "s": [
+   [
+    "KUTV",
+    "https://kutv.com/news/local/utah-lawmakers-vote-to-study-impacts-of-box-elder-county-data-center"
+   ]
+  ],
+  "im": 0,
+  "iw": "Study only; no rule change yet",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1576,6 +2319,44 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-05-04",
+  "j": "UT",
+  "w": "Box Elder County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Box Elder commissioners approve Stratos project area and MIDA agreement",
+  "b": "Commissioners voted unanimously on May 4 for two resolutions: consent to MIDA's project area and an interlocal agreement transferring land-use authority for 50 years. Large crowds protested, and commissioners said the state left them little choice.",
+  "s": [
+   [
+    "KUER",
+    "https://www.kuer.org/politics-government/2026-05-07/utah-project-stratos-box-elder-data-center-county-commissioner-lee-perry"
+   ],
+   [
+    "Box Elder County",
+    "https://www.boxeldercountyut.gov/666/Stratos-Project-Referendum"
+   ],
+   [
+    "Deseret News",
+    "https://www.deseret.com/utah/2026/05/12/everything-about-utah-stratos-project-data-center/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Local consent clears the way for a huge campus, but not permits",
+  "pl": [
+   [
+    "Box Elder County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-05-01",
   "j": "AZ",
   "w": "Pima County Superior Court and Marana",
@@ -1603,6 +2384,102 @@
    [
     "Marana",
     "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-27",
+  "j": "UT",
+  "w": "Duchesne County Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Duchesne County rejects appeals of Nine Mile data center permits",
+  "b": "Commissioners denied residents' appeals of the April 2 planning approvals for the Nine Mile data center and related gas, solar and produced-water permits; the first appeal was denied for lack of standing. Appellants said they would seek court remedies.",
+  "s": [
+   [
+    "Basin Now",
+    "https://www.basinnow.com/appeals-denied-during-data-center-public-hearing/"
+   ],
+   [
+    "Duchesne County notice",
+    "https://www.utah.gov/pmn/sitemap/notice/1073369.html"
+   ]
+  ],
+  "im": 1,
+  "iw": "Permits stay in place after appeals fail",
+  "pl": [
+   [
+    "Duchesne County",
+    "county"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-24",
+  "j": "UT",
+  "w": "Military Installation Development Authority (MIDA) board",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "MIDA board approves Stratos data center project area in Box Elder County",
+  "b": "The state authority created a roughly 40,000-acre project area for Kevin O'Leary's data center and power campus. MIDA can override county zoning. Public input was minimal, and the footprint was later cut to about 20,000 acres.",
+  "s": [
+   [
+    "Governor's Office FAQ",
+    "https://governor.utah.gov/wp-content/uploads/FAQ-on-Stratos-Project.pdf"
+   ],
+   [
+    "Utah News Dispatch",
+    "https://utahnewsdispatch.com/2026/07/27/critics-call-for-more-details-about-stratos-data-center-utah/"
+   ]
+  ],
+  "im": 2,
+  "iw": "Fast-track land-use approval that bypasses county zoning",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-04-15",
+  "j": "UT",
+  "w": "Juab County Planning Commission",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Juab County planners approve permit for $10 billion Nebo North data center",
+  "b": "The planning commission approved a conditional use permit for a campus of about 3 million square feet near Mona after a hearing residents say lasted four minutes. Neighbors learned later; in September commissioners were unsure they could cancel the permit.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51621507/mona-residents-question-approval-process-for-proposed-10b-data-center"
+   ],
+   [
+    "Salt Lake Tribune",
+    "https://www.sltrib.com/news/2026/09/14/utahns-left-in-dark-10b-data/"
+   ]
+  ],
+  "im": 1,
+  "iw": "Major permit cleared with little public notice",
+  "pl": [
+   [
+    "Juab County",
+    "county"
    ]
   ],
   "auto": false,
@@ -1707,6 +2584,163 @@
     "county"
    ]
   ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03-26",
+  "j": "UT",
+  "w": "U.S. Army",
+  "lv": "federal",
+  "k": "action",
+  "st": "pending",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Army picks CyrusOne for exclusive talks on Dugway data center",
+  "b": "The Army conditionally selected CyrusOne to negotiate a lease for a hyperscale data center on about 1,201 acres at Dugway Proving Ground, targeting fiscal 2029. The developer must supply its own power and water; an Army Corps environmental review is pending.",
+  "s": [
+   [
+    "DefenseScoop",
+    "https://defensescoop.com/2026/03/26/commercial-data-centers-army-bases-fort-bliss-dugway/"
+   ],
+   [
+    "ABC4",
+    "https://www.abc4.com/news/local-news/data-center-planned-dugway-proving-ground-army/"
+   ]
+  ],
+  "im": 2,
+  "iw": "Federal-land fast track for a large campus",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03-23",
+  "j": "UT",
+  "w": "Utah Legislature and Gov. Cox",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water",
+   "disclosure"
+  ],
+  "t": "Utah law requires large new data centers to report water use",
+  "b": "HB 76 makes new data centers over 10,000 square feet that expect to use 75 or more acre-feet of water a year report plans before construction and use annually after. Gov. Cox signed it March 23; it took effect May 6, covering projects after July 1.",
+  "s": [
+   [
+    "Governor's Office",
+    "https://governor.utah.gov/press/news-release-gov-cox-signs-87-bills-in-the-2026-general-legislative-session/"
+   ],
+   [
+    "Utah Division of Water Rights",
+    "https://waterrights.utah.gov/data-centers/"
+   ],
+   [
+    "Utah Legislature",
+    "https://le.utah.gov/Session/2026/bills/enrolled/HB0076.pdf"
+   ]
+  ],
+  "im": -1,
+  "iw": "New disclosure duty with modest cost",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03-23",
+  "j": "UT",
+  "w": "Utah Legislature and Gov. Cox",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water",
+   "permitting"
+  ],
+  "t": "Utah narrows what the state engineer can weigh in water-right protests",
+  "b": "HB 60, signed March 23 and effective May 6, limits the state engineer to beneficial use and water quantity, quality and availability when judging public welfare. Critics said it weakens protests like those filed against Stratos's first water application.",
+  "s": [
+   [
+    "Axios Salt Lake City",
+    "https://www.axios.com/local/salt-lake-city/2026/05/12/box-elder-data-center-stratos-hb60-water-right"
+   ],
+   [
+    "Utah News Dispatch",
+    "https://utahnewsdispatch.com/2026/05/18/data-center-new-utah-law-gives-less-weight-to-pushback-citing-broad-impact/"
+   ],
+   [
+    "Utah Legislature",
+    "https://le.utah.gov/Session/2026/bills/enrolled/HB0060.pdf"
+   ]
+  ],
+  "im": 1,
+  "iw": "Broad public-welfare objections carry less weight",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03-10",
+  "j": "UT",
+  "w": "Provo City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Provo council unanimously denies data center overlay for East Bay site",
+  "b": "The council voted 7-0 against rezoning a parcel for a proposed grid-powered data center, despite a planning commission recommendation to approve. Members cited location and wanted the city's economic plan finished first. The developer may reapply.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51461110/provo-city-council-denies-zoning-change-for-proposed-data-center"
+   ],
+   [
+    "Daily Herald",
+    "https://www.heraldextra.com/news/2026/mar/11/provo-city-council-denies-rezoning-request-for-data-center-at-east-bay/"
+   ]
+  ],
+  "im": -2,
+  "iw": "Project-killing vote in a Utah County city",
+  "pl": [
+   [
+    "Provo",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-03",
+  "j": "UT",
+  "w": "Utah Legislature and Gov. Cox",
+  "lv": "state",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "tax"
+  ],
+  "t": "Utah law limits local incentives for large data centers and allows county energy tax",
+  "b": "HB 507, signed in March, generally bars local governments from giving incentives to large data centers outside a state-approved development zone, caps property-tax incentives at 60% of new county revenue, and lets counties levy an energy excise tax of up to 6%.",
+  "s": [
+   [
+    "Utah House of Representatives",
+    "https://house.utleg.gov/2026-utah-data-center-regulations/"
+   ],
+   [
+    "Utah Legislature fiscal note",
+    "https://pf.utleg.gov/public-web/sessions/2026GS/fiscal-notes/HB0507S02.fn.pdf"
+   ],
+   [
+    "Utah Legislature",
+    "https://le.utah.gov/Session/2026/bills/enrolled/HB0507.pdf"
+   ]
+  ],
+  "im": -1,
+  "iw": "Subsidies restricted and a county energy tax allowed",
   "auto": false,
   "by": "Chongwmichael"
  },
