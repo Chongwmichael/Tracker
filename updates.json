@@ -118,6 +118,43 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-10-20",
+  "j": "CO",
+  "w": "Brighton City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "pause",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Brighton adopts one-year data center moratorium on second reading",
+  "b": "After a first-reading vote Oct. 6, the day after a developer withdrew a 2.5-million-square-foot rezoning application, the council approved the ordinance again Oct. 20, the Denver Gazette reports. The pause runs one year from its effective date and can be extended 90 days. The effective date is unconfirmed.",
+  "s": [
+   [
+    "Denver Gazette",
+    "https://www.denvergazette.com/2026/10/21/littleton-brighton-join-growing-list-of-data-center-moratoriums/"
+   ],
+   [
+    "City of Brighton",
+    "https://www.brightonco.gov/m/newsflash/home/detail/2985"
+   ],
+   [
+    "Colorado Public Radio",
+    "https://www.cpr.org/2026/10/07/brighton-approves-data-center-moratorium/"
+   ]
+  ],
+  "im": -2,
+  "iw": "New applications frozen for a year in a growing metro city",
+  "pl": [
+   [
+    "Brighton",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-10-16",
   "j": "NM",
   "w": "NMED hearing officer James Browning",
@@ -228,39 +265,6 @@
   ],
   "im": -1,
   "iw": "Pressure for a state pause or local votes",
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-10-13",
-  "j": "CO",
-  "w": "Landowner companies near Windsor",
-  "lv": "local",
-  "k": "action",
-  "st": "pending",
-  "ty": [
-   "permitting"
-  ],
-  "t": "Companies tied to neighboring industrial park sue Weld County over Global AI approval",
-  "b": "Three companies filed in Weld District Court to overturn the September approval. They allege rule-bending, open-meetings violations and unenforced stop-work orders. Responses from the county and Global AI were not found.",
-  "s": [
-   [
-    "KUNC",
-    "https://www.kunc.org/news/2026-10-13/landowner-alleges-weld-county-commissioners-bent-rules-for-data-center-project"
-   ],
-   [
-    "Colorado Public Radio",
-    "https://www.cpr.org/2026/10/15/weld-county-data-center-opposition-petition/"
-   ]
-  ],
-  "im": -1,
-  "iw": "Lawsuit could overturn a key project permit",
-  "pl": [
-   [
-    "Weld County",
-    "county"
-   ]
-  ],
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -477,31 +481,31 @@
  {
   "d": "2026-10-06",
   "j": "CO",
-  "w": "Brighton City Council",
+  "w": "Landowner companies near Windsor",
   "lv": "local",
   "k": "action",
   "st": "pending",
   "ty": [
-   "moratorium"
+   "permitting"
   ],
-  "t": "Brighton advances one-year data center moratorium as developer withdraws application",
-  "b": "Council approved the ordinance on first reading, extending a proposed six months to a year. A day earlier the developer withdrew a rezoning application for a 2.5-million-square-foot campus. Second reading should be confirmed.",
+  "t": "Companies tied to neighboring industrial park sue Weld County over Global AI approval",
+  "b": "Three companies tied to the neighboring industrial park filed in Weld District Court on Oct. 6 (case 2026CV31187) to overturn the September approval. They allege rule-bending, open-meetings violations and unenforced stop-work orders. Responses from the county and Global AI were not found.",
   "s": [
    [
-    "Colorado Public Radio",
-    "https://www.cpr.org/2026/10/07/brighton-approves-data-center-moratorium/"
+    "BizWest",
+    "https://bizwest.com/2026/10/08/landowner-alleges-weld-commissioners-bent-rules-for-data-center/"
    ],
    [
-    "CBS Colorado",
-    "https://www.cbsnews.com/colorado/news/colorado-brighton-city-council-data-center-moratorium-proposed-project-withdrawn/"
+    "KUNC",
+    "https://www.kunc.org/news/2026-10-13/landowner-alleges-weld-county-commissioners-bent-rules-for-data-center-project"
    ]
   ],
-  "im": -2,
-  "iw": "Pause plus loss of a large proposed project",
+  "im": -1,
+  "iw": "Lawsuit could overturn a key project permit",
   "pl": [
    [
-    "Brighton",
-    "city"
+    "Weld County",
+    "county"
    ]
   ],
   "auto": false,
@@ -1203,12 +1207,46 @@
   "by": "Chongwmichael"
  },
  {
+  "d": "2026-09-17",
+  "j": "ID",
+  "w": "Pocatello City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "denied",
+  "ty": [
+   "siting",
+   "permitting"
+  ],
+  "t": "Pocatello council again affirms denial of AI data center on reconsideration",
+  "b": "A motion to reverse failed 3-2, then the council affirmed the denial but waived the usual 12-month wait to reapply. The decision becomes official Oct. 1, after which Lex Developments has 28 days to seek judicial review.",
+  "s": [
+   [
+    "Local News 8",
+    "https://localnews8.com/news/2026/09/24/pocatello-city-council-votes-to-deny-conditional-use-permit-for-ai-data-center-applicant-for-a-second-time/"
+   ],
+   [
+    "Idaho State Journal",
+    "https://www.idahostatejournal.com/news/local/lex-developments-files-reconsideration-request-accuses-pocatello-of-due-process-violations/article_8f5ab450-36bc-4bb1-8c4c-49440ee95e8e.html"
+   ]
+  ],
+  "im": -2,
+  "iw": "Denial reaffirmed, though a lawsuit is likely",
+  "pl": [
+   [
+    "Pocatello",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
   "d": "2026-09-16",
   "j": "NM",
   "w": "New Mexico State Ethics Commission",
   "lv": "state",
-  "k": "action",
-  "st": "in-force",
+  "k": "politics",
+  "st": "statement",
   "ty": [
    "disclosure"
   ],
@@ -1302,15 +1340,19 @@
    "moratorium"
   ],
   "t": "Loveland approves 12-month pause on data center land-use applications",
-  "b": "Council voted 7-2 to ratify a direction given to staff on Sept. 1. The pause ends earlier if new land-use rules are adopted first.",
+  "b": "Council voted 7-2 to pause land-use applications for data centers needing 10 megawatts or more; smaller facilities can still proceed. A 5-4 vote lengthened the pause from nine to 12 months, and it ends earlier if new rules are adopted.",
   "s": [
    [
     "BizWest",
     "https://bizwest.com/2026/09/16/loveland-imposes-12-month-data-center-moratorium/"
+   ],
+   [
+    "Denver7",
+    "https://www.denver7.com/news/local-news/in-your-community/northern-colorado/northern-colorado-communities-weigh-data-center-moratoriums"
    ]
   ],
   "im": -2,
-  "iw": "Applications frozen for up to a year",
+  "iw": "Large projects frozen for up to a year; small ones unaffected",
   "pl": [
    [
     "Loveland",
@@ -1385,67 +1427,6 @@
     "county"
    ]
   ],
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-09-14",
-  "j": "CO",
-  "w": "Aurora City Council",
-  "lv": "local",
-  "k": "action",
-  "st": "pending",
-  "ty": [
-   "water",
-   "siting"
-  ],
-  "t": "Aurora council advances ban on evaporative cooling in new buildings, including data centers",
-  "b": "Council unanimously introduced the ordinance, which covers new projects only and excludes the already-approved QTS campus. A final vote was due at the next meeting; the outcome should be confirmed.",
-  "s": [
-   [
-    "Colorado Politics",
-    "https://www.coloradopolitics.com/2026/09/14/aurora-bans-evaporative-cooling-for-data-centers-turf-installation-to-save-water/"
-   ],
-   [
-    "Westword",
-    "https://www.westword.com/news/aurora-colorado-residents-say-data-center-regulation-falls-short-40935162/"
-   ]
-  ],
-  "im": -1,
-  "iw": "Forces closed-loop cooling on new projects",
-  "pl": [
-   [
-    "Aurora",
-    "city"
-   ]
-  ],
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-09-13",
-  "j": "CO",
-  "w": "Magellan Strategies (self-funded survey)",
-  "lv": "state",
-  "k": "politics",
-  "st": "poll",
-  "ty": [
-   "moratorium"
-  ],
-  "t": "Magellan poll: most Colorado voters oppose data centers, strongest near home",
-  "b": "A survey of 1,389 registered voters found 86% oppose one near their neighborhood, 82% in their city or town and 75% elsewhere in the state. Fifty-five percent chose a ban on construction as the best path for their community.",
-  "s": [
-   [
-    "Magellan Strategies",
-    "https://magellanstrategies.com/colorado-2026-ai-data-center-opinion-survey/"
-   ],
-   [
-    "Westword",
-    "https://www.westword.com/news/most-colorado-voters-hate-ai-and-data-centers-study-says-40934952/"
-   ]
-  ],
-  "im": -1,
-  "iw": "Broad opposition adds pressure on local officials",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1624,7 +1605,72 @@
   "by": "Chongwmichael"
  },
  {
-  "d": "2026-09-02",
+  "d": "2026-09",
+  "j": "CO",
+  "w": "Aurora City Council",
+  "lv": "local",
+  "k": "action",
+  "st": "in-force",
+  "ty": [
+   "water",
+   "siting"
+  ],
+  "t": "Aurora council finalizes ban on evaporative cooling in new buildings, including data centers",
+  "b": "The council introduced the ordinance unanimously Sept. 14, and Denver7 reports the ban passed at the next meeting. It covers new commercial, industrial and multifamily buildings and is not retroactive, so Aurora's nine existing data centers are unaffected. The effective date is unconfirmed.",
+  "s": [
+   [
+    "Denver7",
+    "https://www.denver7.com/news/local-news/aurora-bans-evaporative-cooling-in-new-buildings-requires-sprinklers-off-by-october-through-april"
+   ],
+   [
+    "Colorado Politics",
+    "https://www.coloradopolitics.com/2026/09/14/aurora-bans-evaporative-cooling-for-data-centers-turf-installation-to-save-water/"
+   ],
+   [
+    "Axios Arapahoe County",
+    "https://www.axios.com/local/arapahoe/2026/09/16/data-center-setback-rules-homes"
+   ]
+  ],
+  "im": -1,
+  "iw": "Forces closed-loop cooling on new projects",
+  "pl": [
+   [
+    "Aurora",
+    "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09",
+  "j": "CO",
+  "w": "Magellan Strategies (self-funded survey)",
+  "lv": "state",
+  "k": "politics",
+  "st": "poll",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Magellan poll: most Colorado voters oppose data centers, strongest near home",
+  "b": "A survey of 1,389 registered voters found 86% oppose one near their neighborhood, 82% in their city or town and 75% elsewhere in the state. Fifty-five percent chose a ban on construction as the best path for their community.",
+  "s": [
+   [
+    "Magellan Strategies",
+    "https://magellanstrategies.com/colorado-2026-ai-data-center-opinion-survey/"
+   ],
+   [
+    "Westword",
+    "https://www.westword.com/news/most-colorado-voters-hate-ai-and-data-centers-study-says-40934952/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Broad opposition adds pressure on local officials",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-09",
   "j": "MT",
   "w": "Alani Bankhead (D) and Seth Bodnar (I), Senate candidates",
   "lv": "federal",
@@ -1648,7 +1694,7 @@
   "by": "Chongwmichael"
  },
  {
-  "d": "2026-09-01",
+  "d": "2026-09",
   "j": "WY",
   "w": "Natrona County Commissioners",
   "lv": "local",
@@ -1659,7 +1705,7 @@
    "permitting"
   ],
   "t": "Natrona County weighs conditions and industrial-park zoning for Prometheus data center",
-  "b": "At a packed Sept. 1 meeting, commissioners heard Prometheus Hyperscale's plan for a roughly 1.25-gigawatt campus east of Casper. They are drafting conditions and weighing an industrial-park exemption that would bypass the state Industrial Siting Council.",
+  "b": "At a packed September meeting, commissioners heard Prometheus Hyperscale's plan for a roughly 1.25-gigawatt campus east of Casper. They are drafting conditions and weighing an industrial-park exemption that would bypass the state Industrial Siting Council.",
   "s": [
    [
     "Cowboy State Daily",
@@ -1680,36 +1726,6 @@
    [
     "Natrona County",
     "county"
-   ]
-  ],
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-09",
-  "j": "UT",
-  "w": "Skull Valley Band of Goshute Indians",
-  "lv": "tribal",
-  "k": "politics",
-  "st": "statement",
-  "ty": [
-   "water",
-   "siting"
-  ],
-  "t": "Skull Valley Goshute tribe opposes data center plans in Tooele County",
-  "b": "The tribe said a hyperscale data center in Tooele County could harm the groundwater that is its sole water source. KSL tied the statement to the Army's Dugway proposal; the tribe urged county officials to oppose related zoning requests.",
-  "s": [
-   [
-    "KSL",
-    "https://www.ksl.com/article/51617458/goshute-indian-tribe-voices-opposition-to-us-army-data-center-proposal-in-tooele-county"
-   ]
-  ],
-  "im": -1,
-  "iw": "Adds tribal water-rights opposition",
-  "pl": [
-   [
-    "Skull Valley Band of Goshute",
-    "tribal"
    ]
   ],
   "auto": false,
@@ -1775,6 +1791,36 @@
  },
  {
   "d": "2026-08-27",
+  "j": "UT",
+  "w": "Skull Valley Band of Goshute Indians",
+  "lv": "tribal",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "water",
+   "siting"
+  ],
+  "t": "Skull Valley Goshute tribe opposes data center plans in Tooele County",
+  "b": "The tribe said a hyperscale data center in Tooele County could harm the groundwater that is its sole water source. KSL tied the statement to the Army's Dugway proposal; the tribe urged county officials to oppose related zoning requests.",
+  "s": [
+   [
+    "KSL",
+    "https://www.ksl.com/article/51617458/goshute-indian-tribe-voices-opposition-to-us-army-data-center-proposal-in-tooele-county"
+   ]
+  ],
+  "im": -1,
+  "iw": "Adds tribal water-rights opposition",
+  "pl": [
+   [
+    "Skull Valley Band of Goshute",
+    "tribal"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-27",
   "j": "CO",
   "w": "Phil Weiser (D) and Greg Lopez (I), governor candidates",
   "lv": "state",
@@ -1794,6 +1840,38 @@
   ],
   "im": -1,
   "iw": "Possible state regulation after the November election",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08-27",
+  "j": "WY",
+  "w": "Wyoming Minerals, Business and Economic Dev. Committee",
+  "lv": "state",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "cost",
+   "permitting"
+  ],
+  "t": "Wyoming committee narrowly kills draft exempting some power generators from utility rules",
+  "b": "After carrying the draft forward in June, the Minerals committee voted it down Aug. 27 as four House members opposed it. It would have let producers serving a 25-megawatt customer operate outside utility rules. Senator Rothfuss's Blockchain committee is weighing a rival version.",
+  "s": [
+   [
+    "Cowboy State Daily",
+    "https://cowboystatedaily.com/2026/09/30/rush-for-more-electricity-dominates-recent-wyoming-legislative-meetings/"
+   ],
+   [
+    "Cowboy State Daily",
+    "https://cowboystatedaily.com/2026/09/21/facing-electricity-shortages-lawmakers-say-make-utilities-compete/"
+   ],
+   [
+    "Oil City News",
+    "https://oilcity.news/general/2026/06/04/wyoming-lawmakers-consider-energy-deregulation-for-data-centers-industrial-power/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Off-grid power exemption stalled, though rival bills continue",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -1955,13 +2033,13 @@
   "w": "New Mexico Supreme Court",
   "lv": "state",
   "k": "action",
-  "st": "pause",
+  "st": "failed",
   "ty": [
    "water",
    "permitting"
   ],
   "t": "New Mexico Supreme Court pauses Project Jupiter air permit hearing and emergency well use",
-  "b": "Two unanimous orders halted the Sept. 14 air-quality permit hearing and told the State Engineer to pause an emergency well authorization for construction, after petitions from two environmental groups. The hearing officer recused himself the next day.",
+  "b": "Two unanimous orders halted the Sept. 14 air-quality permit hearing and paused an emergency well authorization, after petitions from two environmental groups. The court denied both petitions and lifted both stays on Sept. 17.",
   "s": [
    [
     "Source New Mexico",
@@ -1970,10 +2048,14 @@
    [
     "KRQE",
     "https://www.krqe.com/news/new-mexico/new-mexico-supreme-court-puts-key-project-jupiter-hearing-on-hold/"
+   ],
+   [
+    "Albuquerque Journal",
+    "https://www.abqjournal.com/business/new-mexico-supreme-court-lifts-stays-on-project-jupiter-dealing-setback-to-opponents/3124024"
    ]
   ],
   "im": -1,
-  "iw": "Permit hearing and construction water paused for weeks",
+  "iw": "Stays were temporary; permitting and well use resumed Sept. 17",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -2032,33 +2114,6 @@
     "tribal"
    ]
   ],
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-08-18",
-  "j": "MT",
-  "w": "State Sen. Ellie Boldman (D-Missoula)",
-  "lv": "state",
-  "k": "politics",
-  "st": "statement",
-  "ty": [
-   "moratorium"
-  ],
-  "t": "Montana state senator says her first 2027 bill request would ban large data centers",
-  "b": "In an op-ed, Democratic Sen. Ellie Boldman said she has filed a draft request to ban large-scale data centers statewide and will not compromise. Draft requests have no legal effect until a bill is introduced.",
-  "s": [
-   [
-    "Missoula Current",
-    "https://missoulacurrent.com/ban-data-centers/"
-   ],
-   [
-    "Montana Legislature",
-    "https://www.legmt.gov/bills/2027-bill-draft-requests/"
-   ]
-  ],
-  "im": -1,
-  "iw": "Proposed statewide ban faces a long road in the 2027 session",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -2329,7 +2384,7 @@
    "water"
   ],
   "t": "Gilbert planning commission backs strict data center rules; council vote pending",
-  "b": "The recommendation would limit data centers to industrial zones, require a 650-foot setback from homes, and ban drinking water for cooling. Council members wanted stricter water limits. Reports differ on whether the council vote is Nov. 12 or in December.",
+  "b": "The recommendation would limit data centers to industrial zones, require a 650-foot setback from homes, and ban drinking water and open-loop evaporative cooling. Council held a study session in August and the vote slipped from September; reports differ on whether it is now Nov. 12 or December.",
   "s": [
    [
     "AZBEX",
@@ -2445,6 +2500,33 @@
   ],
   "im": -1,
   "iw": "Developers would bear grid-upgrade costs; he opposes moratoria",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-08",
+  "j": "MT",
+  "w": "State Sen. Ellie Boldman (D-Missoula)",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "moratorium"
+  ],
+  "t": "Montana state senator says her first 2027 bill request would ban large data centers",
+  "b": "In an op-ed, Democratic Sen. Ellie Boldman said she has filed a draft request to ban large-scale data centers statewide and will not compromise. Draft requests have no legal effect until a bill is introduced.",
+  "s": [
+   [
+    "Missoula Current",
+    "https://missoulacurrent.com/ban-data-centers/"
+   ],
+   [
+    "Montana Legislature",
+    "https://www.legmt.gov/bills/2027-bill-draft-requests/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Proposed statewide ban faces a long road in the 2027 session",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -3505,35 +3587,6 @@
   "by": "Chongwmichael"
  },
  {
-  "d": "2026-06-04",
-  "j": "WY",
-  "w": "Sen. Cheri Steinmetz",
-  "lv": "state",
-  "k": "politics",
-  "st": "statement",
-  "ty": [
-   "siting",
-   "water",
-   "cost"
-  ],
-  "t": "Steinmetz asks lawmakers to poll on special session for data centers",
-  "b": "The senator requested a poll on a session focused on data centers, large electric loads and water, calling the governor's order a fast track. Senate President Bo Biteman called a session premature. No special session had been reported.",
-  "s": [
-   [
-    "Cowboy State Daily",
-    "https://cowboystatedaily.com/2026/06/04/wyoming-state-senator-interested-in-special-session-to-address-data-centers/"
-   ],
-   [
-    "KOWB",
-    "https://kowb1290.com/ixp/99/p/legislature-data-centers-special-session/"
-   ]
-  ],
-  "im": -1,
-  "iw": "Pressure for state limits before the 2027 session",
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
   "d": "2026-06-03",
   "j": "UT",
   "w": "Box Elder Accountability Referendum (BEAR)",
@@ -3663,6 +3716,35 @@
  },
  {
   "d": "2026-06",
+  "j": "WY",
+  "w": "Sen. Cheri Steinmetz",
+  "lv": "state",
+  "k": "politics",
+  "st": "statement",
+  "ty": [
+   "siting",
+   "water",
+   "cost"
+  ],
+  "t": "Steinmetz asks lawmakers to poll on special session for data centers",
+  "b": "The senator requested a poll on a session focused on data centers, large electric loads and water, calling the governor's order a fast track. Senate President Bo Biteman called a session premature. No special session had been reported.",
+  "s": [
+   [
+    "Cowboy State Daily",
+    "https://cowboystatedaily.com/2026/06/04/wyoming-state-senator-interested-in-special-session-to-address-data-centers/"
+   ],
+   [
+    "KOWB",
+    "https://kowb1290.com/ixp/99/p/legislature-data-centers-special-session/"
+   ]
+  ],
+  "im": -1,
+  "iw": "Pressure for state limits before the 2027 session",
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-06",
   "j": "UT",
   "w": "Tooele County Council",
   "lv": "local",
@@ -3692,34 +3774,6 @@
     "county"
    ]
   ],
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-06",
-  "j": "WY",
-  "w": "Wyoming Minerals, Business and Economic Dev. Committee",
-  "lv": "state",
-  "k": "action",
-  "st": "pending",
-  "ty": [
-   "cost",
-   "permitting"
-  ],
-  "t": "Wyoming interim committee carries draft bill to exempt some generators from utility rules",
-  "b": "The draft would let producers serving one customer of 25 megawatts or more operate outside utility regulation. Prometheus Hyperscale backed it; utilities warned residents could bear backup and stranded-asset costs. The committee also asked for a bill codifying PSC rules.",
-  "s": [
-   [
-    "Oil City News",
-    "https://oilcity.news/general/2026/06/04/wyoming-lawmakers-consider-energy-deregulation-for-data-centers-industrial-power/"
-   ],
-   [
-    "County 17",
-    "https://county17.com/2026/06/04/wyoming-lawmakers-consider-energy-deregulation-for-data-centers-industrial-power/"
-   ]
-  ],
-  "im": 1,
-  "iw": "Possible route for off-grid power supply to data centers",
   "auto": false,
   "by": "Chongwmichael"
  },
@@ -3951,11 +4005,19 @@
    "water"
   ],
   "t": "Jefferson County pauses new data center applications and rezonings until March 2027",
-  "b": "Commissioners cited drought and unclear zoning definitions. Land already zoned for data centers through a Planned Development is excluded from the pause.",
+  "b": "Commissioners voted May 19 for a 10-month pause on new data center applications and rezonings, through March 2027. Land already zoned for data centers through a Planned Development is excluded only if the facility is at least 1,500 feet from any dwelling. Only one such district exists.",
   "s": [
+   [
+    "Jefferson County",
+    "https://www.jeffco.us/m/newsflash/Home/Detail/2596"
+   ],
    [
     "Denver7",
     "https://www.denver7.com/news/front-range/jefferson-county-imposes-temporary-moratorium-on-development-of-new-data-centers"
+   ],
+   [
+    "Arvada Press",
+    "https://www.arvadapress.com/news/article_4419ac61-bd79-48b4-ab17-5ca32a60ec3f.html"
    ]
   ],
   "im": -2,
@@ -3998,6 +4060,39 @@
    [
     "Pocatello",
     "city"
+   ]
+  ],
+  "auto": false,
+  "by": "Chongwmichael"
+ },
+ {
+  "d": "2026-05-13",
+  "j": "MT",
+  "w": "Sabey Data Centers",
+  "lv": "local",
+  "k": "action",
+  "st": "failed",
+  "ty": [
+   "siting"
+  ],
+  "t": "Sabey ends Butte land deal after REC Silicon uses purchase right",
+  "b": "Sabey terminated its agreement to buy about 606 acres for two planned 500,000-square-foot data centers on May 13, after REC Silicon exercised a right of first refusal on 627.8 acres including much of the site. Sabey said it is still looking in southwest Montana.",
+  "s": [
+   [
+    "NBC Montana",
+    "https://nbcmontana.com/news/local/sabey-data-centers-officially-backs-out-of-butte-agreement"
+   ],
+   [
+    "MSU Exponent",
+    "https://www.msuexponent.com/news/state/sabey-nixes-buy-sell-agreement-with-butte-silver-bow-but-still-hunting-for-data-center/article_52530a82-0222-5270-92ce-427e33f8921b.html"
+   ]
+  ],
+  "im": -1,
+  "iw": "Project lost its site over land rights, though Sabey seeks others",
+  "pl": [
+   [
+    "Butte-Silver Bow",
+    "county"
    ]
   ],
   "auto": false,
@@ -4191,39 +4286,6 @@
  },
  {
   "d": "2026-05",
-  "j": "MT",
-  "w": "Sabey Data Centers",
-  "lv": "local",
-  "k": "action",
-  "st": "failed",
-  "ty": [
-   "siting"
-  ],
-  "t": "Sabey ends Butte land deal after REC Silicon uses purchase right",
-  "b": "Sabey terminated its agreement to buy about 606 acres for two planned 500,000-square-foot data centers after REC Silicon exercised a right of first refusal on much of the land. Sabey said it is still looking in southwest Montana.",
-  "s": [
-   [
-    "NBC Montana",
-    "https://nbcmontana.com/news/local/sabey-data-centers-officially-backs-out-of-butte-agreement"
-   ],
-   [
-    "MSU Exponent",
-    "https://www.msuexponent.com/news/state/sabey-nixes-buy-sell-agreement-with-butte-silver-bow-but-still-hunting-for-data-center/article_52530a82-0222-5270-92ce-427e33f8921b.html"
-   ]
-  ],
-  "im": -1,
-  "iw": "Project lost its site over land rights, though Sabey seeks others",
-  "pl": [
-   [
-    "Butte-Silver Bow",
-    "county"
-   ]
-  ],
-  "auto": false,
-  "by": "Chongwmichael"
- },
- {
-  "d": "2026-05",
   "j": "ID",
   "w": "Idaho district court",
   "lv": "local",
@@ -4233,7 +4295,7 @@
    "permitting"
   ],
   "t": "Judge rejects farmers' challenge to Kuna's approval of 620-acre data center",
-  "b": "Judge James Cawthon denied judicial review of the 3-2 council vote that rezoned land for Diode Ventures' Gemstone Technology Park, finding no disqualifying conflict of interest. The farmers have appealed to the Idaho Supreme Court.",
+  "b": "Judge James Cawthon denied judicial review of the 3-2 council vote that rezoned land for Diode Ventures' Gemstone Technology Park, finding no disqualifying conflict of interest. The farmers appealed to the Idaho Supreme Court in June.",
   "s": [
    [
     "BoiseDev",
@@ -4301,7 +4363,7 @@
    "permitting"
   ],
   "t": "MIDA board approves Stratos data center project area in Box Elder County",
-  "b": "The state authority created a roughly 40,000-acre project area for Kevin O'Leary's data center and power campus. MIDA can override county zoning. Public input was minimal, and the footprint was later cut to about 20,000 acres.",
+  "b": "The state authority created a roughly 40,000-acre project area for Kevin O'Leary's data center and power campus. This is a project-area approval, not full construction approval. MIDA can override county zoning. The developer later said it would halve the footprint to about 20,000 acres.",
   "s": [
    [
     "Governor's Office FAQ",
@@ -4777,7 +4839,7 @@
    "tax"
   ],
   "t": "Utah law limits local incentives for large data centers and allows county energy tax",
-  "b": "HB 507, signed in March, generally bars local governments from giving incentives to large data centers outside a state-approved development zone, caps property-tax incentives at 60% of new county revenue, and lets counties levy an energy excise tax of up to 6%.",
+  "b": "HB 507, signed in March, bars local incentives for large data centers from May 2027 unless they use a state-approved zone or regional authority. Property-tax incentives are generally capped at 60% of new county revenue and never exceed 80%. Counties may levy an energy excise tax up to 6%.",
   "s": [
    [
     "Utah House of Representatives",
@@ -4969,13 +5031,13 @@
   "w": "Butte-Silver Bow Council of Commissioners",
   "lv": "local",
   "k": "action",
-  "st": "in-force",
+  "st": "failed",
   "ty": [
    "siting",
    "permitting"
   ],
   "t": "Butte commissioners extend Sabey data center land deal six months, 9-3",
-  "b": "The council moved the closing deadline for 606 acres from Feb. 11 to Aug. 11, short of the one year Sabey sought. Any final land transfer now needs approval from two-thirds of the 12 commissioners.",
+  "b": "The council moved the closing deadline for 606 acres from Feb. 11 to Aug. 11, short of the one year Sabey sought, and required two-thirds council approval for any final land transfer. Sabey terminated the deal May 13.",
   "s": [
    [
     "NBC Montana",
@@ -4987,7 +5049,7 @@
    ]
   ],
   "im": 1,
-  "iw": "Keeps the project alive but adds a two-thirds council vote",
+  "iw": "Extension was overtaken when Sabey ended the land deal",
   "pl": [
    [
     "Butte-Silver Bow",
@@ -5112,6 +5174,10 @@
    [
     "Montana Right Now",
     "https://www.montanarightnow.com/news/state/sabey-wants-extension-on-data-center-land-deal-with-butte-silver-bow/article_e053bb73-46a0-5f2a-8748-942d25d1bd42.html?mode=nowapp"
+   ],
+   [
+    "Missoula Current",
+    "https://missoulacurrent.com/data-center-developers/"
    ]
   ],
   "im": -1,
@@ -5238,7 +5304,7 @@
    "permitting"
   ],
   "t": "Chaves County approves Zenith Volts data center campus south of Roswell",
-  "b": "Commissioners approved a 300-acre data center of about 1.25 gigawatts within an 8,500-acre site 20 miles south of Roswell, powered by on-site solar, batteries and gas generators. The county said it offered no incentives. Exact meeting date needs confirming.",
+  "b": "Commissioners approved the project, which the county describes as a special use permit for a 1,265-megawatt solar facility to power a 300-acre data center. Company figures put the data center at 1.25 to 1.3 gigawatts on an 8,400- to 8,500-acre site south of Roswell. The county offered no incentives.",
   "s": [
    [
     "Albuquerque Journal",
@@ -5246,6 +5312,10 @@
    ],
    [
     "Chaves County",
+    "https://www.chavescounty.net/news/p/item/64481/county-approves-permit-for-data-center-solar-facility"
+   ],
+   [
+    "Chaves County (reprint of Journal article)",
     "https://www.chavescounty.net/news/p/item/65878/chaves-county-approves-data-center-project-amid-rising-demand-for-computing-infrastructure"
    ]
   ],
@@ -5348,7 +5418,7 @@
   "by": "Chongwmichael"
  },
  {
-  "d": "2025-04",
+  "d": "2025-04-16",
   "j": "MT",
   "w": "Montana Legislature and Gov. Gianforte",
   "lv": "state",
@@ -5359,11 +5429,15 @@
    "permitting"
   ],
   "t": "Montana Right to Compute Act limits government restrictions on data centers",
-  "b": "SB 212 passed 50-0 in the Senate and 61-38 in the House. It requires restrictions on computing resources to be narrowly tailored to a compelling interest. Local officials say it constrains moratoria and zoning.",
+  "b": "SB 212 passed 50-0 in the Senate and 61-38 in the House. It requires restrictions on computing resources to be narrowly tailored to a compelling interest. It does not ban local zoning outright; how much authority counties keep is unsettled, and local officials say it constrains moratoria.",
   "s": [
    [
     "Montana Legislature",
     "https://archive.legmt.gov/content/Sessions/69th/Contractor_index/CH0150.pdf"
+   ],
+   [
+    "Privacy Daily",
+    "https://privacy-daily.com/news/2025/04/18/Montana-Governor-Signs-Right-to-Computational-Technology-Act-Into-Law-2504180025"
    ],
    [
     "Montana Free Press",
